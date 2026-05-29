@@ -2949,6 +2949,72 @@
     - WeeklyRecurrenceSchedule
   no-loc:
   - com.azure.ai.projects.models
+- uid: com.azure.ai.speech.transcription
+  name: com.azure.ai.speech.transcription
+  items:
+  - uid: com.azure.ai.speech.transcription.TranscriptionAsyncClient
+    name: TranscriptionAsyncClient
+    no-loc:
+    - TranscriptionAsyncClient
+  - uid: com.azure.ai.speech.transcription.TranscriptionClient
+    name: TranscriptionClient
+    no-loc:
+    - TranscriptionClient
+  - uid: com.azure.ai.speech.transcription.TranscriptionClientBuilder
+    name: TranscriptionClientBuilder
+    no-loc:
+    - TranscriptionClientBuilder
+  - uid: com.azure.ai.speech.transcription.TranscriptionServiceVersion
+    name: TranscriptionServiceVersion
+    no-loc:
+    - TranscriptionServiceVersion
+  no-loc:
+  - com.azure.ai.speech.transcription
+- uid: com.azure.ai.speech.transcription.models
+  name: com.azure.ai.speech.transcription.models
+  items:
+  - uid: com.azure.ai.speech.transcription.models.AudioFileDetails
+    name: AudioFileDetails
+    no-loc:
+    - AudioFileDetails
+  - uid: com.azure.ai.speech.transcription.models.ChannelCombinedPhrases
+    name: ChannelCombinedPhrases
+    no-loc:
+    - ChannelCombinedPhrases
+  - uid: com.azure.ai.speech.transcription.models.EnhancedModeOptions
+    name: EnhancedModeOptions
+    no-loc:
+    - EnhancedModeOptions
+  - uid: com.azure.ai.speech.transcription.models.PhraseListOptions
+    name: PhraseListOptions
+    no-loc:
+    - PhraseListOptions
+  - uid: com.azure.ai.speech.transcription.models.ProfanityFilterMode
+    name: ProfanityFilterMode
+    no-loc:
+    - ProfanityFilterMode
+  - uid: com.azure.ai.speech.transcription.models.TranscribedPhrase
+    name: TranscribedPhrase
+    no-loc:
+    - TranscribedPhrase
+  - uid: com.azure.ai.speech.transcription.models.TranscribedWord
+    name: TranscribedWord
+    no-loc:
+    - TranscribedWord
+  - uid: com.azure.ai.speech.transcription.models.TranscriptionDiarizationOptions
+    name: TranscriptionDiarizationOptions
+    no-loc:
+    - TranscriptionDiarizationOptions
+  - uid: com.azure.ai.speech.transcription.models.TranscriptionOptions
+    name: TranscriptionOptions
+    no-loc:
+    - TranscriptionOptions
+  - uid: com.azure.ai.speech.transcription.models.TranscriptionResult
+    name: TranscriptionResult
+    no-loc:
+    - TranscriptionResult
+  no-loc:
+  - com.azure.ai.speech.transcription.models
 - uid: com.azure.ai.textanalytics
   name: com.azure.ai.textanalytics
   items:
@@ -3594,46 +3660,14 @@
 - uid: com.azure.ai.translation.text.models
   name: com.azure.ai.translation.text.models
   items:
-  - uid: com.azure.ai.translation.text.models.BackTranslation
-    name: BackTranslation
-    no-loc:
-    - BackTranslation
-  - uid: com.azure.ai.translation.text.models.BreakSentenceItem
-    name: BreakSentenceItem
-    no-loc:
-    - BreakSentenceItem
   - uid: com.azure.ai.translation.text.models.DetectedLanguage
     name: DetectedLanguage
     no-loc:
     - DetectedLanguage
-  - uid: com.azure.ai.translation.text.models.DictionaryExample
-    name: DictionaryExample
-    no-loc:
-    - DictionaryExample
-  - uid: com.azure.ai.translation.text.models.DictionaryExampleItem
-    name: DictionaryExampleItem
-    no-loc:
-    - DictionaryExampleItem
-  - uid: com.azure.ai.translation.text.models.DictionaryExampleTextItem
-    name: DictionaryExampleTextItem
-    no-loc:
-    - DictionaryExampleTextItem
-  - uid: com.azure.ai.translation.text.models.DictionaryLookupItem
-    name: DictionaryLookupItem
-    no-loc:
-    - DictionaryLookupItem
-  - uid: com.azure.ai.translation.text.models.DictionaryTranslation
-    name: DictionaryTranslation
-    no-loc:
-    - DictionaryTranslation
   - uid: com.azure.ai.translation.text.models.GetSupportedLanguagesResult
     name: GetSupportedLanguagesResult
     no-loc:
     - GetSupportedLanguagesResult
-  - uid: com.azure.ai.translation.text.models.InputTextItem
-    name: InputTextItem
-    no-loc:
-    - InputTextItem
   - uid: com.azure.ai.translation.text.models.LanguageDirectionality
     name: LanguageDirectionality
     no-loc:
@@ -3654,22 +3688,10 @@
     name: ProfanityMarker
     no-loc:
     - ProfanityMarker
-  - uid: com.azure.ai.translation.text.models.SentenceBoundaries
-    name: SentenceBoundaries
+  - uid: com.azure.ai.translation.text.models.ReferenceTextPair
+    name: ReferenceTextPair
     no-loc:
-    - SentenceBoundaries
-  - uid: com.azure.ai.translation.text.models.SourceDictionaryLanguage
-    name: SourceDictionaryLanguage
-    no-loc:
-    - SourceDictionaryLanguage
-  - uid: com.azure.ai.translation.text.models.SourceText
-    name: SourceText
-    no-loc:
-    - SourceText
-  - uid: com.azure.ai.translation.text.models.TargetDictionaryLanguage
-    name: TargetDictionaryLanguage
-    no-loc:
-    - TargetDictionaryLanguage
+    - ReferenceTextPair
   - uid: com.azure.ai.translation.text.models.TextTranslationAudience
     name: TextTranslationAudience
     no-loc:
@@ -3678,26 +3700,34 @@
     name: TextType
     no-loc:
     - TextType
-  - uid: com.azure.ai.translation.text.models.TranslateOptions
-    name: TranslateOptions
+  - uid: com.azure.ai.translation.text.models.TranslateInputItem
+    name: TranslateInputItem
     no-loc:
-    - TranslateOptions
-  - uid: com.azure.ai.translation.text.models.TranslatedTextAlignment
-    name: TranslatedTextAlignment
-    no-loc:
-    - TranslatedTextAlignment
+    - TranslateInputItem
   - uid: com.azure.ai.translation.text.models.TranslatedTextItem
     name: TranslatedTextItem
     no-loc:
     - TranslatedTextItem
+  - uid: com.azure.ai.translation.text.models.TranslationGender
+    name: TranslationGender
+    no-loc:
+    - TranslationGender
   - uid: com.azure.ai.translation.text.models.TranslationLanguage
     name: TranslationLanguage
     no-loc:
     - TranslationLanguage
+  - uid: com.azure.ai.translation.text.models.TranslationTarget
+    name: TranslationTarget
+    no-loc:
+    - TranslationTarget
   - uid: com.azure.ai.translation.text.models.TranslationText
     name: TranslationText
     no-loc:
     - TranslationText
+  - uid: com.azure.ai.translation.text.models.TranslationTone
+    name: TranslationTone
+    no-loc:
+    - TranslationTone
   - uid: com.azure.ai.translation.text.models.TransliterableScript
     name: TransliterableScript
     no-loc:
@@ -24034,10 +24064,10 @@
 - uid: com.azure.resourcemanager.appcomplianceautomation.fluent
   name: com.azure.resourcemanager.appcomplianceautomation.fluent
   items:
-  - uid: com.azure.resourcemanager.appcomplianceautomation.fluent.AppComplianceAutomationClient
-    name: AppComplianceAutomationClient
+  - uid: com.azure.resourcemanager.appcomplianceautomation.fluent.AppComplianceAutomationManagementClient
+    name: AppComplianceAutomationManagementClient
     no-loc:
-    - AppComplianceAutomationClient
+    - AppComplianceAutomationManagementClient
   - uid: com.azure.resourcemanager.appcomplianceautomation.fluent.EvidencesClient
     name: EvidencesClient
     no-loc:
@@ -24252,10 +24282,6 @@
     name: EvidenceResource
     no-loc:
     - EvidenceResource
-  - uid: com.azure.resourcemanager.appcomplianceautomation.models.EvidenceResourceListResult
-    name: EvidenceResourceListResult
-    no-loc:
-    - EvidenceResourceListResult
   - uid: com.azure.resourcemanager.appcomplianceautomation.models.EvidenceType
     name: EvidenceType
     no-loc:
@@ -24316,10 +24342,6 @@
     name: OperationDisplay
     no-loc:
     - OperationDisplay
-  - uid: com.azure.resourcemanager.appcomplianceautomation.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.appcomplianceautomation.models.Operations
     name: Operations
     no-loc:
@@ -24372,10 +24394,6 @@
     name: ReportResource
     no-loc:
     - ReportResource
-  - uid: com.azure.resourcemanager.appcomplianceautomation.models.ReportResourceListResult
-    name: ReportResourceListResult
-    no-loc:
-    - ReportResourceListResult
   - uid: com.azure.resourcemanager.appcomplianceautomation.models.ReportResourcePatch
     name: ReportResourcePatch
     no-loc:
@@ -24452,10 +24470,6 @@
     name: ScopingConfigurationResource
     no-loc:
     - ScopingConfigurationResource
-  - uid: com.azure.resourcemanager.appcomplianceautomation.models.ScopingConfigurationResourceListResult
-    name: ScopingConfigurationResourceListResult
-    no-loc:
-    - ScopingConfigurationResourceListResult
   - uid: com.azure.resourcemanager.appcomplianceautomation.models.ScopingConfigurations
     name: ScopingConfigurations
     no-loc:
@@ -24484,10 +24498,6 @@
     name: SnapshotResource
     no-loc:
     - SnapshotResource
-  - uid: com.azure.resourcemanager.appcomplianceautomation.models.SnapshotResourceListResult
-    name: SnapshotResourceListResult
-    no-loc:
-    - SnapshotResourceListResult
   - uid: com.azure.resourcemanager.appcomplianceautomation.models.Snapshots
     name: Snapshots
     no-loc:
@@ -24536,10 +24546,6 @@
     name: WebhookResource
     no-loc:
     - WebhookResource
-  - uid: com.azure.resourcemanager.appcomplianceautomation.models.WebhookResourceListResult
-    name: WebhookResourceListResult
-    no-loc:
-    - WebhookResourceListResult
   - uid: com.azure.resourcemanager.appcomplianceautomation.models.WebhookResourcePatch
     name: WebhookResourcePatch
     no-loc:
@@ -193890,6 +193896,14 @@
     name: BlobServicesClient
     no-loc:
     - BlobServicesClient
+  - uid: com.azure.resourcemanager.storage.fluent.ConnectorsClient
+    name: ConnectorsClient
+    no-loc:
+    - ConnectorsClient
+  - uid: com.azure.resourcemanager.storage.fluent.DataSharesClient
+    name: DataSharesClient
+    no-loc:
+    - DataSharesClient
   - uid: com.azure.resourcemanager.storage.fluent.DeletedAccountsClient
     name: DeletedAccountsClient
     no-loc:
@@ -194011,10 +194025,18 @@
     name: CheckNameAvailabilityResultInner
     no-loc:
     - CheckNameAvailabilityResultInner
+  - uid: com.azure.resourcemanager.storage.fluent.models.ConnectorInner
+    name: ConnectorInner
+    no-loc:
+    - ConnectorInner
   - uid: com.azure.resourcemanager.storage.fluent.models.ContainerProperties
     name: ContainerProperties
     no-loc:
     - ContainerProperties
+  - uid: com.azure.resourcemanager.storage.fluent.models.DataShareInner
+    name: DataShareInner
+    no-loc:
+    - DataShareInner
   - uid: com.azure.resourcemanager.storage.fluent.models.DeletedAccountInner
     name: DeletedAccountInner
     no-loc:
@@ -194243,6 +194265,10 @@
     name: TableServicePropertiesProperties
     no-loc:
     - TableServicePropertiesProperties
+  - uid: com.azure.resourcemanager.storage.fluent.models.TestConnectionResponseInner
+    name: TestConnectionResponseInner
+    no-loc:
+    - TestConnectionResponseInner
   - uid: com.azure.resourcemanager.storage.fluent.models.UsageInner
     name: UsageInner
     no-loc:
@@ -194444,10 +194470,6 @@
     name: BlobRestoreRange
     no-loc:
     - BlobRestoreRange
-  - uid: com.azure.resourcemanager.storage.models.BlobServiceItems
-    name: BlobServiceItems
-    no-loc:
-    - BlobServiceItems
   - uid: com.azure.resourcemanager.storage.models.BlobServiceProperties
     name: BlobServiceProperties
     no-loc:
@@ -194552,6 +194574,10 @@
     name: CheckNameAvailabilityResult
     no-loc:
     - CheckNameAvailabilityResult
+  - uid: com.azure.resourcemanager.storage.models.ConnectorUpdate
+    name: ConnectorUpdate
+    no-loc:
+    - ConnectorUpdate
   - uid: com.azure.resourcemanager.storage.models.CorsRule
     name: CorsRule
     no-loc:
@@ -194568,6 +194594,22 @@
     name: CustomDomain
     no-loc:
     - CustomDomain
+  - uid: com.azure.resourcemanager.storage.models.DataShareConnection
+    name: DataShareConnection
+    no-loc:
+    - DataShareConnection
+  - uid: com.azure.resourcemanager.storage.models.DataShareSource
+    name: DataShareSource
+    no-loc:
+    - DataShareSource
+  - uid: com.azure.resourcemanager.storage.models.DataShareSourceUpdate
+    name: DataShareSourceUpdate
+    no-loc:
+    - DataShareSourceUpdate
+  - uid: com.azure.resourcemanager.storage.models.DataShareUpdate
+    name: DataShareUpdate
+    no-loc:
+    - DataShareUpdate
   - uid: com.azure.resourcemanager.storage.models.DateAfterCreation
     name: DateAfterCreation
     no-loc:
@@ -194588,10 +194630,6 @@
     name: DeleteRetentionPolicy
     no-loc:
     - DeleteRetentionPolicy
-  - uid: com.azure.resourcemanager.storage.models.DeletedAccountListResult
-    name: DeletedAccountListResult
-    no-loc:
-    - DeletedAccountListResult
   - uid: com.azure.resourcemanager.storage.models.DeletedShare
     name: DeletedShare
     no-loc:
@@ -194632,10 +194670,6 @@
     name: EncryptionScopeKeyVaultProperties
     no-loc:
     - EncryptionScopeKeyVaultProperties
-  - uid: com.azure.resourcemanager.storage.models.EncryptionScopeListResult
-    name: EncryptionScopeListResult
-    no-loc:
-    - EncryptionScopeListResult
   - uid: com.azure.resourcemanager.storage.models.EncryptionScopeSource
     name: EncryptionScopeSource
     no-loc:
@@ -194688,14 +194722,6 @@
     name: FileServiceUsageProperties
     no-loc:
     - FileServiceUsageProperties
-  - uid: com.azure.resourcemanager.storage.models.FileServiceUsages
-    name: FileServiceUsages
-    no-loc:
-    - FileServiceUsages
-  - uid: com.azure.resourcemanager.storage.models.FileShareItems
-    name: FileShareItems
-    no-loc:
-    - FileShareItems
   - uid: com.azure.resourcemanager.storage.models.FileShareLimits
     name: FileShareLimits
     no-loc:
@@ -194900,14 +194926,6 @@
     name: LegalHoldProperties
     no-loc:
     - LegalHoldProperties
-  - uid: com.azure.resourcemanager.storage.models.ListBlobInventoryPolicy
-    name: ListBlobInventoryPolicy
-    no-loc:
-    - ListBlobInventoryPolicy
-  - uid: com.azure.resourcemanager.storage.models.ListContainerItems
-    name: ListContainerItems
-    no-loc:
-    - ListContainerItems
   - uid: com.azure.resourcemanager.storage.models.ListContainersInclude
     name: ListContainersInclude
     no-loc:
@@ -194924,18 +194942,14 @@
     name: ListLocalUserIncludeParam
     no-loc:
     - ListLocalUserIncludeParam
-  - uid: com.azure.resourcemanager.storage.models.ListQueueResource
-    name: ListQueueResource
+  - uid: com.azure.resourcemanager.storage.models.ManagedIdentityAuthProperties
+    name: ManagedIdentityAuthProperties
     no-loc:
-    - ListQueueResource
-  - uid: com.azure.resourcemanager.storage.models.ListTableResource
-    name: ListTableResource
+    - ManagedIdentityAuthProperties
+  - uid: com.azure.resourcemanager.storage.models.ManagedIdentityAuthPropertiesUpdate
+    name: ManagedIdentityAuthPropertiesUpdate
     no-loc:
-    - ListTableResource
-  - uid: com.azure.resourcemanager.storage.models.LocalUsers
-    name: LocalUsers
-    no-loc:
-    - LocalUsers
+    - ManagedIdentityAuthPropertiesUpdate
   - uid: com.azure.resourcemanager.storage.models.ManagementPolicies
     name: ManagementPolicies
     no-loc:
@@ -195048,6 +195062,10 @@
     name: Name
     no-loc:
     - Name
+  - uid: com.azure.resourcemanager.storage.models.NativeDataSharingProvisioningState
+    name: NativeDataSharingProvisioningState
+    no-loc:
+    - NativeDataSharingProvisioningState
   - uid: com.azure.resourcemanager.storage.models.NetworkRuleSet
     name: NetworkRuleSet
     no-loc:
@@ -195056,10 +195074,6 @@
     name: NetworkSecurityPerimeter
     no-loc:
     - NetworkSecurityPerimeter
-  - uid: com.azure.resourcemanager.storage.models.NetworkSecurityPerimeterConfigurationList
-    name: NetworkSecurityPerimeterConfigurationList
-    no-loc:
-    - NetworkSecurityPerimeterConfigurationList
   - uid: com.azure.resourcemanager.storage.models.NetworkSecurityPerimeterConfigurationPropertiesProfile
     name: NetworkSecurityPerimeterConfigurationPropertiesProfile
     no-loc:
@@ -195092,10 +195106,6 @@
     name: NspAccessRulePropertiesSubscriptionsItem
     no-loc:
     - NspAccessRulePropertiesSubscriptionsItem
-  - uid: com.azure.resourcemanager.storage.models.ObjectReplicationPolicies
-    name: ObjectReplicationPolicies
-    no-loc:
-    - ObjectReplicationPolicies
   - uid: com.azure.resourcemanager.storage.models.ObjectReplicationPolicyFilter
     name: ObjectReplicationPolicyFilter
     no-loc:
@@ -195108,6 +195118,10 @@
     name: ObjectReplicationPolicyPropertiesPriorityReplication
     no-loc:
     - ObjectReplicationPolicyPropertiesPriorityReplication
+  - uid: com.azure.resourcemanager.storage.models.ObjectReplicationPolicyPropertiesTagsReplication
+    name: ObjectReplicationPolicyPropertiesTagsReplication
+    no-loc:
+    - ObjectReplicationPolicyPropertiesTagsReplication
   - uid: com.azure.resourcemanager.storage.models.ObjectReplicationPolicyRule
     name: ObjectReplicationPolicyRule
     no-loc:
@@ -195120,10 +195134,6 @@
     name: OperationDisplay
     no-loc:
     - OperationDisplay
-  - uid: com.azure.resourcemanager.storage.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.storage.models.PermissionScope
     name: PermissionScope
     no-loc:
@@ -195208,10 +195218,6 @@
     name: PrivateEndpoint
     no-loc:
     - PrivateEndpoint
-  - uid: com.azure.resourcemanager.storage.models.PrivateEndpointConnectionListResult
-    name: PrivateEndpointConnectionListResult
-    no-loc:
-    - PrivateEndpointConnectionListResult
   - uid: com.azure.resourcemanager.storage.models.PrivateEndpointConnectionProvisioningState
     name: PrivateEndpointConnectionProvisioningState
     no-loc:
@@ -195320,6 +195326,10 @@
     name: ServiceSasParameters
     no-loc:
     - ServiceSasParameters
+  - uid: com.azure.resourcemanager.storage.models.ServiceSharedKeyAccessProperties
+    name: ServiceSharedKeyAccessProperties
+    no-loc:
+    - ServiceSharedKeyAccessProperties
   - uid: com.azure.resourcemanager.storage.models.ServiceSpecification
     name: ServiceSpecification
     no-loc:
@@ -195388,6 +195398,10 @@
     name: State
     no-loc:
     - State
+  - uid: com.azure.resourcemanager.storage.models.StaticWebsite
+    name: StaticWebsite
+    no-loc:
+    - StaticWebsite
   - uid: com.azure.resourcemanager.storage.models.StorageAccount
     name: StorageAccount
     no-loc:
@@ -195572,10 +195586,6 @@
     name: StorageAccountKey
     no-loc:
     - StorageAccountKey
-  - uid: com.azure.resourcemanager.storage.models.StorageAccountListResult
-    name: StorageAccountListResult
-    no-loc:
-    - StorageAccountListResult
   - uid: com.azure.resourcemanager.storage.models.StorageAccountMicrosoftEndpoints
     name: StorageAccountMicrosoftEndpoints
     no-loc:
@@ -195584,6 +195594,10 @@
     name: StorageAccountRegenerateKeyParameters
     no-loc:
     - StorageAccountRegenerateKeyParameters
+  - uid: com.azure.resourcemanager.storage.models.StorageAccountSharedKeyAccessProperties
+    name: StorageAccountSharedKeyAccessProperties
+    no-loc:
+    - StorageAccountSharedKeyAccessProperties
   - uid: com.azure.resourcemanager.storage.models.StorageAccountSkuConversionStatus
     name: StorageAccountSkuConversionStatus
     no-loc:
@@ -195600,6 +195614,78 @@
     name: StorageAccounts
     no-loc:
     - StorageAccounts
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorAuthProperties
+    name: StorageConnectorAuthProperties
+    no-loc:
+    - StorageConnectorAuthProperties
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorAuthPropertiesUpdate
+    name: StorageConnectorAuthPropertiesUpdate
+    no-loc:
+    - StorageConnectorAuthPropertiesUpdate
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorAuthType
+    name: StorageConnectorAuthType
+    no-loc:
+    - StorageConnectorAuthType
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorConnection
+    name: StorageConnectorConnection
+    no-loc:
+    - StorageConnectorConnection
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorConnectionType
+    name: StorageConnectorConnectionType
+    no-loc:
+    - StorageConnectorConnectionType
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorDataSourceType
+    name: StorageConnectorDataSourceType
+    no-loc:
+    - StorageConnectorDataSourceType
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorProperties
+    name: StorageConnectorProperties
+    no-loc:
+    - StorageConnectorProperties
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorPropertiesUpdate
+    name: StorageConnectorPropertiesUpdate
+    no-loc:
+    - StorageConnectorPropertiesUpdate
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorSource
+    name: StorageConnectorSource
+    no-loc:
+    - StorageConnectorSource
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorSourceType
+    name: StorageConnectorSourceType
+    no-loc:
+    - StorageConnectorSourceType
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorSourceUpdate
+    name: StorageConnectorSourceUpdate
+    no-loc:
+    - StorageConnectorSourceUpdate
+  - uid: com.azure.resourcemanager.storage.models.StorageConnectorState
+    name: StorageConnectorState
+    no-loc:
+    - StorageConnectorState
+  - uid: com.azure.resourcemanager.storage.models.StorageDataCollaborationPolicyProperties
+    name: StorageDataCollaborationPolicyProperties
+    no-loc:
+    - StorageDataCollaborationPolicyProperties
+  - uid: com.azure.resourcemanager.storage.models.StorageDataShareAccessPolicy
+    name: StorageDataShareAccessPolicy
+    no-loc:
+    - StorageDataShareAccessPolicy
+  - uid: com.azure.resourcemanager.storage.models.StorageDataShareAccessPolicyPermission
+    name: StorageDataShareAccessPolicyPermission
+    no-loc:
+    - StorageDataShareAccessPolicyPermission
+  - uid: com.azure.resourcemanager.storage.models.StorageDataShareAsset
+    name: StorageDataShareAsset
+    no-loc:
+    - StorageDataShareAsset
+  - uid: com.azure.resourcemanager.storage.models.StorageDataShareProperties
+    name: StorageDataShareProperties
+    no-loc:
+    - StorageDataShareProperties
+  - uid: com.azure.resourcemanager.storage.models.StorageDataSharePropertiesUpdate
+    name: StorageDataSharePropertiesUpdate
+    no-loc:
+    - StorageDataSharePropertiesUpdate
   - uid: com.azure.resourcemanager.storage.models.StorageResourceType
     name: StorageResourceType
     no-loc:
@@ -195612,10 +195698,6 @@
     name: StorageSku
     no-loc:
     - StorageSku
-  - uid: com.azure.resourcemanager.storage.models.StorageSkuListResult
-    name: StorageSkuListResult
-    no-loc:
-    - StorageSkuListResult
   - uid: com.azure.resourcemanager.storage.models.StorageSkus
     name: StorageSkus
     no-loc:
@@ -195648,18 +195730,10 @@
     name: StorageTaskAssignmentUpdateReport
     no-loc:
     - StorageTaskAssignmentUpdateReport
-  - uid: com.azure.resourcemanager.storage.models.StorageTaskAssignmentsList
-    name: StorageTaskAssignmentsList
-    no-loc:
-    - StorageTaskAssignmentsList
   - uid: com.azure.resourcemanager.storage.models.StorageTaskReportProperties
     name: StorageTaskReportProperties
     no-loc:
     - StorageTaskReportProperties
-  - uid: com.azure.resourcemanager.storage.models.StorageTaskReportSummary
-    name: StorageTaskReportSummary
-    no-loc:
-    - StorageTaskReportSummary
   - uid: com.azure.resourcemanager.storage.models.TableAccessPolicy
     name: TableAccessPolicy
     no-loc:
@@ -195676,6 +195750,14 @@
     name: TagProperty
     no-loc:
     - TagProperty
+  - uid: com.azure.resourcemanager.storage.models.TestExistingConnectionRequest
+    name: TestExistingConnectionRequest
+    no-loc:
+    - TestExistingConnectionRequest
+  - uid: com.azure.resourcemanager.storage.models.TrackedResourceUpdate
+    name: TrackedResourceUpdate
+    no-loc:
+    - TrackedResourceUpdate
   - uid: com.azure.resourcemanager.storage.models.TriggerParameters
     name: TriggerParameters
     no-loc:
@@ -195692,10 +195774,6 @@
     name: UpdateHistoryProperty
     no-loc:
     - UpdateHistoryProperty
-  - uid: com.azure.resourcemanager.storage.models.UsageListResult
-    name: UsageListResult
-    no-loc:
-    - UsageListResult
   - uid: com.azure.resourcemanager.storage.models.UsageName
     name: UsageName
     no-loc:

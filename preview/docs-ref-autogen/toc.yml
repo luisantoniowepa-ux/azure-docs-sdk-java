@@ -67031,6 +67031,14 @@
     name: AgentPoolMode
     no-loc:
     - AgentPoolMode
+  - uid: com.azure.resourcemanager.containerservice.models.AgentPoolNetworkInterface
+    name: AgentPoolNetworkInterface
+    no-loc:
+    - AgentPoolNetworkInterface
+  - uid: com.azure.resourcemanager.containerservice.models.AgentPoolNetworkInterfaceType
+    name: AgentPoolNetworkInterfaceType
+    no-loc:
+    - AgentPoolNetworkInterfaceType
   - uid: com.azure.resourcemanager.containerservice.models.AgentPoolNetworkProfile
     name: AgentPoolNetworkProfile
     no-loc:
@@ -67147,6 +67155,10 @@
     name: ContainerServiceVMSizeTypes
     no-loc:
     - ContainerServiceVMSizeTypes
+  - uid: com.azure.resourcemanager.containerservice.models.ControlPlaneScalingSize
+    name: ControlPlaneScalingSize
+    no-loc:
+    - ControlPlaneScalingSize
   - uid: com.azure.resourcemanager.containerservice.models.CreationData
     name: CreationData
     no-loc:
@@ -67227,6 +67239,10 @@
     name: GuardrailsSupport
     no-loc:
     - GuardrailsSupport
+  - uid: com.azure.resourcemanager.containerservice.models.HardEvictionThreshold
+    name: HardEvictionThreshold
+    no-loc:
+    - HardEvictionThreshold
   - uid: com.azure.resourcemanager.containerservice.models.IdentityBindingManagedIdentityProfile
     name: IdentityBindingManagedIdentityProfile
     no-loc:
@@ -67319,6 +67335,10 @@
     name: KeyVaultNetworkAccessTypes
     no-loc:
     - KeyVaultNetworkAccessTypes
+  - uid: com.azure.resourcemanager.containerservice.models.KubeReserved
+    name: KubeReserved
+    no-loc:
+    - KubeReserved
   - uid: com.azure.resourcemanager.containerservice.models.KubeletConfig
     name: KubeletConfig
     no-loc:
@@ -67807,10 +67827,10 @@
     name: ManagedClusterAzureMonitorProfileAppMonitoringAutoInstrumentation
     no-loc:
     - ManagedClusterAzureMonitorProfileAppMonitoringAutoInstrumentation
-  - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryLogs
-    name: ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryLogs
+  - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryLogsAndTraces
+    name: ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryLogsAndTraces
     no-loc:
-    - ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryLogs
+    - ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryLogsAndTraces
   - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryMetrics
     name: ManagedClusterAzureMonitorProfileAppMonitoringOpenTelemetryMetrics
     no-loc:
@@ -67827,10 +67847,18 @@
     name: ManagedClusterAzureMonitorProfileMetrics
     no-loc:
     - ManagedClusterAzureMonitorProfileMetrics
+  - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterAzureMonitorProfileMetricsControlPlane
+    name: ManagedClusterAzureMonitorProfileMetricsControlPlane
+    no-loc:
+    - ManagedClusterAzureMonitorProfileMetricsControlPlane
   - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterBootstrapProfile
     name: ManagedClusterBootstrapProfile
     no-loc:
     - ManagedClusterBootstrapProfile
+  - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterControlPlaneScalingProfile
+    name: ManagedClusterControlPlaneScalingProfile
+    no-loc:
+    - ManagedClusterControlPlaneScalingProfile
   - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterCostAnalysis
     name: ManagedClusterCostAnalysis
     no-loc:
@@ -68167,10 +68195,14 @@
     name: NginxIngressControllerType
     no-loc:
     - NginxIngressControllerType
-  - uid: com.azure.resourcemanager.containerservice.models.NodeCustomizationProfile
-    name: NodeCustomizationProfile
+  - uid: com.azure.resourcemanager.containerservice.models.NodeDisruptionPolicy
+    name: NodeDisruptionPolicy
     no-loc:
-    - NodeCustomizationProfile
+    - NodeDisruptionPolicy
+  - uid: com.azure.resourcemanager.containerservice.models.NodeDisruptionProfile
+    name: NodeDisruptionProfile
+    no-loc:
+    - NodeDisruptionProfile
   - uid: com.azure.resourcemanager.containerservice.models.NodeOSUpgradeChannel
     name: NodeOSUpgradeChannel
     no-loc:
@@ -68275,6 +68307,10 @@
     name: PowerState
     no-loc:
     - PowerState
+  - uid: com.azure.resourcemanager.containerservice.models.PreparedImageSpecificationProfile
+    name: PreparedImageSpecificationProfile
+    no-loc:
+    - PreparedImageSpecificationProfile
   - uid: com.azure.resourcemanager.containerservice.models.PrivateEndpoint
     name: PrivateEndpoint
     no-loc:
@@ -167257,10 +167293,6 @@
     name: ApiCollectionsClient
     no-loc:
     - ApiCollectionsClient
-  - uid: com.azure.resourcemanager.security.fluent.ApplicationOperationsClient
-    name: ApplicationOperationsClient
-    no-loc:
-    - ApplicationOperationsClient
   - uid: com.azure.resourcemanager.security.fluent.ApplicationsClient
     name: ApplicationsClient
     no-loc:
@@ -167273,6 +167305,10 @@
     name: AssessmentsMetadatasClient
     no-loc:
     - AssessmentsMetadatasClient
+  - uid: com.azure.resourcemanager.security.fluent.AssignmentsClient
+    name: AssignmentsClient
+    no-loc:
+    - AssignmentsClient
   - uid: com.azure.resourcemanager.security.fluent.AutoProvisioningSettingsClient
     name: AutoProvisioningSettingsClient
     no-loc:
@@ -167301,18 +167337,6 @@
     name: CompliancesClient
     no-loc:
     - CompliancesClient
-  - uid: com.azure.resourcemanager.security.fluent.ConnectorsClient
-    name: ConnectorsClient
-    no-loc:
-    - ConnectorsClient
-  - uid: com.azure.resourcemanager.security.fluent.CustomAssessmentAutomationsClient
-    name: CustomAssessmentAutomationsClient
-    no-loc:
-    - CustomAssessmentAutomationsClient
-  - uid: com.azure.resourcemanager.security.fluent.CustomEntityStoreAssignmentsClient
-    name: CustomEntityStoreAssignmentsClient
-    no-loc:
-    - CustomEntityStoreAssignmentsClient
   - uid: com.azure.resourcemanager.security.fluent.CustomRecommendationsClient
     name: CustomRecommendationsClient
     no-loc:
@@ -167329,14 +167353,6 @@
     name: DevOpsOperationResultsClient
     no-loc:
     - DevOpsOperationResultsClient
-  - uid: com.azure.resourcemanager.security.fluent.DevOpsPoliciesClient
-    name: DevOpsPoliciesClient
-    no-loc:
-    - DevOpsPoliciesClient
-  - uid: com.azure.resourcemanager.security.fluent.DevOpsPolicyAssignmentsClient
-    name: DevOpsPolicyAssignmentsClient
-    no-loc:
-    - DevOpsPolicyAssignmentsClient
   - uid: com.azure.resourcemanager.security.fluent.DeviceSecurityGroupsClient
     name: DeviceSecurityGroupsClient
     no-loc:
@@ -167349,6 +167365,10 @@
     name: ExternalSecuritySolutionsClient
     no-loc:
     - ExternalSecuritySolutionsClient
+  - uid: com.azure.resourcemanager.security.fluent.GitHubIssuesClient
+    name: GitHubIssuesClient
+    no-loc:
+    - GitHubIssuesClient
   - uid: com.azure.resourcemanager.security.fluent.GitHubOwnersClient
     name: GitHubOwnersClient
     no-loc:
@@ -167413,6 +167433,14 @@
     name: MdeOnboardingsClient
     no-loc:
     - MdeOnboardingsClient
+  - uid: com.azure.resourcemanager.security.fluent.OperationResultsClient
+    name: OperationResultsClient
+    no-loc:
+    - OperationResultsClient
+  - uid: com.azure.resourcemanager.security.fluent.OperationStatusesClient
+    name: OperationStatusesClient
+    no-loc:
+    - OperationStatusesClient
   - uid: com.azure.resourcemanager.security.fluent.OperationsClient
     name: OperationsClient
     no-loc:
@@ -167421,6 +167449,18 @@
     name: PricingsClient
     no-loc:
     - PricingsClient
+  - uid: com.azure.resourcemanager.security.fluent.PrivateEndpointConnectionsClient
+    name: PrivateEndpointConnectionsClient
+    no-loc:
+    - PrivateEndpointConnectionsClient
+  - uid: com.azure.resourcemanager.security.fluent.PrivateLinkResourcesClient
+    name: PrivateLinkResourcesClient
+    no-loc:
+    - PrivateLinkResourcesClient
+  - uid: com.azure.resourcemanager.security.fluent.PrivateLinksClient
+    name: PrivateLinksClient
+    no-loc:
+    - PrivateLinksClient
   - uid: com.azure.resourcemanager.security.fluent.RegulatoryComplianceAssessmentsClient
     name: RegulatoryComplianceAssessmentsClient
     no-loc:
@@ -167449,10 +167489,6 @@
     name: SecurityCenter
     no-loc:
     - SecurityCenter
-  - uid: com.azure.resourcemanager.security.fluent.SecurityConnectorApplicationOperationsClient
-    name: SecurityConnectorApplicationOperationsClient
-    no-loc:
-    - SecurityConnectorApplicationOperationsClient
   - uid: com.azure.resourcemanager.security.fluent.SecurityConnectorApplicationsClient
     name: SecurityConnectorApplicationsClient
     no-loc:
@@ -167497,10 +167533,6 @@
     name: SettingsClient
     no-loc:
     - SettingsClient
-  - uid: com.azure.resourcemanager.security.fluent.SoftwareInventoriesClient
-    name: SoftwareInventoriesClient
-    no-loc:
-    - SoftwareInventoriesClient
   - uid: com.azure.resourcemanager.security.fluent.SqlVulnerabilityAssessmentBaselineRulesClient
     name: SqlVulnerabilityAssessmentBaselineRulesClient
     no-loc:
@@ -167513,10 +167545,18 @@
     name: SqlVulnerabilityAssessmentScansClient
     no-loc:
     - SqlVulnerabilityAssessmentScansClient
+  - uid: com.azure.resourcemanager.security.fluent.SqlVulnerabilityAssessmentSettingsOperationsClient
+    name: SqlVulnerabilityAssessmentSettingsOperationsClient
+    no-loc:
+    - SqlVulnerabilityAssessmentSettingsOperationsClient
   - uid: com.azure.resourcemanager.security.fluent.StandardAssignmentsClient
     name: StandardAssignmentsClient
     no-loc:
     - StandardAssignmentsClient
+  - uid: com.azure.resourcemanager.security.fluent.StandardsClient
+    name: StandardsClient
+    no-loc:
+    - StandardsClient
   - uid: com.azure.resourcemanager.security.fluent.SubAssessmentsClient
     name: SubAssessmentsClient
     no-loc:
@@ -167594,6 +167634,14 @@
     name: AscLocationInner
     no-loc:
     - AscLocationInner
+  - uid: com.azure.resourcemanager.security.fluent.models.AssignmentInner
+    name: AssignmentInner
+    no-loc:
+    - AssignmentInner
+  - uid: com.azure.resourcemanager.security.fluent.models.AssignmentProperties
+    name: AssignmentProperties
+    no-loc:
+    - AssignmentProperties
   - uid: com.azure.resourcemanager.security.fluent.models.AutoProvisioningSettingInner
     name: AutoProvisioningSettingInner
     no-loc:
@@ -167646,38 +167694,6 @@
     name: ComplianceResultProperties
     no-loc:
     - ComplianceResultProperties
-  - uid: com.azure.resourcemanager.security.fluent.models.ConnectorSettingInner
-    name: ConnectorSettingInner
-    no-loc:
-    - ConnectorSettingInner
-  - uid: com.azure.resourcemanager.security.fluent.models.ConnectorSettingProperties
-    name: ConnectorSettingProperties
-    no-loc:
-    - ConnectorSettingProperties
-  - uid: com.azure.resourcemanager.security.fluent.models.CustomAssessmentAutomationInner
-    name: CustomAssessmentAutomationInner
-    no-loc:
-    - CustomAssessmentAutomationInner
-  - uid: com.azure.resourcemanager.security.fluent.models.CustomAssessmentAutomationProperties
-    name: CustomAssessmentAutomationProperties
-    no-loc:
-    - CustomAssessmentAutomationProperties
-  - uid: com.azure.resourcemanager.security.fluent.models.CustomAssessmentAutomationRequestProperties
-    name: CustomAssessmentAutomationRequestProperties
-    no-loc:
-    - CustomAssessmentAutomationRequestProperties
-  - uid: com.azure.resourcemanager.security.fluent.models.CustomEntityStoreAssignmentInner
-    name: CustomEntityStoreAssignmentInner
-    no-loc:
-    - CustomEntityStoreAssignmentInner
-  - uid: com.azure.resourcemanager.security.fluent.models.CustomEntityStoreAssignmentProperties
-    name: CustomEntityStoreAssignmentProperties
-    no-loc:
-    - CustomEntityStoreAssignmentProperties
-  - uid: com.azure.resourcemanager.security.fluent.models.CustomEntityStoreAssignmentRequestProperties
-    name: CustomEntityStoreAssignmentRequestProperties
-    no-loc:
-    - CustomEntityStoreAssignmentRequestProperties
   - uid: com.azure.resourcemanager.security.fluent.models.CustomRecommendationInner
     name: CustomRecommendationInner
     no-loc:
@@ -167698,14 +167714,6 @@
     name: DevOpsConfigurationInner
     no-loc:
     - DevOpsConfigurationInner
-  - uid: com.azure.resourcemanager.security.fluent.models.DevOpsPolicyAssignmentInner
-    name: DevOpsPolicyAssignmentInner
-    no-loc:
-    - DevOpsPolicyAssignmentInner
-  - uid: com.azure.resourcemanager.security.fluent.models.DevOpsPolicyInner
-    name: DevOpsPolicyInner
-    no-loc:
-    - DevOpsPolicyInner
   - uid: com.azure.resourcemanager.security.fluent.models.DeviceSecurityGroupInner
     name: DeviceSecurityGroupInner
     no-loc:
@@ -167858,10 +167866,10 @@
     name: OperationInner
     no-loc:
     - OperationInner
-  - uid: com.azure.resourcemanager.security.fluent.models.OperationResultAutoGeneratedInner
-    name: OperationResultAutoGeneratedInner
+  - uid: com.azure.resourcemanager.security.fluent.models.OperationResultInner
+    name: OperationResultInner
     no-loc:
-    - OperationResultAutoGeneratedInner
+    - OperationResultInner
   - uid: com.azure.resourcemanager.security.fluent.models.OperationStatusResultInner
     name: OperationStatusResultInner
     no-loc:
@@ -167878,6 +167886,30 @@
     name: PricingProperties
     no-loc:
     - PricingProperties
+  - uid: com.azure.resourcemanager.security.fluent.models.PrivateEndpointConnectionInner
+    name: PrivateEndpointConnectionInner
+    no-loc:
+    - PrivateEndpointConnectionInner
+  - uid: com.azure.resourcemanager.security.fluent.models.PrivateEndpointConnectionProperties
+    name: PrivateEndpointConnectionProperties
+    no-loc:
+    - PrivateEndpointConnectionProperties
+  - uid: com.azure.resourcemanager.security.fluent.models.PrivateLinkGroupResourceInner
+    name: PrivateLinkGroupResourceInner
+    no-loc:
+    - PrivateLinkGroupResourceInner
+  - uid: com.azure.resourcemanager.security.fluent.models.PrivateLinkProperties
+    name: PrivateLinkProperties
+    no-loc:
+    - PrivateLinkProperties
+  - uid: com.azure.resourcemanager.security.fluent.models.PrivateLinkResourceInner
+    name: PrivateLinkResourceInner
+    no-loc:
+    - PrivateLinkResourceInner
+  - uid: com.azure.resourcemanager.security.fluent.models.PrivateLinkResourceProperties
+    name: PrivateLinkResourceProperties
+    no-loc:
+    - PrivateLinkResourceProperties
   - uid: com.azure.resourcemanager.security.fluent.models.RegulatoryComplianceAssessmentInner
     name: RegulatoryComplianceAssessmentInner
     no-loc:
@@ -167910,22 +167942,14 @@
     name: RulesResultsInner
     no-loc:
     - RulesResultsInner
-  - uid: com.azure.resourcemanager.security.fluent.models.ScanInner
-    name: ScanInner
-    no-loc:
-    - ScanInner
   - uid: com.azure.resourcemanager.security.fluent.models.ScanResultInner
     name: ScanResultInner
     no-loc:
     - ScanResultInner
-  - uid: com.azure.resourcemanager.security.fluent.models.ScanResultsInner
-    name: ScanResultsInner
+  - uid: com.azure.resourcemanager.security.fluent.models.ScanV2Inner
+    name: ScanV2Inner
     no-loc:
-    - ScanResultsInner
-  - uid: com.azure.resourcemanager.security.fluent.models.ScansInner
-    name: ScansInner
-    no-loc:
-    - ScansInner
+    - ScanV2Inner
   - uid: com.azure.resourcemanager.security.fluent.models.ScoreDetails
     name: ScoreDetails
     no-loc:
@@ -167954,10 +167978,6 @@
     name: SecureScoreItemProperties
     no-loc:
     - SecureScoreItemProperties
-  - uid: com.azure.resourcemanager.security.fluent.models.SecurityAssessmentMetadataProperties
-    name: SecurityAssessmentMetadataProperties
-    no-loc:
-    - SecurityAssessmentMetadataProperties
   - uid: com.azure.resourcemanager.security.fluent.models.SecurityAssessmentMetadataPropertiesResponse
     name: SecurityAssessmentMetadataPropertiesResponse
     no-loc:
@@ -167998,10 +168018,6 @@
     name: SecurityOperatorInner
     no-loc:
     - SecurityOperatorInner
-  - uid: com.azure.resourcemanager.security.fluent.models.SecurityOperatorListInner
-    name: SecurityOperatorListInner
-    no-loc:
-    - SecurityOperatorListInner
   - uid: com.azure.resourcemanager.security.fluent.models.SecuritySolutionInner
     name: SecuritySolutionInner
     no-loc:
@@ -168022,6 +168038,10 @@
     name: SecurityStandardInner
     no-loc:
     - SecurityStandardInner
+  - uid: com.azure.resourcemanager.security.fluent.models.SecurityStandardProperties
+    name: SecurityStandardProperties
+    no-loc:
+    - SecurityStandardProperties
   - uid: com.azure.resourcemanager.security.fluent.models.SecuritySubAssessmentInner
     name: SecuritySubAssessmentInner
     no-loc:
@@ -168062,14 +168082,14 @@
     name: SettingInner
     no-loc:
     - SettingInner
-  - uid: com.azure.resourcemanager.security.fluent.models.SoftwareInner
-    name: SoftwareInner
+  - uid: com.azure.resourcemanager.security.fluent.models.SqlVulnerabilityAssessmentScanOperationResultInner
+    name: SqlVulnerabilityAssessmentScanOperationResultInner
     no-loc:
-    - SoftwareInner
-  - uid: com.azure.resourcemanager.security.fluent.models.SoftwareProperties
-    name: SoftwareProperties
+    - SqlVulnerabilityAssessmentScanOperationResultInner
+  - uid: com.azure.resourcemanager.security.fluent.models.SqlVulnerabilityAssessmentSettingsInner
+    name: SqlVulnerabilityAssessmentSettingsInner
     no-loc:
-    - SoftwareProperties
+    - SqlVulnerabilityAssessmentSettingsInner
   - uid: com.azure.resourcemanager.security.fluent.models.StandardAssignmentInner
     name: StandardAssignmentInner
     no-loc:
@@ -168078,6 +168098,10 @@
     name: StandardAssignmentProperties
     no-loc:
     - StandardAssignmentProperties
+  - uid: com.azure.resourcemanager.security.fluent.models.StandardInner
+    name: StandardInner
+    no-loc:
+    - StandardInner
   - uid: com.azure.resourcemanager.security.fluent.models.StandardProperties
     name: StandardProperties
     no-loc:
@@ -168111,10 +168135,6 @@
     name: AadConnectivityState
     no-loc:
     - AadConnectivityState
-  - uid: com.azure.resourcemanager.security.models.AadConnectivityStateAutoGenerated
-    name: AadConnectivityStateAutoGenerated
-    no-loc:
-    - AadConnectivityStateAutoGenerated
   - uid: com.azure.resourcemanager.security.models.AadExternalSecuritySolution
     name: AadExternalSecuritySolution
     no-loc:
@@ -168139,10 +168159,6 @@
     name: ActionableRemediationState
     no-loc:
     - ActionableRemediationState
-  - uid: com.azure.resourcemanager.security.models.ActiveConnectionsNotInAllowedRange
-    name: ActiveConnectionsNotInAllowedRange
-    no-loc:
-    - ActiveConnectionsNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.AdditionalData
     name: AdditionalData
     no-loc:
@@ -168191,6 +168207,14 @@
     name: AdvancedThreatProtections
     no-loc:
     - AdvancedThreatProtections
+  - uid: com.azure.resourcemanager.security.models.AgentlessConfiguration
+    name: AgentlessConfiguration
+    no-loc:
+    - AgentlessConfiguration
+  - uid: com.azure.resourcemanager.security.models.AgentlessEnablement
+    name: AgentlessEnablement
+    no-loc:
+    - AgentlessEnablement
   - uid: com.azure.resourcemanager.security.models.Alert
     name: Alert
     no-loc:
@@ -168199,10 +168223,6 @@
     name: AlertEntity
     no-loc:
     - AlertEntity
-  - uid: com.azure.resourcemanager.security.models.AlertList
-    name: AlertList
-    no-loc:
-    - AlertList
   - uid: com.azure.resourcemanager.security.models.AlertPropertiesSupportingEvidence
     name: AlertPropertiesSupportingEvidence
     no-loc:
@@ -168243,18 +168263,10 @@
     name: AlertsSuppressionRules
     no-loc:
     - AlertsSuppressionRules
-  - uid: com.azure.resourcemanager.security.models.AlertsSuppressionRulesList
-    name: AlertsSuppressionRulesList
-    no-loc:
-    - AlertsSuppressionRulesList
   - uid: com.azure.resourcemanager.security.models.AllowedConnections
     name: AllowedConnections
     no-loc:
     - AllowedConnections
-  - uid: com.azure.resourcemanager.security.models.AllowedConnectionsList
-    name: AllowedConnectionsList
-    no-loc:
-    - AllowedConnectionsList
   - uid: com.azure.resourcemanager.security.models.AllowedConnectionsResource
     name: AllowedConnectionsResource
     no-loc:
@@ -168263,18 +168275,6 @@
     name: AllowlistCustomAlertRule
     no-loc:
     - AllowlistCustomAlertRule
-  - uid: com.azure.resourcemanager.security.models.AmqpC2DMessagesNotInAllowedRange
-    name: AmqpC2DMessagesNotInAllowedRange
-    no-loc:
-    - AmqpC2DMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.AmqpC2DRejectedMessagesNotInAllowedRange
-    name: AmqpC2DRejectedMessagesNotInAllowedRange
-    no-loc:
-    - AmqpC2DRejectedMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.AmqpD2CMessagesNotInAllowedRange
-    name: AmqpD2CMessagesNotInAllowedRange
-    no-loc:
-    - AmqpD2CMessagesNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.AnnotateDefaultBranchState
     name: AnnotateDefaultBranchState
     no-loc:
@@ -168283,10 +168283,6 @@
     name: ApiCollection
     no-loc:
     - ApiCollection
-  - uid: com.azure.resourcemanager.security.models.ApiCollectionList
-    name: ApiCollectionList
-    no-loc:
-    - ApiCollectionList
   - uid: com.azure.resourcemanager.security.models.ApiCollections
     name: ApiCollections
     no-loc:
@@ -168351,10 +168347,6 @@
     name: Application.UpdateStages.WithSourceResourceType
     no-loc:
     - Application.UpdateStages.WithSourceResourceType
-  - uid: com.azure.resourcemanager.security.models.ApplicationOperations
-    name: ApplicationOperations
-    no-loc:
-    - ApplicationOperations
   - uid: com.azure.resourcemanager.security.models.ApplicationSourceResourceType
     name: ApplicationSourceResourceType
     no-loc:
@@ -168363,10 +168355,6 @@
     name: Applications
     no-loc:
     - Applications
-  - uid: com.azure.resourcemanager.security.models.ApplicationsList
-    name: ApplicationsList
-    no-loc:
-    - ApplicationsList
   - uid: com.azure.resourcemanager.security.models.ArcAutoProvisioning
     name: ArcAutoProvisioning
     no-loc:
@@ -168383,14 +168371,14 @@
     name: ArcAutoProvisioningGcp
     no-loc:
     - ArcAutoProvisioningGcp
+  - uid: com.azure.resourcemanager.security.models.ArmActionType
+    name: ArmActionType
+    no-loc:
+    - ArmActionType
   - uid: com.azure.resourcemanager.security.models.AscLocation
     name: AscLocation
     no-loc:
     - AscLocation
-  - uid: com.azure.resourcemanager.security.models.AscLocationList
-    name: AscLocationList
-    no-loc:
-    - AscLocationList
   - uid: com.azure.resourcemanager.security.models.AssessedResourceType
     name: AssessedResourceType
     no-loc:
@@ -168427,10 +168415,154 @@
     name: AssignedAssessmentItem
     no-loc:
     - AssignedAssessmentItem
+  - uid: com.azure.resourcemanager.security.models.AssignedComponentItem
+    name: AssignedComponentItem
+    no-loc:
+    - AssignedComponentItem
   - uid: com.azure.resourcemanager.security.models.AssignedStandardItem
     name: AssignedStandardItem
     no-loc:
     - AssignedStandardItem
+  - uid: com.azure.resourcemanager.security.models.Assignment
+    name: Assignment
+    no-loc:
+    - Assignment
+  - uid: com.azure.resourcemanager.security.models.Assignment.Definition
+    name: Assignment.Definition
+    no-loc:
+    - Assignment.Definition
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages
+    name: Assignment.DefinitionStages
+    no-loc:
+    - Assignment.DefinitionStages
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.Blank
+    name: Assignment.DefinitionStages.Blank
+    no-loc:
+    - Assignment.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithAdditionalData
+    name: Assignment.DefinitionStages.WithAdditionalData
+    no-loc:
+    - Assignment.DefinitionStages.WithAdditionalData
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithAssignedComponent
+    name: Assignment.DefinitionStages.WithAssignedComponent
+    no-loc:
+    - Assignment.DefinitionStages.WithAssignedComponent
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithAssignedStandard
+    name: Assignment.DefinitionStages.WithAssignedStandard
+    no-loc:
+    - Assignment.DefinitionStages.WithAssignedStandard
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithCreate
+    name: Assignment.DefinitionStages.WithCreate
+    no-loc:
+    - Assignment.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithDescription
+    name: Assignment.DefinitionStages.WithDescription
+    no-loc:
+    - Assignment.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithDisplayName
+    name: Assignment.DefinitionStages.WithDisplayName
+    no-loc:
+    - Assignment.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithEffect
+    name: Assignment.DefinitionStages.WithEffect
+    no-loc:
+    - Assignment.DefinitionStages.WithEffect
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithEtag
+    name: Assignment.DefinitionStages.WithEtag
+    no-loc:
+    - Assignment.DefinitionStages.WithEtag
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithExpiresOn
+    name: Assignment.DefinitionStages.WithExpiresOn
+    no-loc:
+    - Assignment.DefinitionStages.WithExpiresOn
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithKind
+    name: Assignment.DefinitionStages.WithKind
+    no-loc:
+    - Assignment.DefinitionStages.WithKind
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithLocation
+    name: Assignment.DefinitionStages.WithLocation
+    no-loc:
+    - Assignment.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithMetadata
+    name: Assignment.DefinitionStages.WithMetadata
+    no-loc:
+    - Assignment.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithResourceGroup
+    name: Assignment.DefinitionStages.WithResourceGroup
+    no-loc:
+    - Assignment.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithScope
+    name: Assignment.DefinitionStages.WithScope
+    no-loc:
+    - Assignment.DefinitionStages.WithScope
+  - uid: com.azure.resourcemanager.security.models.Assignment.DefinitionStages.WithTags
+    name: Assignment.DefinitionStages.WithTags
+    no-loc:
+    - Assignment.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.security.models.Assignment.Update
+    name: Assignment.Update
+    no-loc:
+    - Assignment.Update
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages
+    name: Assignment.UpdateStages
+    no-loc:
+    - Assignment.UpdateStages
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithAdditionalData
+    name: Assignment.UpdateStages.WithAdditionalData
+    no-loc:
+    - Assignment.UpdateStages.WithAdditionalData
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithAssignedComponent
+    name: Assignment.UpdateStages.WithAssignedComponent
+    no-loc:
+    - Assignment.UpdateStages.WithAssignedComponent
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithAssignedStandard
+    name: Assignment.UpdateStages.WithAssignedStandard
+    no-loc:
+    - Assignment.UpdateStages.WithAssignedStandard
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithDescription
+    name: Assignment.UpdateStages.WithDescription
+    no-loc:
+    - Assignment.UpdateStages.WithDescription
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithDisplayName
+    name: Assignment.UpdateStages.WithDisplayName
+    no-loc:
+    - Assignment.UpdateStages.WithDisplayName
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithEffect
+    name: Assignment.UpdateStages.WithEffect
+    no-loc:
+    - Assignment.UpdateStages.WithEffect
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithEtag
+    name: Assignment.UpdateStages.WithEtag
+    no-loc:
+    - Assignment.UpdateStages.WithEtag
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithExpiresOn
+    name: Assignment.UpdateStages.WithExpiresOn
+    no-loc:
+    - Assignment.UpdateStages.WithExpiresOn
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithKind
+    name: Assignment.UpdateStages.WithKind
+    no-loc:
+    - Assignment.UpdateStages.WithKind
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithMetadata
+    name: Assignment.UpdateStages.WithMetadata
+    no-loc:
+    - Assignment.UpdateStages.WithMetadata
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithScope
+    name: Assignment.UpdateStages.WithScope
+    no-loc:
+    - Assignment.UpdateStages.WithScope
+  - uid: com.azure.resourcemanager.security.models.Assignment.UpdateStages.WithTags
+    name: Assignment.UpdateStages.WithTags
+    no-loc:
+    - Assignment.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.security.models.AssignmentPropertiesAdditionalData
+    name: AssignmentPropertiesAdditionalData
+    no-loc:
+    - AssignmentPropertiesAdditionalData
+  - uid: com.azure.resourcemanager.security.models.Assignments
+    name: Assignments
+    no-loc:
+    - Assignments
   - uid: com.azure.resourcemanager.security.models.AtaExternalSecuritySolution
     name: AtaExternalSecuritySolution
     no-loc:
@@ -168451,14 +168583,6 @@
     name: Authentication
     no-loc:
     - Authentication
-  - uid: com.azure.resourcemanager.security.models.AuthenticationDetailsProperties
-    name: AuthenticationDetailsProperties
-    no-loc:
-    - AuthenticationDetailsProperties
-  - uid: com.azure.resourcemanager.security.models.AuthenticationProvisioningState
-    name: AuthenticationProvisioningState
-    no-loc:
-    - AuthenticationProvisioningState
   - uid: com.azure.resourcemanager.security.models.AuthenticationType
     name: AuthenticationType
     no-loc:
@@ -168499,14 +168623,14 @@
     name: AutoProvisioningSetting.DefinitionStages.WithCreate
     no-loc:
     - AutoProvisioningSetting.DefinitionStages.WithCreate
-  - uid: com.azure.resourcemanager.security.models.AutoProvisioningSettingList
-    name: AutoProvisioningSettingList
-    no-loc:
-    - AutoProvisioningSettingList
   - uid: com.azure.resourcemanager.security.models.AutoProvisioningSettings
     name: AutoProvisioningSettings
     no-loc:
     - AutoProvisioningSettings
+  - uid: com.azure.resourcemanager.security.models.AutomatedResponseType
+    name: AutomatedResponseType
+    no-loc:
+    - AutomatedResponseType
   - uid: com.azure.resourcemanager.security.models.Automation
     name: Automation
     no-loc:
@@ -168535,10 +168659,18 @@
     name: Automation.DefinitionStages.WithDescription
     no-loc:
     - Automation.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.security.models.Automation.DefinitionStages.WithEtag
+    name: Automation.DefinitionStages.WithEtag
+    no-loc:
+    - Automation.DefinitionStages.WithEtag
   - uid: com.azure.resourcemanager.security.models.Automation.DefinitionStages.WithIsEnabled
     name: Automation.DefinitionStages.WithIsEnabled
     no-loc:
     - Automation.DefinitionStages.WithIsEnabled
+  - uid: com.azure.resourcemanager.security.models.Automation.DefinitionStages.WithKind
+    name: Automation.DefinitionStages.WithKind
+    no-loc:
+    - Automation.DefinitionStages.WithKind
   - uid: com.azure.resourcemanager.security.models.Automation.DefinitionStages.WithLocation
     name: Automation.DefinitionStages.WithLocation
     no-loc:
@@ -168607,10 +168739,6 @@
     name: AutomationActionWorkspace
     no-loc:
     - AutomationActionWorkspace
-  - uid: com.azure.resourcemanager.security.models.AutomationList
-    name: AutomationList
-    no-loc:
-    - AutomationList
   - uid: com.azure.resourcemanager.security.models.AutomationRuleSet
     name: AutomationRuleSet
     no-loc:
@@ -168639,14 +168767,6 @@
     name: Automations
     no-loc:
     - Automations
-  - uid: com.azure.resourcemanager.security.models.AwAssumeRoleAuthenticationDetailsProperties
-    name: AwAssumeRoleAuthenticationDetailsProperties
-    no-loc:
-    - AwAssumeRoleAuthenticationDetailsProperties
-  - uid: com.azure.resourcemanager.security.models.AwsCredsAuthenticationDetailsProperties
-    name: AwsCredsAuthenticationDetailsProperties
-    no-loc:
-    - AwsCredsAuthenticationDetailsProperties
   - uid: com.azure.resourcemanager.security.models.AwsEnvironmentData
     name: AwsEnvironmentData
     no-loc:
@@ -168755,10 +168875,6 @@
     name: AzureDevOpsProject.UpdateStages.WithProperties
     no-loc:
     - AzureDevOpsProject.UpdateStages.WithProperties
-  - uid: com.azure.resourcemanager.security.models.AzureDevOpsProjectListResponse
-    name: AzureDevOpsProjectListResponse
-    no-loc:
-    - AzureDevOpsProjectListResponse
   - uid: com.azure.resourcemanager.security.models.AzureDevOpsProjectProperties
     name: AzureDevOpsProjectProperties
     no-loc:
@@ -168811,10 +168927,6 @@
     name: AzureDevOpsRepository.UpdateStages.WithProperties
     no-loc:
     - AzureDevOpsRepository.UpdateStages.WithProperties
-  - uid: com.azure.resourcemanager.security.models.AzureDevOpsRepositoryListResponse
-    name: AzureDevOpsRepositoryListResponse
-    no-loc:
-    - AzureDevOpsRepositoryListResponse
   - uid: com.azure.resourcemanager.security.models.AzureDevOpsRepositoryProperties
     name: AzureDevOpsRepositoryProperties
     no-loc:
@@ -168839,10 +168951,6 @@
     name: AzureServersSetting
     no-loc:
     - AzureServersSetting
-  - uid: com.azure.resourcemanager.security.models.AzureTrackedResourceLocation
-    name: AzureTrackedResourceLocation
-    no-loc:
-    - AzureTrackedResourceLocation
   - uid: com.azure.resourcemanager.security.models.Baseline
     name: Baseline
     no-loc:
@@ -168855,6 +168963,10 @@
     name: BenchmarkReference
     no-loc:
     - BenchmarkReference
+  - uid: com.azure.resourcemanager.security.models.BlobScanResultsOptions
+    name: BlobScanResultsOptions
+    no-loc:
+    - BlobScanResultsOptions
   - uid: com.azure.resourcemanager.security.models.BlobsScanSummary
     name: BlobsScanSummary
     no-loc:
@@ -168891,26 +169003,14 @@
     name: CloudOffering
     no-loc:
     - CloudOffering
-  - uid: com.azure.resourcemanager.security.models.Code
-    name: Code
-    no-loc:
-    - Code
   - uid: com.azure.resourcemanager.security.models.Compliance
     name: Compliance
     no-loc:
     - Compliance
-  - uid: com.azure.resourcemanager.security.models.ComplianceList
-    name: ComplianceList
-    no-loc:
-    - ComplianceList
   - uid: com.azure.resourcemanager.security.models.ComplianceResult
     name: ComplianceResult
     no-loc:
     - ComplianceResult
-  - uid: com.azure.resourcemanager.security.models.ComplianceResultList
-    name: ComplianceResultList
-    no-loc:
-    - ComplianceResultList
   - uid: com.azure.resourcemanager.security.models.ComplianceResults
     name: ComplianceResults
     no-loc:
@@ -168935,70 +169035,10 @@
     name: ConnectedWorkspace
     no-loc:
     - ConnectedWorkspace
-  - uid: com.azure.resourcemanager.security.models.ConnectionFromIpNotAllowed
-    name: ConnectionFromIpNotAllowed
-    no-loc:
-    - ConnectionFromIpNotAllowed
-  - uid: com.azure.resourcemanager.security.models.ConnectionToIpNotAllowed
-    name: ConnectionToIpNotAllowed
-    no-loc:
-    - ConnectionToIpNotAllowed
   - uid: com.azure.resourcemanager.security.models.ConnectionType
     name: ConnectionType
     no-loc:
     - ConnectionType
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting
-    name: ConnectorSetting
-    no-loc:
-    - ConnectorSetting
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.Definition
-    name: ConnectorSetting.Definition
-    no-loc:
-    - ConnectorSetting.Definition
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.DefinitionStages
-    name: ConnectorSetting.DefinitionStages
-    no-loc:
-    - ConnectorSetting.DefinitionStages
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.DefinitionStages.Blank
-    name: ConnectorSetting.DefinitionStages.Blank
-    no-loc:
-    - ConnectorSetting.DefinitionStages.Blank
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.DefinitionStages.WithAuthenticationDetails
-    name: ConnectorSetting.DefinitionStages.WithAuthenticationDetails
-    no-loc:
-    - ConnectorSetting.DefinitionStages.WithAuthenticationDetails
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.DefinitionStages.WithCreate
-    name: ConnectorSetting.DefinitionStages.WithCreate
-    no-loc:
-    - ConnectorSetting.DefinitionStages.WithCreate
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.DefinitionStages.WithHybridComputeSettings
-    name: ConnectorSetting.DefinitionStages.WithHybridComputeSettings
-    no-loc:
-    - ConnectorSetting.DefinitionStages.WithHybridComputeSettings
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.Update
-    name: ConnectorSetting.Update
-    no-loc:
-    - ConnectorSetting.Update
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.UpdateStages
-    name: ConnectorSetting.UpdateStages
-    no-loc:
-    - ConnectorSetting.UpdateStages
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.UpdateStages.WithAuthenticationDetails
-    name: ConnectorSetting.UpdateStages.WithAuthenticationDetails
-    no-loc:
-    - ConnectorSetting.UpdateStages.WithAuthenticationDetails
-  - uid: com.azure.resourcemanager.security.models.ConnectorSetting.UpdateStages.WithHybridComputeSettings
-    name: ConnectorSetting.UpdateStages.WithHybridComputeSettings
-    no-loc:
-    - ConnectorSetting.UpdateStages.WithHybridComputeSettings
-  - uid: com.azure.resourcemanager.security.models.ConnectorSettingList
-    name: ConnectorSettingList
-    no-loc:
-    - ConnectorSettingList
-  - uid: com.azure.resourcemanager.security.models.Connectors
-    name: Connectors
-    no-loc:
-    - Connectors
   - uid: com.azure.resourcemanager.security.models.ContainerRegistryVulnerabilityProperties
     name: ContainerRegistryVulnerabilityProperties
     no-loc:
@@ -169047,106 +169087,6 @@
     name: CustomAlertRule
     no-loc:
     - CustomAlertRule
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation
-    name: CustomAssessmentAutomation
-    no-loc:
-    - CustomAssessmentAutomation
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.Definition
-    name: CustomAssessmentAutomation.Definition
-    no-loc:
-    - CustomAssessmentAutomation.Definition
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages
-    name: CustomAssessmentAutomation.DefinitionStages
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.Blank
-    name: CustomAssessmentAutomation.DefinitionStages.Blank
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.Blank
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithCompressedQuery
-    name: CustomAssessmentAutomation.DefinitionStages.WithCompressedQuery
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithCompressedQuery
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithCreate
-    name: CustomAssessmentAutomation.DefinitionStages.WithCreate
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithCreate
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithDescription
-    name: CustomAssessmentAutomation.DefinitionStages.WithDescription
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithDescription
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithDisplayName
-    name: CustomAssessmentAutomation.DefinitionStages.WithDisplayName
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithDisplayName
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithRemediationDescription
-    name: CustomAssessmentAutomation.DefinitionStages.WithRemediationDescription
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithRemediationDescription
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithResourceGroup
-    name: CustomAssessmentAutomation.DefinitionStages.WithResourceGroup
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithResourceGroup
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithSeverity
-    name: CustomAssessmentAutomation.DefinitionStages.WithSeverity
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithSeverity
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomation.DefinitionStages.WithSupportedCloud
-    name: CustomAssessmentAutomation.DefinitionStages.WithSupportedCloud
-    no-loc:
-    - CustomAssessmentAutomation.DefinitionStages.WithSupportedCloud
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomationRequest
-    name: CustomAssessmentAutomationRequest
-    no-loc:
-    - CustomAssessmentAutomationRequest
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomations
-    name: CustomAssessmentAutomations
-    no-loc:
-    - CustomAssessmentAutomations
-  - uid: com.azure.resourcemanager.security.models.CustomAssessmentAutomationsListResult
-    name: CustomAssessmentAutomationsListResult
-    no-loc:
-    - CustomAssessmentAutomationsListResult
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment
-    name: CustomEntityStoreAssignment
-    no-loc:
-    - CustomEntityStoreAssignment
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment.Definition
-    name: CustomEntityStoreAssignment.Definition
-    no-loc:
-    - CustomEntityStoreAssignment.Definition
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment.DefinitionStages
-    name: CustomEntityStoreAssignment.DefinitionStages
-    no-loc:
-    - CustomEntityStoreAssignment.DefinitionStages
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment.DefinitionStages.Blank
-    name: CustomEntityStoreAssignment.DefinitionStages.Blank
-    no-loc:
-    - CustomEntityStoreAssignment.DefinitionStages.Blank
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment.DefinitionStages.WithCreate
-    name: CustomEntityStoreAssignment.DefinitionStages.WithCreate
-    no-loc:
-    - CustomEntityStoreAssignment.DefinitionStages.WithCreate
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment.DefinitionStages.WithPrincipal
-    name: CustomEntityStoreAssignment.DefinitionStages.WithPrincipal
-    no-loc:
-    - CustomEntityStoreAssignment.DefinitionStages.WithPrincipal
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignment.DefinitionStages.WithResourceGroup
-    name: CustomEntityStoreAssignment.DefinitionStages.WithResourceGroup
-    no-loc:
-    - CustomEntityStoreAssignment.DefinitionStages.WithResourceGroup
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignmentRequest
-    name: CustomEntityStoreAssignmentRequest
-    no-loc:
-    - CustomEntityStoreAssignmentRequest
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignments
-    name: CustomEntityStoreAssignments
-    no-loc:
-    - CustomEntityStoreAssignments
-  - uid: com.azure.resourcemanager.security.models.CustomEntityStoreAssignmentsListResult
-    name: CustomEntityStoreAssignmentsListResult
-    no-loc:
-    - CustomEntityStoreAssignmentsListResult
   - uid: com.azure.resourcemanager.security.models.CustomRecommendation
     name: CustomRecommendation
     no-loc:
@@ -169239,10 +169179,6 @@
     name: CustomRecommendations
     no-loc:
     - CustomRecommendations
-  - uid: com.azure.resourcemanager.security.models.CustomRecommendationsList
-    name: CustomRecommendationsList
-    no-loc:
-    - CustomRecommendationsList
   - uid: com.azure.resourcemanager.security.models.Cve
     name: Cve
     no-loc:
@@ -169527,10 +169463,6 @@
     name: DenylistCustomAlertRule
     no-loc:
     - DenylistCustomAlertRule
-  - uid: com.azure.resourcemanager.security.models.DescendantBehavior
-    name: DescendantBehavior
-    no-loc:
-    - DescendantBehavior
   - uid: com.azure.resourcemanager.security.models.DevOpsCapability
     name: DevOpsCapability
     no-loc:
@@ -169539,10 +169471,6 @@
     name: DevOpsConfiguration
     no-loc:
     - DevOpsConfiguration
-  - uid: com.azure.resourcemanager.security.models.DevOpsConfigurationListResponse
-    name: DevOpsConfigurationListResponse
-    no-loc:
-    - DevOpsConfigurationListResponse
   - uid: com.azure.resourcemanager.security.models.DevOpsConfigurationProperties
     name: DevOpsConfigurationProperties
     no-loc:
@@ -169555,86 +169483,6 @@
     name: DevOpsOperationResults
     no-loc:
     - DevOpsOperationResults
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicies
-    name: DevOpsPolicies
-    no-loc:
-    - DevOpsPolicies
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicy
-    name: DevOpsPolicy
-    no-loc:
-    - DevOpsPolicy
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment
-    name: DevOpsPolicyAssignment
-    no-loc:
-    - DevOpsPolicyAssignment
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.Definition
-    name: DevOpsPolicyAssignment.Definition
-    no-loc:
-    - DevOpsPolicyAssignment.Definition
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.DefinitionStages
-    name: DevOpsPolicyAssignment.DefinitionStages
-    no-loc:
-    - DevOpsPolicyAssignment.DefinitionStages
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.DefinitionStages.Blank
-    name: DevOpsPolicyAssignment.DefinitionStages.Blank
-    no-loc:
-    - DevOpsPolicyAssignment.DefinitionStages.Blank
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.DefinitionStages.WithCreate
-    name: DevOpsPolicyAssignment.DefinitionStages.WithCreate
-    no-loc:
-    - DevOpsPolicyAssignment.DefinitionStages.WithCreate
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.DefinitionStages.WithParentResource
-    name: DevOpsPolicyAssignment.DefinitionStages.WithParentResource
-    no-loc:
-    - DevOpsPolicyAssignment.DefinitionStages.WithParentResource
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.DefinitionStages.WithProperties
-    name: DevOpsPolicyAssignment.DefinitionStages.WithProperties
-    no-loc:
-    - DevOpsPolicyAssignment.DefinitionStages.WithProperties
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.Update
-    name: DevOpsPolicyAssignment.Update
-    no-loc:
-    - DevOpsPolicyAssignment.Update
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.UpdateStages
-    name: DevOpsPolicyAssignment.UpdateStages
-    no-loc:
-    - DevOpsPolicyAssignment.UpdateStages
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignment.UpdateStages.WithProperties
-    name: DevOpsPolicyAssignment.UpdateStages.WithProperties
-    no-loc:
-    - DevOpsPolicyAssignment.UpdateStages.WithProperties
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignmentListResponse
-    name: DevOpsPolicyAssignmentListResponse
-    no-loc:
-    - DevOpsPolicyAssignmentListResponse
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignmentProperties
-    name: DevOpsPolicyAssignmentProperties
-    no-loc:
-    - DevOpsPolicyAssignmentProperties
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyAssignments
-    name: DevOpsPolicyAssignments
-    no-loc:
-    - DevOpsPolicyAssignments
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyDescriptor
-    name: DevOpsPolicyDescriptor
-    no-loc:
-    - DevOpsPolicyDescriptor
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyListResponse
-    name: DevOpsPolicyListResponse
-    no-loc:
-    - DevOpsPolicyListResponse
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyProperties
-    name: DevOpsPolicyProperties
-    no-loc:
-    - DevOpsPolicyProperties
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicySource
-    name: DevOpsPolicySource
-    no-loc:
-    - DevOpsPolicySource
-  - uid: com.azure.resourcemanager.security.models.DevOpsPolicyType
-    name: DevOpsPolicyType
-    no-loc:
-    - DevOpsPolicyType
   - uid: com.azure.resourcemanager.security.models.DevOpsProvisioningState
     name: DevOpsProvisioningState
     no-loc:
@@ -169703,26 +169551,14 @@
     name: DeviceSecurityGroup.UpdateStages.WithTimeWindowRules
     no-loc:
     - DeviceSecurityGroup.UpdateStages.WithTimeWindowRules
-  - uid: com.azure.resourcemanager.security.models.DeviceSecurityGroupList
-    name: DeviceSecurityGroupList
-    no-loc:
-    - DeviceSecurityGroupList
   - uid: com.azure.resourcemanager.security.models.DeviceSecurityGroups
     name: DeviceSecurityGroups
     no-loc:
     - DeviceSecurityGroups
-  - uid: com.azure.resourcemanager.security.models.DirectMethodInvokesNotInAllowedRange
-    name: DirectMethodInvokesNotInAllowedRange
-    no-loc:
-    - DirectMethodInvokesNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.DiscoveredSecuritySolution
     name: DiscoveredSecuritySolution
     no-loc:
     - DiscoveredSecuritySolution
-  - uid: com.azure.resourcemanager.security.models.DiscoveredSecuritySolutionList
-    name: DiscoveredSecuritySolutionList
-    no-loc:
-    - DiscoveredSecuritySolutionList
   - uid: com.azure.resourcemanager.security.models.DiscoveredSecuritySolutions
     name: DiscoveredSecuritySolutions
     no-loc:
@@ -169735,10 +169571,6 @@
     name: Effect
     no-loc:
     - Effect
-  - uid: com.azure.resourcemanager.security.models.EndOfSupportStatus
-    name: EndOfSupportStatus
-    no-loc:
-    - EndOfSupportStatus
   - uid: com.azure.resourcemanager.security.models.Enforce
     name: Enforce
     no-loc:
@@ -169755,10 +169587,6 @@
     name: EnvironmentType
     no-loc:
     - EnvironmentType
-  - uid: com.azure.resourcemanager.security.models.Etag
-    name: Etag
-    no-loc:
-    - Etag
   - uid: com.azure.resourcemanager.security.models.EventSource
     name: EventSource
     no-loc:
@@ -169795,10 +169623,6 @@
     name: ExternalSecuritySolutionKind
     no-loc:
     - ExternalSecuritySolutionKind
-  - uid: com.azure.resourcemanager.security.models.ExternalSecuritySolutionList
-    name: ExternalSecuritySolutionList
-    no-loc:
-    - ExternalSecuritySolutionList
   - uid: com.azure.resourcemanager.security.models.ExternalSecuritySolutionProperties
     name: ExternalSecuritySolutionProperties
     no-loc:
@@ -169807,18 +169631,10 @@
     name: ExternalSecuritySolutions
     no-loc:
     - ExternalSecuritySolutions
-  - uid: com.azure.resourcemanager.security.models.FailedLocalLoginsNotInAllowedRange
-    name: FailedLocalLoginsNotInAllowedRange
+  - uid: com.azure.resourcemanager.security.models.FilesScanSummary
+    name: FilesScanSummary
     no-loc:
-    - FailedLocalLoginsNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.FileUploadsNotInAllowedRange
-    name: FileUploadsNotInAllowedRange
-    no-loc:
-    - FileUploadsNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.GcpCredentialsDetailsProperties
-    name: GcpCredentialsDetailsProperties
-    no-loc:
-    - GcpCredentialsDetailsProperties
+    - FilesScanSummary
   - uid: com.azure.resourcemanager.security.models.GcpOrganizationalData
     name: GcpOrganizationalData
     no-loc:
@@ -169855,6 +169671,10 @@
     name: GetSensitivitySettingsResponsePropertiesMipInformation
     no-loc:
     - GetSensitivitySettingsResponsePropertiesMipInformation
+  - uid: com.azure.resourcemanager.security.models.GitHubIssues
+    name: GitHubIssues
+    no-loc:
+    - GitHubIssues
   - uid: com.azure.resourcemanager.security.models.GitHubOwner
     name: GitHubOwner
     no-loc:
@@ -169879,10 +169699,6 @@
     name: GitHubRepository
     no-loc:
     - GitHubRepository
-  - uid: com.azure.resourcemanager.security.models.GitHubRepositoryListResponse
-    name: GitHubRepositoryListResponse
-    no-loc:
-    - GitHubRepositoryListResponse
   - uid: com.azure.resourcemanager.security.models.GitHubRepositoryProperties
     name: GitHubRepositoryProperties
     no-loc:
@@ -169907,10 +169723,6 @@
     name: GitLabProject
     no-loc:
     - GitLabProject
-  - uid: com.azure.resourcemanager.security.models.GitLabProjectListResponse
-    name: GitLabProjectListResponse
-    no-loc:
-    - GitLabProjectListResponse
   - uid: com.azure.resourcemanager.security.models.GitLabProjectProperties
     name: GitLabProjectProperties
     no-loc:
@@ -170019,10 +169831,6 @@
     name: GovernanceAssignments
     no-loc:
     - GovernanceAssignments
-  - uid: com.azure.resourcemanager.security.models.GovernanceAssignmentsList
-    name: GovernanceAssignmentsList
-    no-loc:
-    - GovernanceAssignmentsList
   - uid: com.azure.resourcemanager.security.models.GovernanceEmailNotification
     name: GovernanceEmailNotification
     no-loc:
@@ -170175,10 +169983,6 @@
     name: GovernanceRuleEmailNotification
     no-loc:
     - GovernanceRuleEmailNotification
-  - uid: com.azure.resourcemanager.security.models.GovernanceRuleList
-    name: GovernanceRuleList
-    no-loc:
-    - GovernanceRuleList
   - uid: com.azure.resourcemanager.security.models.GovernanceRuleMetadata
     name: GovernanceRuleMetadata
     no-loc:
@@ -170219,34 +170023,18 @@
     name: HealthReport
     no-loc:
     - HealthReport
+  - uid: com.azure.resourcemanager.security.models.HealthReportResourceDetails
+    name: HealthReportResourceDetails
+    no-loc:
+    - HealthReportResourceDetails
+  - uid: com.azure.resourcemanager.security.models.HealthReportStatus
+    name: HealthReportStatus
+    no-loc:
+    - HealthReportStatus
   - uid: com.azure.resourcemanager.security.models.HealthReports
     name: HealthReports
     no-loc:
     - HealthReports
-  - uid: com.azure.resourcemanager.security.models.HealthReportsList
-    name: HealthReportsList
-    no-loc:
-    - HealthReportsList
-  - uid: com.azure.resourcemanager.security.models.HttpC2DMessagesNotInAllowedRange
-    name: HttpC2DMessagesNotInAllowedRange
-    no-loc:
-    - HttpC2DMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.HttpC2DRejectedMessagesNotInAllowedRange
-    name: HttpC2DRejectedMessagesNotInAllowedRange
-    no-loc:
-    - HttpC2DRejectedMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.HttpD2CMessagesNotInAllowedRange
-    name: HttpD2CMessagesNotInAllowedRange
-    no-loc:
-    - HttpD2CMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.HybridComputeProvisioningState
-    name: HybridComputeProvisioningState
-    no-loc:
-    - HybridComputeProvisioningState
-  - uid: com.azure.resourcemanager.security.models.HybridComputeSettingsProperties
-    name: HybridComputeSettingsProperties
-    no-loc:
-    - HybridComputeSettingsProperties
   - uid: com.azure.resourcemanager.security.models.Identity
     name: Identity
     no-loc:
@@ -170315,10 +170103,6 @@
     name: InformationProtectionPolicy.UpdateStages.WithLabels
     no-loc:
     - InformationProtectionPolicy.UpdateStages.WithLabels
-  - uid: com.azure.resourcemanager.security.models.InformationProtectionPolicyList
-    name: InformationProtectionPolicyList
-    no-loc:
-    - InformationProtectionPolicyList
   - uid: com.azure.resourcemanager.security.models.InformationProtectionPolicyName
     name: InformationProtectionPolicyName
     no-loc:
@@ -170339,14 +170123,22 @@
     name: Intent
     no-loc:
     - Intent
+  - uid: com.azure.resourcemanager.security.models.InventoryKind
+    name: InventoryKind
+    no-loc:
+    - InventoryKind
+  - uid: com.azure.resourcemanager.security.models.InventoryList
+    name: InventoryList
+    no-loc:
+    - InventoryList
+  - uid: com.azure.resourcemanager.security.models.InventoryListKind
+    name: InventoryListKind
+    no-loc:
+    - InventoryListKind
   - uid: com.azure.resourcemanager.security.models.IoTSecurityAggregatedAlert
     name: IoTSecurityAggregatedAlert
     no-loc:
     - IoTSecurityAggregatedAlert
-  - uid: com.azure.resourcemanager.security.models.IoTSecurityAggregatedAlertList
-    name: IoTSecurityAggregatedAlertList
-    no-loc:
-    - IoTSecurityAggregatedAlertList
   - uid: com.azure.resourcemanager.security.models.IoTSecurityAggregatedAlertPropertiesTopDevicesListItem
     name: IoTSecurityAggregatedAlertPropertiesTopDevicesListItem
     no-loc:
@@ -170355,10 +170147,6 @@
     name: IoTSecurityAggregatedRecommendation
     no-loc:
     - IoTSecurityAggregatedRecommendation
-  - uid: com.azure.resourcemanager.security.models.IoTSecurityAggregatedRecommendationList
-    name: IoTSecurityAggregatedRecommendationList
-    no-loc:
-    - IoTSecurityAggregatedRecommendationList
   - uid: com.azure.resourcemanager.security.models.IoTSecurityAlertedDevice
     name: IoTSecurityAlertedDevice
     no-loc:
@@ -170475,10 +170263,6 @@
     name: IoTSecuritySolutionModel.UpdateStages.WithUserDefinedResources
     no-loc:
     - IoTSecuritySolutionModel.UpdateStages.WithUserDefinedResources
-  - uid: com.azure.resourcemanager.security.models.IoTSecuritySolutionsList
-    name: IoTSecuritySolutionsList
-    no-loc:
-    - IoTSecuritySolutionsList
   - uid: com.azure.resourcemanager.security.models.IoTSeverityMetrics
     name: IoTSeverityMetrics
     no-loc:
@@ -170507,6 +170291,10 @@
     name: Issue
     no-loc:
     - Issue
+  - uid: com.azure.resourcemanager.security.models.IssueCreationRequest
+    name: IssueCreationRequest
+    no-loc:
+    - IssueCreationRequest
   - uid: com.azure.resourcemanager.security.models.JFrogEnvironmentData
     name: JFrogEnvironmentData
     no-loc:
@@ -170515,10 +170303,6 @@
     name: JitNetworkAccessPolicies
     no-loc:
     - JitNetworkAccessPolicies
-  - uid: com.azure.resourcemanager.security.models.JitNetworkAccessPoliciesList
-    name: JitNetworkAccessPoliciesList
-    no-loc:
-    - JitNetworkAccessPoliciesList
   - uid: com.azure.resourcemanager.security.models.JitNetworkAccessPolicy
     name: JitNetworkAccessPolicy
     no-loc:
@@ -170611,10 +170395,6 @@
     name: Kind
     no-loc:
     - Kind
-  - uid: com.azure.resourcemanager.security.models.KindAutoGenerated
-    name: KindAutoGenerated
-    no-loc:
-    - KindAutoGenerated
   - uid: com.azure.resourcemanager.security.models.Label
     name: Label
     no-loc:
@@ -170623,14 +170403,6 @@
     name: ListCustomAlertRule
     no-loc:
     - ListCustomAlertRule
-  - uid: com.azure.resourcemanager.security.models.LocalUserNotAllowed
-    name: LocalUserNotAllowed
-    no-loc:
-    - LocalUserNotAllowed
-  - uid: com.azure.resourcemanager.security.models.Location
-    name: Location
-    no-loc:
-    - Location
   - uid: com.azure.resourcemanager.security.models.Locations
     name: Locations
     no-loc:
@@ -170675,18 +170447,6 @@
     name: MipIntegrationStatus
     no-loc:
     - MipIntegrationStatus
-  - uid: com.azure.resourcemanager.security.models.MqttC2DMessagesNotInAllowedRange
-    name: MqttC2DMessagesNotInAllowedRange
-    no-loc:
-    - MqttC2DMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.MqttC2DRejectedMessagesNotInAllowedRange
-    name: MqttC2DRejectedMessagesNotInAllowedRange
-    no-loc:
-    - MqttC2DRejectedMessagesNotInAllowedRange
-  - uid: com.azure.resourcemanager.security.models.MqttD2CMessagesNotInAllowedRange
-    name: MqttD2CMessagesNotInAllowedRange
-    no-loc:
-    - MqttD2CMessagesNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.NotificationsSource
     name: NotificationsSource
     no-loc:
@@ -170711,6 +170471,10 @@
     name: OnPremiseSqlResourceDetails
     no-loc:
     - OnPremiseSqlResourceDetails
+  - uid: com.azure.resourcemanager.security.models.OnUploadFilters
+    name: OnUploadFilters
+    no-loc:
+    - OnUploadFilters
   - uid: com.azure.resourcemanager.security.models.OnUploadProperties
     name: OnUploadProperties
     no-loc:
@@ -170727,30 +170491,38 @@
     name: OperationDisplay
     no-loc:
     - OperationDisplay
-  - uid: com.azure.resourcemanager.security.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.security.models.OperationResult
     name: OperationResult
     no-loc:
     - OperationResult
-  - uid: com.azure.resourcemanager.security.models.OperationResultAutoGenerated
-    name: OperationResultAutoGenerated
+  - uid: com.azure.resourcemanager.security.models.OperationResultStatus
+    name: OperationResultStatus
     no-loc:
-    - OperationResultAutoGenerated
+    - OperationResultStatus
+  - uid: com.azure.resourcemanager.security.models.OperationResults
+    name: OperationResults
+    no-loc:
+    - OperationResults
+  - uid: com.azure.resourcemanager.security.models.OperationResultsGetHeaders
+    name: OperationResultsGetHeaders
+    no-loc:
+    - OperationResultsGetHeaders
+  - uid: com.azure.resourcemanager.security.models.OperationResultsGetResponse
+    name: OperationResultsGetResponse
+    no-loc:
+    - OperationResultsGetResponse
   - uid: com.azure.resourcemanager.security.models.OperationStatus
     name: OperationStatus
     no-loc:
     - OperationStatus
-  - uid: com.azure.resourcemanager.security.models.OperationStatusAutoGenerated
-    name: OperationStatusAutoGenerated
-    no-loc:
-    - OperationStatusAutoGenerated
   - uid: com.azure.resourcemanager.security.models.OperationStatusResult
     name: OperationStatusResult
     no-loc:
     - OperationStatusResult
+  - uid: com.azure.resourcemanager.security.models.OperationStatuses
+    name: OperationStatuses
+    no-loc:
+    - OperationStatuses
   - uid: com.azure.resourcemanager.security.models.Operations
     name: Operations
     no-loc:
@@ -170771,10 +170543,6 @@
     name: PartialAssessmentProperties
     no-loc:
     - PartialAssessmentProperties
-  - uid: com.azure.resourcemanager.security.models.PermissionProperty
-    name: PermissionProperty
-    no-loc:
-    - PermissionProperty
   - uid: com.azure.resourcemanager.security.models.Pricing
     name: Pricing
     no-loc:
@@ -170791,10 +170559,138 @@
     name: Pricings
     no-loc:
     - Pricings
-  - uid: com.azure.resourcemanager.security.models.ProcessNotAllowed
-    name: ProcessNotAllowed
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpoint
+    name: PrivateEndpoint
     no-loc:
-    - ProcessNotAllowed
+    - PrivateEndpoint
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection
+    name: PrivateEndpointConnection
+    no-loc:
+    - PrivateEndpointConnection
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.Definition
+    name: PrivateEndpointConnection.Definition
+    no-loc:
+    - PrivateEndpointConnection.Definition
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.DefinitionStages
+    name: PrivateEndpointConnection.DefinitionStages
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.DefinitionStages.Blank
+    name: PrivateEndpointConnection.DefinitionStages.Blank
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.DefinitionStages.WithCreate
+    name: PrivateEndpointConnection.DefinitionStages.WithCreate
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.DefinitionStages.WithParentResource
+    name: PrivateEndpointConnection.DefinitionStages.WithParentResource
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+    name: PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+    name: PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.Update
+    name: PrivateEndpointConnection.Update
+    no-loc:
+    - PrivateEndpointConnection.Update
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.UpdateStages
+    name: PrivateEndpointConnection.UpdateStages
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+    name: PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+    name: PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnectionProvisioningState
+    name: PrivateEndpointConnectionProvisioningState
+    no-loc:
+    - PrivateEndpointConnectionProvisioningState
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointConnections
+    name: PrivateEndpointConnections
+    no-loc:
+    - PrivateEndpointConnections
+  - uid: com.azure.resourcemanager.security.models.PrivateEndpointServiceConnectionStatus
+    name: PrivateEndpointServiceConnectionStatus
+    no-loc:
+    - PrivateEndpointServiceConnectionStatus
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkGroupResource
+    name: PrivateLinkGroupResource
+    no-loc:
+    - PrivateLinkGroupResource
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource
+    name: PrivateLinkResource
+    no-loc:
+    - PrivateLinkResource
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.Definition
+    name: PrivateLinkResource.Definition
+    no-loc:
+    - PrivateLinkResource.Definition
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages
+    name: PrivateLinkResource.DefinitionStages
+    no-loc:
+    - PrivateLinkResource.DefinitionStages
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages.Blank
+    name: PrivateLinkResource.DefinitionStages.Blank
+    no-loc:
+    - PrivateLinkResource.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages.WithCreate
+    name: PrivateLinkResource.DefinitionStages.WithCreate
+    no-loc:
+    - PrivateLinkResource.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages.WithLocation
+    name: PrivateLinkResource.DefinitionStages.WithLocation
+    no-loc:
+    - PrivateLinkResource.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages.WithPublicNetworkAccess
+    name: PrivateLinkResource.DefinitionStages.WithPublicNetworkAccess
+    no-loc:
+    - PrivateLinkResource.DefinitionStages.WithPublicNetworkAccess
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages.WithResourceGroup
+    name: PrivateLinkResource.DefinitionStages.WithResourceGroup
+    no-loc:
+    - PrivateLinkResource.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.DefinitionStages.WithTags
+    name: PrivateLinkResource.DefinitionStages.WithTags
+    no-loc:
+    - PrivateLinkResource.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.Update
+    name: PrivateLinkResource.Update
+    no-loc:
+    - PrivateLinkResource.Update
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.UpdateStages
+    name: PrivateLinkResource.UpdateStages
+    no-loc:
+    - PrivateLinkResource.UpdateStages
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResource.UpdateStages.WithTags
+    name: PrivateLinkResource.UpdateStages.WithTags
+    no-loc:
+    - PrivateLinkResource.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkResources
+    name: PrivateLinkResources
+    no-loc:
+    - PrivateLinkResources
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkServiceConnectionState
+    name: PrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.security.models.PrivateLinkUpdate
+    name: PrivateLinkUpdate
+    no-loc:
+    - PrivateLinkUpdate
+  - uid: com.azure.resourcemanager.security.models.PrivateLinks
+    name: PrivateLinks
+    no-loc:
+    - PrivateLinks
   - uid: com.azure.resourcemanager.security.models.PropertyType
     name: PropertyType
     no-loc:
@@ -170807,18 +170703,14 @@
     name: ProvisioningState
     no-loc:
     - ProvisioningState
-  - uid: com.azure.resourcemanager.security.models.ProxyServerProperties
-    name: ProxyServerProperties
+  - uid: com.azure.resourcemanager.security.models.PublicNetworkAccess
+    name: PublicNetworkAccess
     no-loc:
-    - ProxyServerProperties
+    - PublicNetworkAccess
   - uid: com.azure.resourcemanager.security.models.QueryCheck
     name: QueryCheck
     no-loc:
     - QueryCheck
-  - uid: com.azure.resourcemanager.security.models.QueuePurgesNotInAllowedRange
-    name: QueuePurgesNotInAllowedRange
-    no-loc:
-    - QueuePurgesNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.Rank
     name: Rank
     no-loc:
@@ -170843,10 +170735,6 @@
     name: RegulatoryComplianceAssessment
     no-loc:
     - RegulatoryComplianceAssessment
-  - uid: com.azure.resourcemanager.security.models.RegulatoryComplianceAssessmentList
-    name: RegulatoryComplianceAssessmentList
-    no-loc:
-    - RegulatoryComplianceAssessmentList
   - uid: com.azure.resourcemanager.security.models.RegulatoryComplianceAssessments
     name: RegulatoryComplianceAssessments
     no-loc:
@@ -170855,10 +170743,6 @@
     name: RegulatoryComplianceControl
     no-loc:
     - RegulatoryComplianceControl
-  - uid: com.azure.resourcemanager.security.models.RegulatoryComplianceControlList
-    name: RegulatoryComplianceControlList
-    no-loc:
-    - RegulatoryComplianceControlList
   - uid: com.azure.resourcemanager.security.models.RegulatoryComplianceControls
     name: RegulatoryComplianceControls
     no-loc:
@@ -170867,10 +170751,6 @@
     name: RegulatoryComplianceStandard
     no-loc:
     - RegulatoryComplianceStandard
-  - uid: com.azure.resourcemanager.security.models.RegulatoryComplianceStandardList
-    name: RegulatoryComplianceStandardList
-    no-loc:
-    - RegulatoryComplianceStandardList
   - uid: com.azure.resourcemanager.security.models.RegulatoryComplianceStandards
     name: RegulatoryComplianceStandards
     no-loc:
@@ -170891,10 +170771,6 @@
     name: ResourceDetails
     no-loc:
     - ResourceDetails
-  - uid: com.azure.resourcemanager.security.models.ResourceDetailsAutoGenerated
-    name: ResourceDetailsAutoGenerated
-    no-loc:
-    - ResourceDetailsAutoGenerated
   - uid: com.azure.resourcemanager.security.models.ResourceIdentifier
     name: ResourceIdentifier
     no-loc:
@@ -170915,6 +170791,10 @@
     name: ResourcesCoverageStatus
     no-loc:
     - ResourcesCoverageStatus
+  - uid: com.azure.resourcemanager.security.models.RiskLevel
+    name: RiskLevel
+    no-loc:
+    - RiskLevel
   - uid: com.azure.resourcemanager.security.models.RuleCategory
     name: RuleCategory
     no-loc:
@@ -170939,6 +170819,10 @@
     name: RuleResults.DefinitionStages.WithCreate
     no-loc:
     - RuleResults.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.security.models.RuleResults.DefinitionStages.WithDatabaseName
+    name: RuleResults.DefinitionStages.WithDatabaseName
+    no-loc:
+    - RuleResults.DefinitionStages.WithDatabaseName
   - uid: com.azure.resourcemanager.security.models.RuleResults.DefinitionStages.WithLatestScan
     name: RuleResults.DefinitionStages.WithLatestScan
     no-loc:
@@ -170951,10 +170835,6 @@
     name: RuleResults.DefinitionStages.WithScope
     no-loc:
     - RuleResults.DefinitionStages.WithScope
-  - uid: com.azure.resourcemanager.security.models.RuleResults.DefinitionStages.WithWorkspaceId
-    name: RuleResults.DefinitionStages.WithWorkspaceId
-    no-loc:
-    - RuleResults.DefinitionStages.WithWorkspaceId
   - uid: com.azure.resourcemanager.security.models.RuleResults.Update
     name: RuleResults.Update
     no-loc:
@@ -170963,6 +170843,10 @@
     name: RuleResults.UpdateStages
     no-loc:
     - RuleResults.UpdateStages
+  - uid: com.azure.resourcemanager.security.models.RuleResults.UpdateStages.WithDatabaseName
+    name: RuleResults.UpdateStages.WithDatabaseName
+    no-loc:
+    - RuleResults.UpdateStages.WithDatabaseName
   - uid: com.azure.resourcemanager.security.models.RuleResults.UpdateStages.WithLatestScan
     name: RuleResults.UpdateStages.WithLatestScan
     no-loc:
@@ -170971,10 +170855,6 @@
     name: RuleResults.UpdateStages.WithResults
     no-loc:
     - RuleResults.UpdateStages.WithResults
-  - uid: com.azure.resourcemanager.security.models.RuleResults.UpdateStages.WithWorkspaceId
-    name: RuleResults.UpdateStages.WithWorkspaceId
-    no-loc:
-    - RuleResults.UpdateStages.WithWorkspaceId
   - uid: com.azure.resourcemanager.security.models.RuleResultsInput
     name: RuleResultsInput
     no-loc:
@@ -171007,14 +170887,14 @@
     name: RulesResultsInput
     no-loc:
     - RulesResultsInput
-  - uid: com.azure.resourcemanager.security.models.Scan
-    name: Scan
+  - uid: com.azure.resourcemanager.security.models.ScanOperationStatus
+    name: ScanOperationStatus
     no-loc:
-    - Scan
-  - uid: com.azure.resourcemanager.security.models.ScanProperties
-    name: ScanProperties
+    - ScanOperationStatus
+  - uid: com.azure.resourcemanager.security.models.ScanPropertiesV2
+    name: ScanPropertiesV2
     no-loc:
-    - ScanProperties
+    - ScanPropertiesV2
   - uid: com.azure.resourcemanager.security.models.ScanResult
     name: ScanResult
     no-loc:
@@ -171023,10 +170903,6 @@
     name: ScanResultProperties
     no-loc:
     - ScanResultProperties
-  - uid: com.azure.resourcemanager.security.models.ScanResults
-    name: ScanResults
-    no-loc:
-    - ScanResults
   - uid: com.azure.resourcemanager.security.models.ScanState
     name: ScanState
     no-loc:
@@ -171039,14 +170915,14 @@
     name: ScanTriggerType
     no-loc:
     - ScanTriggerType
+  - uid: com.azure.resourcemanager.security.models.ScanV2
+    name: ScanV2
+    no-loc:
+    - ScanV2
   - uid: com.azure.resourcemanager.security.models.ScanningMode
     name: ScanningMode
     no-loc:
     - ScanningMode
-  - uid: com.azure.resourcemanager.security.models.Scans
-    name: Scans
-    no-loc:
-    - Scans
   - uid: com.azure.resourcemanager.security.models.ScopeElement
     name: ScopeElement
     no-loc:
@@ -171055,10 +170931,6 @@
     name: SecureScoreControlDefinitionItem
     no-loc:
     - SecureScoreControlDefinitionItem
-  - uid: com.azure.resourcemanager.security.models.SecureScoreControlDefinitionList
-    name: SecureScoreControlDefinitionList
-    no-loc:
-    - SecureScoreControlDefinitionList
   - uid: com.azure.resourcemanager.security.models.SecureScoreControlDefinitionSource
     name: SecureScoreControlDefinitionSource
     no-loc:
@@ -171071,10 +170943,6 @@
     name: SecureScoreControlDetails
     no-loc:
     - SecureScoreControlDetails
-  - uid: com.azure.resourcemanager.security.models.SecureScoreControlList
-    name: SecureScoreControlList
-    no-loc:
-    - SecureScoreControlList
   - uid: com.azure.resourcemanager.security.models.SecureScoreControlScoreDetails
     name: SecureScoreControlScoreDetails
     no-loc:
@@ -171091,22 +170959,18 @@
     name: SecureScores
     no-loc:
     - SecureScores
-  - uid: com.azure.resourcemanager.security.models.SecureScoresList
-    name: SecureScoresList
-    no-loc:
-    - SecureScoresList
   - uid: com.azure.resourcemanager.security.models.SecurityAssessment
     name: SecurityAssessment
     no-loc:
     - SecurityAssessment
-  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentList
-    name: SecurityAssessmentList
-    no-loc:
-    - SecurityAssessmentList
   - uid: com.azure.resourcemanager.security.models.SecurityAssessmentMetadataPartnerData
     name: SecurityAssessmentMetadataPartnerData
     no-loc:
     - SecurityAssessmentMetadataPartnerData
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentMetadataProperties
+    name: SecurityAssessmentMetadataProperties
+    no-loc:
+    - SecurityAssessmentMetadataProperties
   - uid: com.azure.resourcemanager.security.models.SecurityAssessmentMetadataPropertiesResponsePublishDates
     name: SecurityAssessmentMetadataPropertiesResponsePublishDates
     no-loc:
@@ -171191,10 +171055,6 @@
     name: SecurityAssessmentMetadataResponse.DefinitionStages.WithUserImpact
     no-loc:
     - SecurityAssessmentMetadataResponse.DefinitionStages.WithUserImpact
-  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentMetadataResponseList
-    name: SecurityAssessmentMetadataResponseList
-    no-loc:
-    - SecurityAssessmentMetadataResponseList
   - uid: com.azure.resourcemanager.security.models.SecurityAssessmentPartnerData
     name: SecurityAssessmentPartnerData
     no-loc:
@@ -171203,6 +171063,22 @@
     name: SecurityAssessmentPropertiesBase
     no-loc:
     - SecurityAssessmentPropertiesBase
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentPropertiesBaseRisk
+    name: SecurityAssessmentPropertiesBaseRisk
+    no-loc:
+    - SecurityAssessmentPropertiesBaseRisk
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentPropertiesBaseRiskPathsItem
+    name: SecurityAssessmentPropertiesBaseRiskPathsItem
+    no-loc:
+    - SecurityAssessmentPropertiesBaseRiskPathsItem
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentPropertiesBaseRiskPathsItemEdge
+    name: SecurityAssessmentPropertiesBaseRiskPathsItemEdge
+    no-loc:
+    - SecurityAssessmentPropertiesBaseRiskPathsItemEdge
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentPropertiesBaseRiskPathsPropertiesItemsItem
+    name: SecurityAssessmentPropertiesBaseRiskPathsPropertiesItemsItem
+    no-loc:
+    - SecurityAssessmentPropertiesBaseRiskPathsPropertiesItemsItem
   - uid: com.azure.resourcemanager.security.models.SecurityAssessmentResponse
     name: SecurityAssessmentResponse
     no-loc:
@@ -171239,6 +171115,10 @@
     name: SecurityAssessmentResponse.DefinitionStages.WithResourceDetails
     no-loc:
     - SecurityAssessmentResponse.DefinitionStages.WithResourceDetails
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentResponse.DefinitionStages.WithRisk
+    name: SecurityAssessmentResponse.DefinitionStages.WithRisk
+    no-loc:
+    - SecurityAssessmentResponse.DefinitionStages.WithRisk
   - uid: com.azure.resourcemanager.security.models.SecurityAssessmentResponse.DefinitionStages.WithScope
     name: SecurityAssessmentResponse.DefinitionStages.WithScope
     no-loc:
@@ -171271,6 +171151,10 @@
     name: SecurityAssessmentResponse.UpdateStages.WithResourceDetails
     no-loc:
     - SecurityAssessmentResponse.UpdateStages.WithResourceDetails
+  - uid: com.azure.resourcemanager.security.models.SecurityAssessmentResponse.UpdateStages.WithRisk
+    name: SecurityAssessmentResponse.UpdateStages.WithRisk
+    no-loc:
+    - SecurityAssessmentResponse.UpdateStages.WithRisk
   - uid: com.azure.resourcemanager.security.models.SecurityAssessmentResponse.UpdateStages.WithStatus
     name: SecurityAssessmentResponse.UpdateStages.WithStatus
     no-loc:
@@ -171303,10 +171187,18 @@
     name: SecurityConnector.DefinitionStages.WithEnvironmentName
     no-loc:
     - SecurityConnector.DefinitionStages.WithEnvironmentName
+  - uid: com.azure.resourcemanager.security.models.SecurityConnector.DefinitionStages.WithEtag
+    name: SecurityConnector.DefinitionStages.WithEtag
+    no-loc:
+    - SecurityConnector.DefinitionStages.WithEtag
   - uid: com.azure.resourcemanager.security.models.SecurityConnector.DefinitionStages.WithHierarchyIdentifier
     name: SecurityConnector.DefinitionStages.WithHierarchyIdentifier
     no-loc:
     - SecurityConnector.DefinitionStages.WithHierarchyIdentifier
+  - uid: com.azure.resourcemanager.security.models.SecurityConnector.DefinitionStages.WithKind
+    name: SecurityConnector.DefinitionStages.WithKind
+    no-loc:
+    - SecurityConnector.DefinitionStages.WithKind
   - uid: com.azure.resourcemanager.security.models.SecurityConnector.DefinitionStages.WithLocation
     name: SecurityConnector.DefinitionStages.WithLocation
     no-loc:
@@ -171339,10 +171231,18 @@
     name: SecurityConnector.UpdateStages.WithEnvironmentName
     no-loc:
     - SecurityConnector.UpdateStages.WithEnvironmentName
+  - uid: com.azure.resourcemanager.security.models.SecurityConnector.UpdateStages.WithEtag
+    name: SecurityConnector.UpdateStages.WithEtag
+    no-loc:
+    - SecurityConnector.UpdateStages.WithEtag
   - uid: com.azure.resourcemanager.security.models.SecurityConnector.UpdateStages.WithHierarchyIdentifier
     name: SecurityConnector.UpdateStages.WithHierarchyIdentifier
     no-loc:
     - SecurityConnector.UpdateStages.WithHierarchyIdentifier
+  - uid: com.azure.resourcemanager.security.models.SecurityConnector.UpdateStages.WithKind
+    name: SecurityConnector.UpdateStages.WithKind
+    no-loc:
+    - SecurityConnector.UpdateStages.WithKind
   - uid: com.azure.resourcemanager.security.models.SecurityConnector.UpdateStages.WithOfferings
     name: SecurityConnector.UpdateStages.WithOfferings
     no-loc:
@@ -171351,10 +171251,6 @@
     name: SecurityConnector.UpdateStages.WithTags
     no-loc:
     - SecurityConnector.UpdateStages.WithTags
-  - uid: com.azure.resourcemanager.security.models.SecurityConnectorApplicationOperations
-    name: SecurityConnectorApplicationOperations
-    no-loc:
-    - SecurityConnectorApplicationOperations
   - uid: com.azure.resourcemanager.security.models.SecurityConnectorApplications
     name: SecurityConnectorApplications
     no-loc:
@@ -171363,10 +171259,6 @@
     name: SecurityConnectors
     no-loc:
     - SecurityConnectors
-  - uid: com.azure.resourcemanager.security.models.SecurityConnectorsList
-    name: SecurityConnectorsList
-    no-loc:
-    - SecurityConnectorsList
   - uid: com.azure.resourcemanager.security.models.SecurityContact
     name: SecurityContact
     no-loc:
@@ -171407,10 +171299,6 @@
     name: SecurityContact.DefinitionStages.WithPhone
     no-loc:
     - SecurityContact.DefinitionStages.WithPhone
-  - uid: com.azure.resourcemanager.security.models.SecurityContactList
-    name: SecurityContactList
-    no-loc:
-    - SecurityContactList
   - uid: com.azure.resourcemanager.security.models.SecurityContactName
     name: SecurityContactName
     no-loc:
@@ -171439,10 +171327,6 @@
     name: SecurityOperator
     no-loc:
     - SecurityOperator
-  - uid: com.azure.resourcemanager.security.models.SecurityOperatorList
-    name: SecurityOperatorList
-    no-loc:
-    - SecurityOperatorList
   - uid: com.azure.resourcemanager.security.models.SecurityOperators
     name: SecurityOperators
     no-loc:
@@ -171451,10 +171335,6 @@
     name: SecuritySolution
     no-loc:
     - SecuritySolution
-  - uid: com.azure.resourcemanager.security.models.SecuritySolutionList
-    name: SecuritySolutionList
-    no-loc:
-    - SecuritySolutionList
   - uid: com.azure.resourcemanager.security.models.SecuritySolutionStatus
     name: SecuritySolutionStatus
     no-loc:
@@ -171555,10 +171435,6 @@
     name: SecurityStandard.UpdateStages.WithPolicySetDefinitionId
     no-loc:
     - SecurityStandard.UpdateStages.WithPolicySetDefinitionId
-  - uid: com.azure.resourcemanager.security.models.SecurityStandardList
-    name: SecurityStandardList
-    no-loc:
-    - SecurityStandardList
   - uid: com.azure.resourcemanager.security.models.SecurityStandards
     name: SecurityStandards
     no-loc:
@@ -171567,18 +171443,10 @@
     name: SecuritySubAssessment
     no-loc:
     - SecuritySubAssessment
-  - uid: com.azure.resourcemanager.security.models.SecuritySubAssessmentList
-    name: SecuritySubAssessmentList
-    no-loc:
-    - SecuritySubAssessmentList
   - uid: com.azure.resourcemanager.security.models.SecurityTask
     name: SecurityTask
     no-loc:
     - SecurityTask
-  - uid: com.azure.resourcemanager.security.models.SecurityTaskList
-    name: SecurityTaskList
-    no-loc:
-    - SecurityTaskList
   - uid: com.azure.resourcemanager.security.models.SecurityTaskParameters
     name: SecurityTaskParameters
     no-loc:
@@ -171627,22 +171495,18 @@
     name: ServerVulnerabilityAssessmentsSettingKindName
     no-loc:
     - ServerVulnerabilityAssessmentsSettingKindName
+  - uid: com.azure.resourcemanager.security.models.ServerVulnerabilityAssessmentsSettingProperties
+    name: ServerVulnerabilityAssessmentsSettingProperties
+    no-loc:
+    - ServerVulnerabilityAssessmentsSettingProperties
   - uid: com.azure.resourcemanager.security.models.ServerVulnerabilityAssessmentsSettings
     name: ServerVulnerabilityAssessmentsSettings
     no-loc:
     - ServerVulnerabilityAssessmentsSettings
-  - uid: com.azure.resourcemanager.security.models.ServerVulnerabilityAssessmentsSettingsList
-    name: ServerVulnerabilityAssessmentsSettingsList
-    no-loc:
-    - ServerVulnerabilityAssessmentsSettingsList
   - uid: com.azure.resourcemanager.security.models.ServerVulnerabilityProperties
     name: ServerVulnerabilityProperties
     no-loc:
     - ServerVulnerabilityProperties
-  - uid: com.azure.resourcemanager.security.models.ServicePrincipalProperties
-    name: ServicePrincipalProperties
-    no-loc:
-    - ServicePrincipalProperties
   - uid: com.azure.resourcemanager.security.models.Setting
     name: Setting
     no-loc:
@@ -171655,18 +171519,14 @@
     name: SettingName
     no-loc:
     - SettingName
-  - uid: com.azure.resourcemanager.security.models.SettingNameAutoGenerated
-    name: SettingNameAutoGenerated
+  - uid: com.azure.resourcemanager.security.models.SettingProperties
+    name: SettingProperties
     no-loc:
-    - SettingNameAutoGenerated
+    - SettingProperties
   - uid: com.azure.resourcemanager.security.models.Settings
     name: Settings
     no-loc:
     - Settings
-  - uid: com.azure.resourcemanager.security.models.SettingsList
-    name: SettingsList
-    no-loc:
-    - SettingsList
   - uid: com.azure.resourcemanager.security.models.Severity
     name: Severity
     no-loc:
@@ -171675,18 +171535,6 @@
     name: SeverityEnum
     no-loc:
     - SeverityEnum
-  - uid: com.azure.resourcemanager.security.models.Software
-    name: Software
-    no-loc:
-    - Software
-  - uid: com.azure.resourcemanager.security.models.SoftwareInventories
-    name: SoftwareInventories
-    no-loc:
-    - SoftwareInventories
-  - uid: com.azure.resourcemanager.security.models.SoftwaresList
-    name: SoftwaresList
-    no-loc:
-    - SoftwaresList
   - uid: com.azure.resourcemanager.security.models.Source
     name: Source
     no-loc:
@@ -171703,6 +171551,14 @@
     name: SqlVulnerabilityAssessmentBaselineRules
     no-loc:
     - SqlVulnerabilityAssessmentBaselineRules
+  - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentScanOperationResult
+    name: SqlVulnerabilityAssessmentScanOperationResult
+    no-loc:
+    - SqlVulnerabilityAssessmentScanOperationResult
+  - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentScanOperationResultProperties
+    name: SqlVulnerabilityAssessmentScanOperationResultProperties
+    no-loc:
+    - SqlVulnerabilityAssessmentScanOperationResultProperties
   - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentScanResults
     name: SqlVulnerabilityAssessmentScanResults
     no-loc:
@@ -171711,6 +171567,122 @@
     name: SqlVulnerabilityAssessmentScans
     no-loc:
     - SqlVulnerabilityAssessmentScans
+  - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentSettings
+    name: SqlVulnerabilityAssessmentSettings
+    no-loc:
+    - SqlVulnerabilityAssessmentSettings
+  - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentSettingsOperations
+    name: SqlVulnerabilityAssessmentSettingsOperations
+    no-loc:
+    - SqlVulnerabilityAssessmentSettingsOperations
+  - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentSettingsProperties
+    name: SqlVulnerabilityAssessmentSettingsProperties
+    no-loc:
+    - SqlVulnerabilityAssessmentSettingsProperties
+  - uid: com.azure.resourcemanager.security.models.SqlVulnerabilityAssessmentState
+    name: SqlVulnerabilityAssessmentState
+    no-loc:
+    - SqlVulnerabilityAssessmentState
+  - uid: com.azure.resourcemanager.security.models.Standard
+    name: Standard
+    no-loc:
+    - Standard
+  - uid: com.azure.resourcemanager.security.models.Standard.Definition
+    name: Standard.Definition
+    no-loc:
+    - Standard.Definition
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages
+    name: Standard.DefinitionStages
+    no-loc:
+    - Standard.DefinitionStages
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.Blank
+    name: Standard.DefinitionStages.Blank
+    no-loc:
+    - Standard.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithCategory
+    name: Standard.DefinitionStages.WithCategory
+    no-loc:
+    - Standard.DefinitionStages.WithCategory
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithComponents
+    name: Standard.DefinitionStages.WithComponents
+    no-loc:
+    - Standard.DefinitionStages.WithComponents
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithCreate
+    name: Standard.DefinitionStages.WithCreate
+    no-loc:
+    - Standard.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithDescription
+    name: Standard.DefinitionStages.WithDescription
+    no-loc:
+    - Standard.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithDisplayName
+    name: Standard.DefinitionStages.WithDisplayName
+    no-loc:
+    - Standard.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithEtag
+    name: Standard.DefinitionStages.WithEtag
+    no-loc:
+    - Standard.DefinitionStages.WithEtag
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithKind
+    name: Standard.DefinitionStages.WithKind
+    no-loc:
+    - Standard.DefinitionStages.WithKind
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithLocation
+    name: Standard.DefinitionStages.WithLocation
+    no-loc:
+    - Standard.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithResourceGroup
+    name: Standard.DefinitionStages.WithResourceGroup
+    no-loc:
+    - Standard.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithSupportedClouds
+    name: Standard.DefinitionStages.WithSupportedClouds
+    no-loc:
+    - Standard.DefinitionStages.WithSupportedClouds
+  - uid: com.azure.resourcemanager.security.models.Standard.DefinitionStages.WithTags
+    name: Standard.DefinitionStages.WithTags
+    no-loc:
+    - Standard.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.security.models.Standard.Update
+    name: Standard.Update
+    no-loc:
+    - Standard.Update
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages
+    name: Standard.UpdateStages
+    no-loc:
+    - Standard.UpdateStages
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithCategory
+    name: Standard.UpdateStages.WithCategory
+    no-loc:
+    - Standard.UpdateStages.WithCategory
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithComponents
+    name: Standard.UpdateStages.WithComponents
+    no-loc:
+    - Standard.UpdateStages.WithComponents
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithDescription
+    name: Standard.UpdateStages.WithDescription
+    no-loc:
+    - Standard.UpdateStages.WithDescription
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithDisplayName
+    name: Standard.UpdateStages.WithDisplayName
+    no-loc:
+    - Standard.UpdateStages.WithDisplayName
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithEtag
+    name: Standard.UpdateStages.WithEtag
+    no-loc:
+    - Standard.UpdateStages.WithEtag
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithKind
+    name: Standard.UpdateStages.WithKind
+    no-loc:
+    - Standard.UpdateStages.WithKind
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithSupportedClouds
+    name: Standard.UpdateStages.WithSupportedClouds
+    no-loc:
+    - Standard.UpdateStages.WithSupportedClouds
+  - uid: com.azure.resourcemanager.security.models.Standard.UpdateStages.WithTags
+    name: Standard.UpdateStages.WithTags
+    no-loc:
+    - Standard.UpdateStages.WithTags
   - uid: com.azure.resourcemanager.security.models.StandardAssignment
     name: StandardAssignment
     no-loc:
@@ -171787,10 +171759,10 @@
     name: StandardAssignments
     no-loc:
     - StandardAssignments
-  - uid: com.azure.resourcemanager.security.models.StandardAssignmentsList
-    name: StandardAssignmentsList
+  - uid: com.azure.resourcemanager.security.models.StandardComponentProperties
+    name: StandardComponentProperties
     no-loc:
-    - StandardAssignmentsList
+    - StandardComponentProperties
   - uid: com.azure.resourcemanager.security.models.StandardMetadata
     name: StandardMetadata
     no-loc:
@@ -171799,10 +171771,18 @@
     name: StandardSupportedCloud
     no-loc:
     - StandardSupportedCloud
+  - uid: com.azure.resourcemanager.security.models.StandardSupportedClouds
+    name: StandardSupportedClouds
+    no-loc:
+    - StandardSupportedClouds
   - uid: com.azure.resourcemanager.security.models.StandardType
     name: StandardType
     no-loc:
     - StandardType
+  - uid: com.azure.resourcemanager.security.models.Standards
+    name: Standards
+    no-loc:
+    - Standards
   - uid: com.azure.resourcemanager.security.models.State
     name: State
     no-loc:
@@ -171811,10 +171791,6 @@
     name: Status
     no-loc:
     - Status
-  - uid: com.azure.resourcemanager.security.models.StatusAutoGenerated
-    name: StatusAutoGenerated
-    no-loc:
-    - StatusAutoGenerated
   - uid: com.azure.resourcemanager.security.models.StatusName
     name: StatusName
     no-loc:
@@ -171839,10 +171815,6 @@
     name: SubPlan
     no-loc:
     - SubPlan
-  - uid: com.azure.resourcemanager.security.models.SupportedCloudEnum
-    name: SupportedCloudEnum
-    no-loc:
-    - SupportedCloudEnum
   - uid: com.azure.resourcemanager.security.models.SuppressionAlertsScope
     name: SuppressionAlertsScope
     no-loc:
@@ -171891,10 +171863,6 @@
     name: Topologies
     no-loc:
     - Topologies
-  - uid: com.azure.resourcemanager.security.models.TopologyList
-    name: TopologyList
-    no-loc:
-    - TopologyList
   - uid: com.azure.resourcemanager.security.models.TopologyResource
     name: TopologyResource
     no-loc:
@@ -171911,22 +171879,10 @@
     name: TopologySingleResourceParent
     no-loc:
     - TopologySingleResourceParent
-  - uid: com.azure.resourcemanager.security.models.TrackedResource
-    name: TrackedResource
-    no-loc:
-    - TrackedResource
-  - uid: com.azure.resourcemanager.security.models.TwinUpdatesNotInAllowedRange
-    name: TwinUpdatesNotInAllowedRange
-    no-loc:
-    - TwinUpdatesNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.Type
     name: Type
     no-loc:
     - Type
-  - uid: com.azure.resourcemanager.security.models.UnauthorizedOperationsNotInAllowedRange
-    name: UnauthorizedOperationsNotInAllowedRange
-    no-loc:
-    - UnauthorizedOperationsNotInAllowedRange
   - uid: com.azure.resourcemanager.security.models.UnmaskedIpLoggingStatus
     name: UnmaskedIpLoggingStatus
     no-loc:
@@ -172019,10 +171975,6 @@
     name: WorkspaceSetting.UpdateStages.WithWorkspaceId
     no-loc:
     - WorkspaceSetting.UpdateStages.WithWorkspaceId
-  - uid: com.azure.resourcemanager.security.models.WorkspaceSettingList
-    name: WorkspaceSettingList
-    no-loc:
-    - WorkspaceSettingList
   - uid: com.azure.resourcemanager.security.models.WorkspaceSettings
     name: WorkspaceSettings
     no-loc:
