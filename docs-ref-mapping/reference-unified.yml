@@ -1759,7 +1759,6 @@
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: CloudNative CloudEvents with Event Grid  (deprecated)
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-cloudnative-cloudevents-readme.md
@@ -1773,7 +1772,6 @@
     - name: System Events
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-systemevents-readme.md
       children:
-      - com.azure.messaging.eventgrid
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
@@ -3045,6 +3043,19 @@
         - com.azure.resourcemanager.mysqlflexibleserver.fluent
         - com.azure.resourcemanager.mysqlflexibleserver.fluent.models
         - com.azure.resourcemanager.mysqlflexibleserver.models
+  - name: Napsteromniagentapi
+    href: ~/docs-ref-services/{moniker}/napsteromniagentapi.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Napsteromniagentapi
+        href: ~/docs-ref-services/{moniker}/resourcemanager-napsteromniagentapi-readme.md
+        children:
+        - com.azure.resourcemanager.napsteromniagentapi
+        - com.azure.resourcemanager.napsteromniagentapi.fluent
+        - com.azure.resourcemanager.napsteromniagentapi.fluent.models
+        - com.azure.resourcemanager.napsteromniagentapi.models
   - name: Neon Postgres
     href: ~/docs-ref-services/{moniker}/neon-postgres.md
     landingPageType: Service
