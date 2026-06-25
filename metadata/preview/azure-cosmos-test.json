@@ -1,7 +1,7 @@
 {
   "Name": "azure-cosmos-test",
-  "Version": "1.0.0-beta.18",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260625.2",
+  "DevVersion": "1.0.0-alpha.20260625.2",
   "DirectoryPath": "sdk/cosmos/azure-cosmos-test",
   "ServiceDirectory": "cosmos",
   "ReadMePath": "sdk/cosmos/azure-cosmos-test/README.md",
@@ -10,21 +10,22 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-cosmos-test",
-  "ReleaseStatus": "2026-03-27",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-cosmos-tests",
     "com.azure:azure-cosmos-benchmark",
     "com.azure.cosmos.spark:azure-cosmos-spark_3",
-    "com.azure.cosmos.spark:azure-cosmos-spark_3-5"
+    "com.azure.cosmos.spark:azure-cosmos-spark_3-5",
+    "com.azure.cosmos.spark:azure-cosmos-spark_4"
   ],
   "ArtifactDetails": {
+    "safeName": "azurecosmostest",
     "triggeringPaths": [
       "/sdk/cosmos/ci.yml"
     ],
-    "safeName": "azurecosmostest",
-    "groupId": "com.azure",
     "name": "azure-cosmos-test",
+    "groupId": "com.azure",
     "releaseInBatch": "${{ parameters.release_azurecosmostest }}"
   },
   "CIParameters": {
