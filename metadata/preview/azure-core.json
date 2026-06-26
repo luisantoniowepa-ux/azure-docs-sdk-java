@@ -1,15 +1,15 @@
 {
-  "Name": "azure-core-experimental",
-  "Version": "1.0.0-alpha.20260626.1",
-  "DevVersion": "1.0.0-alpha.20260626.1",
-  "DirectoryPath": "sdk/core/azure-core-experimental",
+  "Name": "azure-core",
+  "Version": "1.59.0-alpha.20260626.1",
+  "DevVersion": "1.59.0-alpha.20260626.1",
+  "DirectoryPath": "sdk/core/azure-core",
   "ServiceDirectory": "core",
-  "ReadMePath": "sdk/core/azure-core-experimental/README.md",
-  "ChangeLogPath": "sdk/core/azure-core-experimental/CHANGELOG.md",
+  "ReadMePath": "sdk/core/azure-core/README.md",
+  "ChangeLogPath": "sdk/core/azure-core/CHANGELOG.md",
   "Group": "com.azure",
   "SdkType": "client",
   "IsNewSdk": true,
-  "ArtifactName": "azure-core-experimental",
+  "ArtifactName": "azure-core",
   "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
@@ -18,11 +18,13 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "name": "azure-core-experimental",
-    "safeName": "azurecoreexperimental",
-    "releaseInBatch": "${{ parameters.release_azurecoreexperimental }}",
+    "name": "azure-core",
+    "safeName": "azurecore",
+    "releaseInBatch": "${{ parameters.release_azurecore }}",
     "groupId": "com.azure",
     "triggeringPaths": [
+      "/sdk/parents/azure-sdk-parent",
+      "/sdk/parents/azure-client-sdk-parent",
       "/sdk/core/ci.yml"
     ]
   },
@@ -53,19 +55,23 @@
   },
   "SpecProjectPath": null,
   "Namespaces": [
-    "com.azure.core.experimental.http",
-    "com.azure.core.experimental.models",
-    "com.azure.core.experimental.serializer",
-    "com.azure.core.experimental.util.polling",
-    "com.azure.core.experimental.util.tracing"
-  ],
-  "CIMatrixConfigs": [
-    {
-      "Path": "eng/pipelines/templates/stages/platform-matrix.json",
-      "NonSparseParameters": "Agent",
-      "Name": "Java_ci_test_base",
-      "GenerateVMJobs": true,
-      "Selection": "sparse"
-    }
+    "com.azure.core.annotation",
+    "com.azure.core.client.traits",
+    "com.azure.core.credential",
+    "com.azure.core.cryptography",
+    "com.azure.core.exception",
+    "com.azure.core.http",
+    "com.azure.core.http.policy",
+    "com.azure.core.http.rest",
+    "com.azure.core.models",
+    "com.azure.core.util",
+    "com.azure.core.util.builder",
+    "com.azure.core.util.io",
+    "com.azure.core.util.logging",
+    "com.azure.core.util.metrics",
+    "com.azure.core.util.paging",
+    "com.azure.core.util.polling",
+    "com.azure.core.util.serializer",
+    "com.azure.core.util.tracing"
   ]
 }
