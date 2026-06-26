@@ -21393,14 +21393,6 @@
     name: DeferOptions
     no-loc:
     - DeferOptions
-  - uid: com.azure.messaging.servicebus.models.DeleteMessagesOptions
-    name: DeleteMessagesOptions
-    no-loc:
-    - DeleteMessagesOptions
-  - uid: com.azure.messaging.servicebus.models.PurgeMessagesOptions
-    name: PurgeMessagesOptions
-    no-loc:
-    - PurgeMessagesOptions
   - uid: com.azure.messaging.servicebus.models.ServiceBusMessageState
     name: ServiceBusMessageState
     no-loc:
@@ -36988,6 +36980,278 @@
     - UserDetails
   no-loc:
   - com.azure.resourcemanager.arizeaiobservabilityeval.models
+- uid: com.azure.resourcemanager.artifactsigning
+  name: com.azure.resourcemanager.artifactsigning
+  items:
+  - uid: com.azure.resourcemanager.artifactsigning.ArtifactSigningManager
+    name: ArtifactSigningManager
+    no-loc:
+    - ArtifactSigningManager
+  - uid: com.azure.resourcemanager.artifactsigning.ArtifactSigningManager.Configurable
+    name: ArtifactSigningManager.Configurable
+    no-loc:
+    - ArtifactSigningManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.artifactsigning
+- uid: com.azure.resourcemanager.artifactsigning.fluent
+  name: com.azure.resourcemanager.artifactsigning.fluent
+  items:
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.ArtifactSigningManagementClient
+    name: ArtifactSigningManagementClient
+    no-loc:
+    - ArtifactSigningManagementClient
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.CertificateProfilesClient
+    name: CertificateProfilesClient
+    no-loc:
+    - CertificateProfilesClient
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.CodeSigningAccountsClient
+    name: CodeSigningAccountsClient
+    no-loc:
+    - CodeSigningAccountsClient
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  no-loc:
+  - com.azure.resourcemanager.artifactsigning.fluent
+- uid: com.azure.resourcemanager.artifactsigning.fluent.models
+  name: com.azure.resourcemanager.artifactsigning.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.CertificateProfileInner
+    name: CertificateProfileInner
+    no-loc:
+    - CertificateProfileInner
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.CertificateProfileProperties
+    name: CertificateProfileProperties
+    no-loc:
+    - CertificateProfileProperties
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.CheckNameAvailabilityResultInner
+    name: CheckNameAvailabilityResultInner
+    no-loc:
+    - CheckNameAvailabilityResultInner
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.CodeSigningAccountInner
+    name: CodeSigningAccountInner
+    no-loc:
+    - CodeSigningAccountInner
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.CodeSigningAccountPatchProperties
+    name: CodeSigningAccountPatchProperties
+    no-loc:
+    - CodeSigningAccountPatchProperties
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.CodeSigningAccountProperties
+    name: CodeSigningAccountProperties
+    no-loc:
+    - CodeSigningAccountProperties
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.artifactsigning.fluent.models.Revocation
+    name: Revocation
+    no-loc:
+    - Revocation
+  no-loc:
+  - com.azure.resourcemanager.artifactsigning.fluent.models
+- uid: com.azure.resourcemanager.artifactsigning.models
+  name: com.azure.resourcemanager.artifactsigning.models
+  items:
+  - uid: com.azure.resourcemanager.artifactsigning.models.AccountSku
+    name: AccountSku
+    no-loc:
+    - AccountSku
+  - uid: com.azure.resourcemanager.artifactsigning.models.AccountSkuPatch
+    name: AccountSkuPatch
+    no-loc:
+    - AccountSkuPatch
+  - uid: com.azure.resourcemanager.artifactsigning.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.artifactsigning.models.Certificate
+    name: Certificate
+    no-loc:
+    - Certificate
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile
+    name: CertificateProfile
+    no-loc:
+    - CertificateProfile
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.Definition
+    name: CertificateProfile.Definition
+    no-loc:
+    - CertificateProfile.Definition
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages
+    name: CertificateProfile.DefinitionStages
+    no-loc:
+    - CertificateProfile.DefinitionStages
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.Blank
+    name: CertificateProfile.DefinitionStages.Blank
+    no-loc:
+    - CertificateProfile.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate
+    name: CertificateProfile.DefinitionStages.WithCreate
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId
+    name: CertificateProfile.DefinitionStages.WithIdentityValidationId
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithIdentityValidationId
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity
+    name: CertificateProfile.DefinitionStages.WithIncludeCity
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithIncludeCity
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCountry
+    name: CertificateProfile.DefinitionStages.WithIncludeCountry
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithIncludeCountry
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode
+    name: CertificateProfile.DefinitionStages.WithIncludePostalCode
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithIncludePostalCode
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState
+    name: CertificateProfile.DefinitionStages.WithIncludeState
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithIncludeState
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress
+    name: CertificateProfile.DefinitionStages.WithIncludeStreetAddress
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithIncludeStreetAddress
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithParentResource
+    name: CertificateProfile.DefinitionStages.WithParentResource
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType
+    name: CertificateProfile.DefinitionStages.WithProfileType
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithProfileType
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProgramType
+    name: CertificateProfile.DefinitionStages.WithProgramType
+    no-loc:
+    - CertificateProfile.DefinitionStages.WithProgramType
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfileStatus
+    name: CertificateProfileStatus
+    no-loc:
+    - CertificateProfileStatus
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateProfiles
+    name: CertificateProfiles
+    no-loc:
+    - CertificateProfiles
+  - uid: com.azure.resourcemanager.artifactsigning.models.CertificateStatus
+    name: CertificateStatus
+    no-loc:
+    - CertificateStatus
+  - uid: com.azure.resourcemanager.artifactsigning.models.CheckNameAvailability
+    name: CheckNameAvailability
+    no-loc:
+    - CheckNameAvailability
+  - uid: com.azure.resourcemanager.artifactsigning.models.CheckNameAvailabilityResult
+    name: CheckNameAvailabilityResult
+    no-loc:
+    - CheckNameAvailabilityResult
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount
+    name: CodeSigningAccount
+    no-loc:
+    - CodeSigningAccount
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.Definition
+    name: CodeSigningAccount.Definition
+    no-loc:
+    - CodeSigningAccount.Definition
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages
+    name: CodeSigningAccount.DefinitionStages
+    no-loc:
+    - CodeSigningAccount.DefinitionStages
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.Blank
+    name: CodeSigningAccount.DefinitionStages.Blank
+    no-loc:
+    - CodeSigningAccount.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithCreate
+    name: CodeSigningAccount.DefinitionStages.WithCreate
+    no-loc:
+    - CodeSigningAccount.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithLocation
+    name: CodeSigningAccount.DefinitionStages.WithLocation
+    no-loc:
+    - CodeSigningAccount.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithResourceGroup
+    name: CodeSigningAccount.DefinitionStages.WithResourceGroup
+    no-loc:
+    - CodeSigningAccount.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithSku
+    name: CodeSigningAccount.DefinitionStages.WithSku
+    no-loc:
+    - CodeSigningAccount.DefinitionStages.WithSku
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithTags
+    name: CodeSigningAccount.DefinitionStages.WithTags
+    no-loc:
+    - CodeSigningAccount.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.Update
+    name: CodeSigningAccount.Update
+    no-loc:
+    - CodeSigningAccount.Update
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages
+    name: CodeSigningAccount.UpdateStages
+    no-loc:
+    - CodeSigningAccount.UpdateStages
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages.WithSku
+    name: CodeSigningAccount.UpdateStages.WithSku
+    no-loc:
+    - CodeSigningAccount.UpdateStages.WithSku
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages.WithTags
+    name: CodeSigningAccount.UpdateStages.WithTags
+    no-loc:
+    - CodeSigningAccount.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccountPatch
+    name: CodeSigningAccountPatch
+    no-loc:
+    - CodeSigningAccountPatch
+  - uid: com.azure.resourcemanager.artifactsigning.models.CodeSigningAccounts
+    name: CodeSigningAccounts
+    no-loc:
+    - CodeSigningAccounts
+  - uid: com.azure.resourcemanager.artifactsigning.models.NameUnavailabilityReason
+    name: NameUnavailabilityReason
+    no-loc:
+    - NameUnavailabilityReason
+  - uid: com.azure.resourcemanager.artifactsigning.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.artifactsigning.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.artifactsigning.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.artifactsigning.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.artifactsigning.models.ProfileType
+    name: ProfileType
+    no-loc:
+    - ProfileType
+  - uid: com.azure.resourcemanager.artifactsigning.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.artifactsigning.models.RevocationStatus
+    name: RevocationStatus
+    no-loc:
+    - RevocationStatus
+  - uid: com.azure.resourcemanager.artifactsigning.models.RevokeCertificate
+    name: RevokeCertificate
+    no-loc:
+    - RevokeCertificate
+  - uid: com.azure.resourcemanager.artifactsigning.models.RevokeCertificateList
+    name: RevokeCertificateList
+    no-loc:
+    - RevokeCertificateList
+  - uid: com.azure.resourcemanager.artifactsigning.models.SkuName
+    name: SkuName
+    no-loc:
+    - SkuName
+  no-loc:
+  - com.azure.resourcemanager.artifactsigning.models
 - uid: com.azure.resourcemanager.astro
   name: com.azure.resourcemanager.astro
   items:
@@ -53601,6 +53865,946 @@
     - TopItemsSummaryReportQueryFilter
   no-loc:
   - com.azure.resourcemanager.carbonoptimization.models
+- uid: com.azure.resourcemanager.chaos
+  name: com.azure.resourcemanager.chaos
+  items:
+  - uid: com.azure.resourcemanager.chaos.ChaosManager
+    name: ChaosManager
+    no-loc:
+    - ChaosManager
+  - uid: com.azure.resourcemanager.chaos.ChaosManager.Configurable
+    name: ChaosManager.Configurable
+    no-loc:
+    - ChaosManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.chaos
+- uid: com.azure.resourcemanager.chaos.fluent
+  name: com.azure.resourcemanager.chaos.fluent
+  items:
+  - uid: com.azure.resourcemanager.chaos.fluent.ActionVersionsClient
+    name: ActionVersionsClient
+    no-loc:
+    - ActionVersionsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.ActionsClient
+    name: ActionsClient
+    no-loc:
+    - ActionsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.CapabilitiesClient
+    name: CapabilitiesClient
+    no-loc:
+    - CapabilitiesClient
+  - uid: com.azure.resourcemanager.chaos.fluent.CapabilityTypesClient
+    name: CapabilityTypesClient
+    no-loc:
+    - CapabilityTypesClient
+  - uid: com.azure.resourcemanager.chaos.fluent.ChaosManagementClient
+    name: ChaosManagementClient
+    no-loc:
+    - ChaosManagementClient
+  - uid: com.azure.resourcemanager.chaos.fluent.DiscoveredResourcesClient
+    name: DiscoveredResourcesClient
+    no-loc:
+    - DiscoveredResourcesClient
+  - uid: com.azure.resourcemanager.chaos.fluent.ExperimentsClient
+    name: ExperimentsClient
+    no-loc:
+    - ExperimentsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.OperationStatusesClient
+    name: OperationStatusesClient
+    no-loc:
+    - OperationStatusesClient
+  - uid: com.azure.resourcemanager.chaos.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.PrivateAccessesClient
+    name: PrivateAccessesClient
+    no-loc:
+    - PrivateAccessesClient
+  - uid: com.azure.resourcemanager.chaos.fluent.ScenarioConfigurationsClient
+    name: ScenarioConfigurationsClient
+    no-loc:
+    - ScenarioConfigurationsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.ScenarioRunsClient
+    name: ScenarioRunsClient
+    no-loc:
+    - ScenarioRunsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.ScenariosClient
+    name: ScenariosClient
+    no-loc:
+    - ScenariosClient
+  - uid: com.azure.resourcemanager.chaos.fluent.TargetTypesClient
+    name: TargetTypesClient
+    no-loc:
+    - TargetTypesClient
+  - uid: com.azure.resourcemanager.chaos.fluent.TargetsClient
+    name: TargetsClient
+    no-loc:
+    - TargetsClient
+  - uid: com.azure.resourcemanager.chaos.fluent.WorkspacesClient
+    name: WorkspacesClient
+    no-loc:
+    - WorkspacesClient
+  no-loc:
+  - com.azure.resourcemanager.chaos.fluent
+- uid: com.azure.resourcemanager.chaos.fluent.models
+  name: com.azure.resourcemanager.chaos.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ActionInner
+    name: ActionInner
+    no-loc:
+    - ActionInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ActionProperties
+    name: ActionProperties
+    no-loc:
+    - ActionProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ActionVersionInner
+    name: ActionVersionInner
+    no-loc:
+    - ActionVersionInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.CapabilityInner
+    name: CapabilityInner
+    no-loc:
+    - CapabilityInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.CapabilityProperties
+    name: CapabilityProperties
+    no-loc:
+    - CapabilityProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.CapabilityTypeInner
+    name: CapabilityTypeInner
+    no-loc:
+    - CapabilityTypeInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.CapabilityTypeProperties
+    name: CapabilityTypeProperties
+    no-loc:
+    - CapabilityTypeProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.DiscoveredResourceInner
+    name: DiscoveredResourceInner
+    no-loc:
+    - DiscoveredResourceInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionDetailsInner
+    name: ExperimentExecutionDetailsInner
+    no-loc:
+    - ExperimentExecutionDetailsInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionDetailsProperties
+    name: ExperimentExecutionDetailsProperties
+    no-loc:
+    - ExperimentExecutionDetailsProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionInner
+    name: ExperimentExecutionInner
+    no-loc:
+    - ExperimentExecutionInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties
+    name: ExperimentExecutionProperties
+    no-loc:
+    - ExperimentExecutionProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ExperimentInner
+    name: ExperimentInner
+    no-loc:
+    - ExperimentInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ExperimentProperties
+    name: ExperimentProperties
+    no-loc:
+    - ExperimentProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.OperationStatusInner
+    name: OperationStatusInner
+    no-loc:
+    - OperationStatusInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.PrivateAccessInner
+    name: PrivateAccessInner
+    no-loc:
+    - PrivateAccessInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.PrivateEndpointConnectionInner
+    name: PrivateEndpointConnectionInner
+    no-loc:
+    - PrivateEndpointConnectionInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.PrivateLinkResourceListResultInner
+    name: PrivateLinkResourceListResultInner
+    no-loc:
+    - PrivateLinkResourceListResultInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ScenarioConfigurationInner
+    name: ScenarioConfigurationInner
+    no-loc:
+    - ScenarioConfigurationInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ScenarioInner
+    name: ScenarioInner
+    no-loc:
+    - ScenarioInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.ScenarioRunInner
+    name: ScenarioRunInner
+    no-loc:
+    - ScenarioRunInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.TargetInner
+    name: TargetInner
+    no-loc:
+    - TargetInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.TargetTypeInner
+    name: TargetTypeInner
+    no-loc:
+    - TargetTypeInner
+  - uid: com.azure.resourcemanager.chaos.fluent.models.TargetTypeProperties
+    name: TargetTypeProperties
+    no-loc:
+    - TargetTypeProperties
+  - uid: com.azure.resourcemanager.chaos.fluent.models.WorkspaceInner
+    name: WorkspaceInner
+    no-loc:
+    - WorkspaceInner
+  no-loc:
+  - com.azure.resourcemanager.chaos.fluent.models
+- uid: com.azure.resourcemanager.chaos.models
+  name: com.azure.resourcemanager.chaos.models
+  items:
+  - uid: com.azure.resourcemanager.chaos.models.Action
+    name: Action
+    no-loc:
+    - Action
+  - uid: com.azure.resourcemanager.chaos.models.ActionDependency
+    name: ActionDependency
+    no-loc:
+    - ActionDependency
+  - uid: com.azure.resourcemanager.chaos.models.ActionDependencyType
+    name: ActionDependencyType
+    no-loc:
+    - ActionDependencyType
+  - uid: com.azure.resourcemanager.chaos.models.ActionKind
+    name: ActionKind
+    no-loc:
+    - ActionKind
+  - uid: com.azure.resourcemanager.chaos.models.ActionLifecycle
+    name: ActionLifecycle
+    no-loc:
+    - ActionLifecycle
+  - uid: com.azure.resourcemanager.chaos.models.ActionPropertiesParametersSchema
+    name: ActionPropertiesParametersSchema
+    no-loc:
+    - ActionPropertiesParametersSchema
+  - uid: com.azure.resourcemanager.chaos.models.ActionStatus
+    name: ActionStatus
+    no-loc:
+    - ActionStatus
+  - uid: com.azure.resourcemanager.chaos.models.ActionSupportedTargetType
+    name: ActionSupportedTargetType
+    no-loc:
+    - ActionSupportedTargetType
+  - uid: com.azure.resourcemanager.chaos.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.chaos.models.ActionVersion
+    name: ActionVersion
+    no-loc:
+    - ActionVersion
+  - uid: com.azure.resourcemanager.chaos.models.ActionVersions
+    name: ActionVersions
+    no-loc:
+    - ActionVersions
+  - uid: com.azure.resourcemanager.chaos.models.Actions
+    name: Actions
+    no-loc:
+    - Actions
+  - uid: com.azure.resourcemanager.chaos.models.BranchStatus
+    name: BranchStatus
+    no-loc:
+    - BranchStatus
+  - uid: com.azure.resourcemanager.chaos.models.Capabilities
+    name: Capabilities
+    no-loc:
+    - Capabilities
+  - uid: com.azure.resourcemanager.chaos.models.Capability
+    name: Capability
+    no-loc:
+    - Capability
+  - uid: com.azure.resourcemanager.chaos.models.CapabilityType
+    name: CapabilityType
+    no-loc:
+    - CapabilityType
+  - uid: com.azure.resourcemanager.chaos.models.CapabilityTypePropertiesRuntimeProperties
+    name: CapabilityTypePropertiesRuntimeProperties
+    no-loc:
+    - CapabilityTypePropertiesRuntimeProperties
+  - uid: com.azure.resourcemanager.chaos.models.CapabilityTypes
+    name: CapabilityTypes
+    no-loc:
+    - CapabilityTypes
+  - uid: com.azure.resourcemanager.chaos.models.ChaosExperimentAction
+    name: ChaosExperimentAction
+    no-loc:
+    - ChaosExperimentAction
+  - uid: com.azure.resourcemanager.chaos.models.ChaosExperimentBranch
+    name: ChaosExperimentBranch
+    no-loc:
+    - ChaosExperimentBranch
+  - uid: com.azure.resourcemanager.chaos.models.ChaosExperimentStep
+    name: ChaosExperimentStep
+    no-loc:
+    - ChaosExperimentStep
+  - uid: com.azure.resourcemanager.chaos.models.ChaosTargetFilter
+    name: ChaosTargetFilter
+    no-loc:
+    - ChaosTargetFilter
+  - uid: com.azure.resourcemanager.chaos.models.ChaosTargetListSelector
+    name: ChaosTargetListSelector
+    no-loc:
+    - ChaosTargetListSelector
+  - uid: com.azure.resourcemanager.chaos.models.ChaosTargetQuerySelector
+    name: ChaosTargetQuerySelector
+    no-loc:
+    - ChaosTargetQuerySelector
+  - uid: com.azure.resourcemanager.chaos.models.ChaosTargetSelector
+    name: ChaosTargetSelector
+    no-loc:
+    - ChaosTargetSelector
+  - uid: com.azure.resourcemanager.chaos.models.ChaosTargetSimpleFilter
+    name: ChaosTargetSimpleFilter
+    no-loc:
+    - ChaosTargetSimpleFilter
+  - uid: com.azure.resourcemanager.chaos.models.ChaosTargetSimpleFilterParameters
+    name: ChaosTargetSimpleFilterParameters
+    no-loc:
+    - ChaosTargetSimpleFilterParameters
+  - uid: com.azure.resourcemanager.chaos.models.ConfigurationExclusions
+    name: ConfigurationExclusions
+    no-loc:
+    - ConfigurationExclusions
+  - uid: com.azure.resourcemanager.chaos.models.ConfigurationFilters
+    name: ConfigurationFilters
+    no-loc:
+    - ConfigurationFilters
+  - uid: com.azure.resourcemanager.chaos.models.ContinuousAction
+    name: ContinuousAction
+    no-loc:
+    - ContinuousAction
+  - uid: com.azure.resourcemanager.chaos.models.CustomerDataStorageProperties
+    name: CustomerDataStorageProperties
+    no-loc:
+    - CustomerDataStorageProperties
+  - uid: com.azure.resourcemanager.chaos.models.DelayAction
+    name: DelayAction
+    no-loc:
+    - DelayAction
+  - uid: com.azure.resourcemanager.chaos.models.DiscoveredResource
+    name: DiscoveredResource
+    no-loc:
+    - DiscoveredResource
+  - uid: com.azure.resourcemanager.chaos.models.DiscoveredResourceProperties
+    name: DiscoveredResourceProperties
+    no-loc:
+    - DiscoveredResourceProperties
+  - uid: com.azure.resourcemanager.chaos.models.DiscoveredResources
+    name: DiscoveredResources
+    no-loc:
+    - DiscoveredResources
+  - uid: com.azure.resourcemanager.chaos.models.DiscreteAction
+    name: DiscreteAction
+    no-loc:
+    - DiscreteAction
+  - uid: com.azure.resourcemanager.chaos.models.EntraIdentity
+    name: EntraIdentity
+    no-loc:
+    - EntraIdentity
+  - uid: com.azure.resourcemanager.chaos.models.Experiment
+    name: Experiment
+    no-loc:
+    - Experiment
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.Definition
+    name: Experiment.Definition
+    no-loc:
+    - Experiment.Definition
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages
+    name: Experiment.DefinitionStages
+    no-loc:
+    - Experiment.DefinitionStages
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.Blank
+    name: Experiment.DefinitionStages.Blank
+    no-loc:
+    - Experiment.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithCreate
+    name: Experiment.DefinitionStages.WithCreate
+    no-loc:
+    - Experiment.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithCustomerDataStorage
+    name: Experiment.DefinitionStages.WithCustomerDataStorage
+    no-loc:
+    - Experiment.DefinitionStages.WithCustomerDataStorage
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithIdentity
+    name: Experiment.DefinitionStages.WithIdentity
+    no-loc:
+    - Experiment.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithLocation
+    name: Experiment.DefinitionStages.WithLocation
+    no-loc:
+    - Experiment.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithResourceGroup
+    name: Experiment.DefinitionStages.WithResourceGroup
+    no-loc:
+    - Experiment.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithSelectors
+    name: Experiment.DefinitionStages.WithSelectors
+    no-loc:
+    - Experiment.DefinitionStages.WithSelectors
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithSteps
+    name: Experiment.DefinitionStages.WithSteps
+    no-loc:
+    - Experiment.DefinitionStages.WithSteps
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.DefinitionStages.WithTags
+    name: Experiment.DefinitionStages.WithTags
+    no-loc:
+    - Experiment.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.Update
+    name: Experiment.Update
+    no-loc:
+    - Experiment.Update
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.UpdateStages
+    name: Experiment.UpdateStages
+    no-loc:
+    - Experiment.UpdateStages
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.UpdateStages.WithIdentity
+    name: Experiment.UpdateStages.WithIdentity
+    no-loc:
+    - Experiment.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.chaos.models.Experiment.UpdateStages.WithTags
+    name: Experiment.UpdateStages.WithTags
+    no-loc:
+    - Experiment.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentActionType
+    name: ExperimentActionType
+    no-loc:
+    - ExperimentActionType
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentExecution
+    name: ExperimentExecution
+    no-loc:
+    - ExperimentExecution
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentExecutionActionTargetDetailsError
+    name: ExperimentExecutionActionTargetDetailsError
+    no-loc:
+    - ExperimentExecutionActionTargetDetailsError
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentExecutionActionTargetDetailsProperties
+    name: ExperimentExecutionActionTargetDetailsProperties
+    no-loc:
+    - ExperimentExecutionActionTargetDetailsProperties
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentExecutionDetails
+    name: ExperimentExecutionDetails
+    no-loc:
+    - ExperimentExecutionDetails
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentExecutionDetailsPropertiesRunInformation
+    name: ExperimentExecutionDetailsPropertiesRunInformation
+    no-loc:
+    - ExperimentExecutionDetailsPropertiesRunInformation
+  - uid: com.azure.resourcemanager.chaos.models.ExperimentUpdate
+    name: ExperimentUpdate
+    no-loc:
+    - ExperimentUpdate
+  - uid: com.azure.resourcemanager.chaos.models.Experiments
+    name: Experiments
+    no-loc:
+    - Experiments
+  - uid: com.azure.resourcemanager.chaos.models.ExternalResource
+    name: ExternalResource
+    no-loc:
+    - ExternalResource
+  - uid: com.azure.resourcemanager.chaos.models.FilterType
+    name: FilterType
+    no-loc:
+    - FilterType
+  - uid: com.azure.resourcemanager.chaos.models.FixResourcePermissionsRequest
+    name: FixResourcePermissionsRequest
+    no-loc:
+    - FixResourcePermissionsRequest
+  - uid: com.azure.resourcemanager.chaos.models.KeyValuePair
+    name: KeyValuePair
+    no-loc:
+    - KeyValuePair
+  - uid: com.azure.resourcemanager.chaos.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
+  - uid: com.azure.resourcemanager.chaos.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.chaos.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.chaos.models.OperationError
+    name: OperationError
+    no-loc:
+    - OperationError
+  - uid: com.azure.resourcemanager.chaos.models.OperationStatus
+    name: OperationStatus
+    no-loc:
+    - OperationStatus
+  - uid: com.azure.resourcemanager.chaos.models.OperationStatuses
+    name: OperationStatuses
+    no-loc:
+    - OperationStatuses
+  - uid: com.azure.resourcemanager.chaos.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.chaos.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.chaos.models.ParameterType
+    name: ParameterType
+    no-loc:
+    - ParameterType
+  - uid: com.azure.resourcemanager.chaos.models.PermissionError
+    name: PermissionError
+    no-loc:
+    - PermissionError
+  - uid: com.azure.resourcemanager.chaos.models.PermissionsFix
+    name: PermissionsFix
+    no-loc:
+    - PermissionsFix
+  - uid: com.azure.resourcemanager.chaos.models.PermissionsFixProperties
+    name: PermissionsFixProperties
+    no-loc:
+    - PermissionsFixProperties
+  - uid: com.azure.resourcemanager.chaos.models.PermissionsFixState
+    name: PermissionsFixState
+    no-loc:
+    - PermissionsFixState
+  - uid: com.azure.resourcemanager.chaos.models.PermissionsFixSummary
+    name: PermissionsFixSummary
+    no-loc:
+    - PermissionsFixSummary
+  - uid: com.azure.resourcemanager.chaos.models.PhysicalToLogicalZoneMapping
+    name: PhysicalToLogicalZoneMapping
+    no-loc:
+    - PhysicalToLogicalZoneMapping
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess
+    name: PrivateAccess
+    no-loc:
+    - PrivateAccess
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.Definition
+    name: PrivateAccess.Definition
+    no-loc:
+    - PrivateAccess.Definition
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages
+    name: PrivateAccess.DefinitionStages
+    no-loc:
+    - PrivateAccess.DefinitionStages
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.Blank
+    name: PrivateAccess.DefinitionStages.Blank
+    no-loc:
+    - PrivateAccess.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithCreate
+    name: PrivateAccess.DefinitionStages.WithCreate
+    no-loc:
+    - PrivateAccess.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithLocation
+    name: PrivateAccess.DefinitionStages.WithLocation
+    no-loc:
+    - PrivateAccess.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithProperties
+    name: PrivateAccess.DefinitionStages.WithProperties
+    no-loc:
+    - PrivateAccess.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithResourceGroup
+    name: PrivateAccess.DefinitionStages.WithResourceGroup
+    no-loc:
+    - PrivateAccess.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithTags
+    name: PrivateAccess.DefinitionStages.WithTags
+    no-loc:
+    - PrivateAccess.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.Update
+    name: PrivateAccess.Update
+    no-loc:
+    - PrivateAccess.Update
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.UpdateStages
+    name: PrivateAccess.UpdateStages
+    no-loc:
+    - PrivateAccess.UpdateStages
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccess.UpdateStages.WithTags
+    name: PrivateAccess.UpdateStages.WithTags
+    no-loc:
+    - PrivateAccess.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccessPatch
+    name: PrivateAccessPatch
+    no-loc:
+    - PrivateAccessPatch
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccessProperties
+    name: PrivateAccessProperties
+    no-loc:
+    - PrivateAccessProperties
+  - uid: com.azure.resourcemanager.chaos.models.PrivateAccesses
+    name: PrivateAccesses
+    no-loc:
+    - PrivateAccesses
+  - uid: com.azure.resourcemanager.chaos.models.PrivateEndpoint
+    name: PrivateEndpoint
+    no-loc:
+    - PrivateEndpoint
+  - uid: com.azure.resourcemanager.chaos.models.PrivateEndpointConnection
+    name: PrivateEndpointConnection
+    no-loc:
+    - PrivateEndpointConnection
+  - uid: com.azure.resourcemanager.chaos.models.PrivateEndpointConnectionProperties
+    name: PrivateEndpointConnectionProperties
+    no-loc:
+    - PrivateEndpointConnectionProperties
+  - uid: com.azure.resourcemanager.chaos.models.PrivateEndpointServiceConnectionStatus
+    name: PrivateEndpointServiceConnectionStatus
+    no-loc:
+    - PrivateEndpointServiceConnectionStatus
+  - uid: com.azure.resourcemanager.chaos.models.PrivateLinkResource
+    name: PrivateLinkResource
+    no-loc:
+    - PrivateLinkResource
+  - uid: com.azure.resourcemanager.chaos.models.PrivateLinkResourceListResult
+    name: PrivateLinkResourceListResult
+    no-loc:
+    - PrivateLinkResourceListResult
+  - uid: com.azure.resourcemanager.chaos.models.PrivateLinkResourceProperties
+    name: PrivateLinkResourceProperties
+    no-loc:
+    - PrivateLinkResourceProperties
+  - uid: com.azure.resourcemanager.chaos.models.PrivateLinkServiceConnectionState
+    name: PrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.chaos.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.chaos.models.PublicNetworkAccessOption
+    name: PublicNetworkAccessOption
+    no-loc:
+    - PublicNetworkAccessOption
+  - uid: com.azure.resourcemanager.chaos.models.Recommendation
+    name: Recommendation
+    no-loc:
+    - Recommendation
+  - uid: com.azure.resourcemanager.chaos.models.RecommendationStatus
+    name: RecommendationStatus
+    no-loc:
+    - RecommendationStatus
+  - uid: com.azure.resourcemanager.chaos.models.ResourceIdentity
+    name: ResourceIdentity
+    no-loc:
+    - ResourceIdentity
+  - uid: com.azure.resourcemanager.chaos.models.ResourceStateError
+    name: ResourceStateError
+    no-loc:
+    - ResourceStateError
+  - uid: com.azure.resourcemanager.chaos.models.RoleAssignmentError
+    name: RoleAssignmentError
+    no-loc:
+    - RoleAssignmentError
+  - uid: com.azure.resourcemanager.chaos.models.RoleAssignmentResult
+    name: RoleAssignmentResult
+    no-loc:
+    - RoleAssignmentResult
+  - uid: com.azure.resourcemanager.chaos.models.RoleAssignmentStatus
+    name: RoleAssignmentStatus
+    no-loc:
+    - RoleAssignmentStatus
+  - uid: com.azure.resourcemanager.chaos.models.RunAfter
+    name: RunAfter
+    no-loc:
+    - RunAfter
+  - uid: com.azure.resourcemanager.chaos.models.RunAfterBehavior
+    name: RunAfterBehavior
+    no-loc:
+    - RunAfterBehavior
+  - uid: com.azure.resourcemanager.chaos.models.Scenario
+    name: Scenario
+    no-loc:
+    - Scenario
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.Definition
+    name: Scenario.Definition
+    no-loc:
+    - Scenario.Definition
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.DefinitionStages
+    name: Scenario.DefinitionStages
+    no-loc:
+    - Scenario.DefinitionStages
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.DefinitionStages.Blank
+    name: Scenario.DefinitionStages.Blank
+    no-loc:
+    - Scenario.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.DefinitionStages.WithCreate
+    name: Scenario.DefinitionStages.WithCreate
+    no-loc:
+    - Scenario.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.DefinitionStages.WithParentResource
+    name: Scenario.DefinitionStages.WithParentResource
+    no-loc:
+    - Scenario.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.DefinitionStages.WithProperties
+    name: Scenario.DefinitionStages.WithProperties
+    no-loc:
+    - Scenario.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.Update
+    name: Scenario.Update
+    no-loc:
+    - Scenario.Update
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.UpdateStages
+    name: Scenario.UpdateStages
+    no-loc:
+    - Scenario.UpdateStages
+  - uid: com.azure.resourcemanager.chaos.models.Scenario.UpdateStages.WithProperties
+    name: Scenario.UpdateStages.WithProperties
+    no-loc:
+    - Scenario.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioAction
+    name: ScenarioAction
+    no-loc:
+    - ScenarioAction
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration
+    name: ScenarioConfiguration
+    no-loc:
+    - ScenarioConfiguration
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.Definition
+    name: ScenarioConfiguration.Definition
+    no-loc:
+    - ScenarioConfiguration.Definition
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.DefinitionStages
+    name: ScenarioConfiguration.DefinitionStages
+    no-loc:
+    - ScenarioConfiguration.DefinitionStages
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.DefinitionStages.Blank
+    name: ScenarioConfiguration.DefinitionStages.Blank
+    no-loc:
+    - ScenarioConfiguration.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.DefinitionStages.WithCreate
+    name: ScenarioConfiguration.DefinitionStages.WithCreate
+    no-loc:
+    - ScenarioConfiguration.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.DefinitionStages.WithParentResource
+    name: ScenarioConfiguration.DefinitionStages.WithParentResource
+    no-loc:
+    - ScenarioConfiguration.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.DefinitionStages.WithProperties
+    name: ScenarioConfiguration.DefinitionStages.WithProperties
+    no-loc:
+    - ScenarioConfiguration.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.Update
+    name: ScenarioConfiguration.Update
+    no-loc:
+    - ScenarioConfiguration.Update
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.UpdateStages
+    name: ScenarioConfiguration.UpdateStages
+    no-loc:
+    - ScenarioConfiguration.UpdateStages
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfiguration.UpdateStages.WithProperties
+    name: ScenarioConfiguration.UpdateStages.WithProperties
+    no-loc:
+    - ScenarioConfiguration.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfigurationProperties
+    name: ScenarioConfigurationProperties
+    no-loc:
+    - ScenarioConfigurationProperties
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioConfigurations
+    name: ScenarioConfigurations
+    no-loc:
+    - ScenarioConfigurations
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioErrors
+    name: ScenarioErrors
+    no-loc:
+    - ScenarioErrors
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioEvaluationResultItem
+    name: ScenarioEvaluationResultItem
+    no-loc:
+    - ScenarioEvaluationResultItem
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioParameter
+    name: ScenarioParameter
+    no-loc:
+    - ScenarioParameter
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioProperties
+    name: ScenarioProperties
+    no-loc:
+    - ScenarioProperties
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRun
+    name: ScenarioRun
+    no-loc:
+    - ScenarioRun
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRunProperties
+    name: ScenarioRunProperties
+    no-loc:
+    - ScenarioRunProperties
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRunResource
+    name: ScenarioRunResource
+    no-loc:
+    - ScenarioRunResource
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRunState
+    name: ScenarioRunState
+    no-loc:
+    - ScenarioRunState
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRunSummaryAction
+    name: ScenarioRunSummaryAction
+    no-loc:
+    - ScenarioRunSummaryAction
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRuns
+    name: ScenarioRuns
+    no-loc:
+    - ScenarioRuns
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRunsGetHeaders
+    name: ScenarioRunsGetHeaders
+    no-loc:
+    - ScenarioRunsGetHeaders
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioRunsGetResponse
+    name: ScenarioRunsGetResponse
+    no-loc:
+    - ScenarioRunsGetResponse
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioSummaryState
+    name: ScenarioSummaryState
+    no-loc:
+    - ScenarioSummaryState
+  - uid: com.azure.resourcemanager.chaos.models.ScenarioValidationState
+    name: ScenarioValidationState
+    no-loc:
+    - ScenarioValidationState
+  - uid: com.azure.resourcemanager.chaos.models.Scenarios
+    name: Scenarios
+    no-loc:
+    - Scenarios
+  - uid: com.azure.resourcemanager.chaos.models.SelectorType
+    name: SelectorType
+    no-loc:
+    - SelectorType
+  - uid: com.azure.resourcemanager.chaos.models.StepStatus
+    name: StepStatus
+    no-loc:
+    - StepStatus
+  - uid: com.azure.resourcemanager.chaos.models.Target
+    name: Target
+    no-loc:
+    - Target
+  - uid: com.azure.resourcemanager.chaos.models.TargetReference
+    name: TargetReference
+    no-loc:
+    - TargetReference
+  - uid: com.azure.resourcemanager.chaos.models.TargetReferenceType
+    name: TargetReferenceType
+    no-loc:
+    - TargetReferenceType
+  - uid: com.azure.resourcemanager.chaos.models.TargetType
+    name: TargetType
+    no-loc:
+    - TargetType
+  - uid: com.azure.resourcemanager.chaos.models.TargetTypes
+    name: TargetTypes
+    no-loc:
+    - TargetTypes
+  - uid: com.azure.resourcemanager.chaos.models.Targets
+    name: Targets
+    no-loc:
+    - Targets
+  - uid: com.azure.resourcemanager.chaos.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.chaos.models.Validation
+    name: Validation
+    no-loc:
+    - Validation
+  - uid: com.azure.resourcemanager.chaos.models.ValidationProperties
+    name: ValidationProperties
+    no-loc:
+    - ValidationProperties
+  - uid: com.azure.resourcemanager.chaos.models.Workspace
+    name: Workspace
+    no-loc:
+    - Workspace
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.Definition
+    name: Workspace.Definition
+    no-loc:
+    - Workspace.Definition
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages
+    name: Workspace.DefinitionStages
+    no-loc:
+    - Workspace.DefinitionStages
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.Blank
+    name: Workspace.DefinitionStages.Blank
+    no-loc:
+    - Workspace.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.WithCreate
+    name: Workspace.DefinitionStages.WithCreate
+    no-loc:
+    - Workspace.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.WithIdentity
+    name: Workspace.DefinitionStages.WithIdentity
+    no-loc:
+    - Workspace.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.WithLocation
+    name: Workspace.DefinitionStages.WithLocation
+    no-loc:
+    - Workspace.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.WithProperties
+    name: Workspace.DefinitionStages.WithProperties
+    no-loc:
+    - Workspace.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.WithResourceGroup
+    name: Workspace.DefinitionStages.WithResourceGroup
+    no-loc:
+    - Workspace.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.DefinitionStages.WithTags
+    name: Workspace.DefinitionStages.WithTags
+    no-loc:
+    - Workspace.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.Update
+    name: Workspace.Update
+    no-loc:
+    - Workspace.Update
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.UpdateStages
+    name: Workspace.UpdateStages
+    no-loc:
+    - Workspace.UpdateStages
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.UpdateStages.WithIdentity
+    name: Workspace.UpdateStages.WithIdentity
+    no-loc:
+    - Workspace.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.chaos.models.Workspace.UpdateStages.WithTags
+    name: Workspace.UpdateStages.WithTags
+    no-loc:
+    - Workspace.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.chaos.models.WorkspaceEvaluation
+    name: WorkspaceEvaluation
+    no-loc:
+    - WorkspaceEvaluation
+  - uid: com.azure.resourcemanager.chaos.models.WorkspaceEvaluationProperties
+    name: WorkspaceEvaluationProperties
+    no-loc:
+    - WorkspaceEvaluationProperties
+  - uid: com.azure.resourcemanager.chaos.models.WorkspaceEvaluationStatus
+    name: WorkspaceEvaluationStatus
+    no-loc:
+    - WorkspaceEvaluationStatus
+  - uid: com.azure.resourcemanager.chaos.models.WorkspaceProperties
+    name: WorkspaceProperties
+    no-loc:
+    - WorkspaceProperties
+  - uid: com.azure.resourcemanager.chaos.models.WorkspaceUpdate
+    name: WorkspaceUpdate
+    no-loc:
+    - WorkspaceUpdate
+  - uid: com.azure.resourcemanager.chaos.models.Workspaces
+    name: Workspaces
+    no-loc:
+    - Workspaces
+  - uid: com.azure.resourcemanager.chaos.models.ZoneResolutionInfo
+    name: ZoneResolutionInfo
+    no-loc:
+    - ZoneResolutionInfo
+  - uid: com.azure.resourcemanager.chaos.models.ZoneResolutionMapping
+    name: ZoneResolutionMapping
+    no-loc:
+    - ZoneResolutionMapping
+  - uid: com.azure.resourcemanager.chaos.models.ZoneResolutionMode
+    name: ZoneResolutionMode
+    no-loc:
+    - ZoneResolutionMode
+  no-loc:
+  - com.azure.resourcemanager.chaos.models
 - uid: com.azure.resourcemanager.cloudhealth
   name: com.azure.resourcemanager.cloudhealth
   items:
@@ -67161,6 +68365,10 @@
     name: MaintenanceConfigurationsClient
     no-loc:
     - MaintenanceConfigurationsClient
+  - uid: com.azure.resourcemanager.containerservice.fluent.MaintenanceWindowsClient
+    name: MaintenanceWindowsClient
+    no-loc:
+    - MaintenanceWindowsClient
   - uid: com.azure.resourcemanager.containerservice.fluent.ManagedClusterSnapshotsClient
     name: ManagedClusterSnapshotsClient
     no-loc:
@@ -67298,6 +68506,10 @@
     name: MaintenanceConfigurationProperties
     no-loc:
     - MaintenanceConfigurationProperties
+  - uid: com.azure.resourcemanager.containerservice.fluent.models.MaintenanceWindowResourceInner
+    name: MaintenanceWindowResourceInner
+    no-loc:
+    - MaintenanceWindowResourceInner
   - uid: com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAccessProfileInner
     name: ManagedClusterAccessProfileInner
     no-loc:
@@ -67571,6 +68783,14 @@
     name: BackendPoolType
     no-loc:
     - BackendPoolType
+  - uid: com.azure.resourcemanager.containerservice.models.BastionProfile
+    name: BastionProfile
+    no-loc:
+    - BastionProfile
+  - uid: com.azure.resourcemanager.containerservice.models.BastionSku
+    name: BastionSku
+    no-loc:
+    - BastionSku
   - uid: com.azure.resourcemanager.containerservice.models.ClusterServiceLoadBalancerHealthProbeMode
     name: ClusterServiceLoadBalancerHealthProbeMode
     no-loc:
@@ -68263,6 +69483,10 @@
     name: MaintenanceWindow
     no-loc:
     - MaintenanceWindow
+  - uid: com.azure.resourcemanager.containerservice.models.MaintenanceWindowResourceProperties
+    name: MaintenanceWindowResourceProperties
+    no-loc:
+    - MaintenanceWindowResourceProperties
   - uid: com.azure.resourcemanager.containerservice.models.ManagedClusterAIToolchainOperatorProfile
     name: ManagedClusterAIToolchainOperatorProfile
     no-loc:
@@ -68831,6 +70055,10 @@
     name: ResourceIdentityType
     no-loc:
     - ResourceIdentityType
+  - uid: com.azure.resourcemanager.containerservice.models.ResourceProvisioningState
+    name: ResourceProvisioningState
+    no-loc:
+    - ResourceProvisioningState
   - uid: com.azure.resourcemanager.containerservice.models.ResourceQuota
     name: ResourceQuota
     no-loc:
@@ -136603,6 +137831,10 @@
     name: MongoClusters
     no-loc:
     - MongoClusters
+  - uid: com.azure.resourcemanager.mongocluster.models.NetworkBypassMode
+    name: NetworkBypassMode
+    no-loc:
+    - NetworkBypassMode
   - uid: com.azure.resourcemanager.mongocluster.models.Operation
     name: Operation
     no-loc:
@@ -139301,6 +140533,442 @@
     - WindowUptimeCriteriaComparator
   no-loc:
   - com.azure.resourcemanager.monitor.slis.models
+- uid: com.azure.resourcemanager.monitor.workspaces
+  name: com.azure.resourcemanager.monitor.workspaces
+  items:
+  - uid: com.azure.resourcemanager.monitor.workspaces.MonitorWorkspacesManager
+    name: MonitorWorkspacesManager
+    no-loc:
+    - MonitorWorkspacesManager
+  - uid: com.azure.resourcemanager.monitor.workspaces.MonitorWorkspacesManager.Configurable
+    name: MonitorWorkspacesManager.Configurable
+    no-loc:
+    - MonitorWorkspacesManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.monitor.workspaces
+- uid: com.azure.resourcemanager.monitor.workspaces.fluent
+  name: com.azure.resourcemanager.monitor.workspaces.fluent
+  items:
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.AzureMonitorWorkspacesClient
+    name: AzureMonitorWorkspacesClient
+    no-loc:
+    - AzureMonitorWorkspacesClient
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.IssuesClient
+    name: IssuesClient
+    no-loc:
+    - IssuesClient
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.MetricsContainersClient
+    name: MetricsContainersClient
+    no-loc:
+    - MetricsContainersClient
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.MonitorWorkspacesManagementClient
+    name: MonitorWorkspacesManagementClient
+    no-loc:
+    - MonitorWorkspacesManagementClient
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  no-loc:
+  - com.azure.resourcemanager.monitor.workspaces.fluent
+- uid: com.azure.resourcemanager.monitor.workspaces.fluent.models
+  name: com.azure.resourcemanager.monitor.workspaces.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.AzureMonitorWorkspaceResourceInner
+    name: AzureMonitorWorkspaceResourceInner
+    no-loc:
+    - AzureMonitorWorkspaceResourceInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.BackgroundVisualizationInner
+    name: BackgroundVisualizationInner
+    no-loc:
+    - BackgroundVisualizationInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.InvestigationResultInner
+    name: InvestigationResultInner
+    no-loc:
+    - InvestigationResultInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.IssueResourceInner
+    name: IssueResourceInner
+    no-loc:
+    - IssueResourceInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.MetricsContainerResourceInner
+    name: MetricsContainerResourceInner
+    no-loc:
+    - MetricsContainerResourceInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner
+    name: PagedRelatedAlertInner
+    no-loc:
+    - PagedRelatedAlertInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedResourceInner
+    name: PagedRelatedResourceInner
+    no-loc:
+    - PagedRelatedResourceInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.RelatedAlertsInner
+    name: RelatedAlertsInner
+    no-loc:
+    - RelatedAlertsInner
+  - uid: com.azure.resourcemanager.monitor.workspaces.fluent.models.RelatedResourcesInner
+    name: RelatedResourcesInner
+    no-loc:
+    - RelatedResourcesInner
+  no-loc:
+  - com.azure.resourcemanager.monitor.workspaces.fluent.models
+- uid: com.azure.resourcemanager.monitor.workspaces.models
+  name: com.azure.resourcemanager.monitor.workspaces.models
+  items:
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AddedByType
+    name: AddedByType
+    no-loc:
+    - AddedByType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace
+    name: AzureMonitorWorkspace
+    no-loc:
+    - AzureMonitorWorkspace
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings
+    name: AzureMonitorWorkspaceDefaultIngestionSettings
+    no-loc:
+    - AzureMonitorWorkspaceDefaultIngestionSettings
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceMetrics
+    name: AzureMonitorWorkspaceMetrics
+    no-loc:
+    - AzureMonitorWorkspaceMetrics
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource
+    name: AzureMonitorWorkspaceResource
+    no-loc:
+    - AzureMonitorWorkspaceResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.Definition
+    name: AzureMonitorWorkspaceResource.Definition
+    no-loc:
+    - AzureMonitorWorkspaceResource.Definition
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages
+    name: AzureMonitorWorkspaceResource.DefinitionStages
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.Blank
+    name: AzureMonitorWorkspaceResource.DefinitionStages.Blank
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithCreate
+    name: AzureMonitorWorkspaceResource.DefinitionStages.WithCreate
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithIdentity
+    name: AzureMonitorWorkspaceResource.DefinitionStages.WithIdentity
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithLocation
+    name: AzureMonitorWorkspaceResource.DefinitionStages.WithLocation
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithProperties
+    name: AzureMonitorWorkspaceResource.DefinitionStages.WithProperties
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup
+    name: AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithTags
+    name: AzureMonitorWorkspaceResource.DefinitionStages.WithTags
+    no-loc:
+    - AzureMonitorWorkspaceResource.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.Update
+    name: AzureMonitorWorkspaceResource.Update
+    no-loc:
+    - AzureMonitorWorkspaceResource.Update
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages
+    name: AzureMonitorWorkspaceResource.UpdateStages
+    no-loc:
+    - AzureMonitorWorkspaceResource.UpdateStages
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithIdentity
+    name: AzureMonitorWorkspaceResource.UpdateStages.WithIdentity
+    no-loc:
+    - AzureMonitorWorkspaceResource.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithProperties
+    name: AzureMonitorWorkspaceResource.UpdateStages.WithProperties
+    no-loc:
+    - AzureMonitorWorkspaceResource.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithTags
+    name: AzureMonitorWorkspaceResource.UpdateStages.WithTags
+    no-loc:
+    - AzureMonitorWorkspaceResource.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResourceUpdate
+    name: AzureMonitorWorkspaceResourceUpdate
+    no-loc:
+    - AzureMonitorWorkspaceResourceUpdate
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaces
+    name: AzureMonitorWorkspaces
+    no-loc:
+    - AzureMonitorWorkspaces
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Background
+    name: Background
+    no-loc:
+    - Background
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails
+    name: BackgroundDetails
+    no-loc:
+    - BackgroundDetails
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization
+    name: BackgroundVisualization
+    no-loc:
+    - BackgroundVisualization
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.FetchInvestigationResultParameters
+    name: FetchInvestigationResultParameters
+    no-loc:
+    - FetchInvestigationResultParameters
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints
+    name: IngestionEndpoints
+    no-loc:
+    - IngestionEndpoints
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.InvestigationMetadata
+    name: InvestigationMetadata
+    no-loc:
+    - InvestigationMetadata
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult
+    name: InvestigationResult
+    no-loc:
+    - InvestigationResult
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType
+    name: IssueCreationNotificationType
+    no-loc:
+    - IssueCreationNotificationType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType
+    name: IssueNotificationType
+    no-loc:
+    - IssueNotificationType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueProperties
+    name: IssueProperties
+    no-loc:
+    - IssueProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssuePropertiesUpdate
+    name: IssuePropertiesUpdate
+    no-loc:
+    - IssuePropertiesUpdate
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource
+    name: IssueResource
+    no-loc:
+    - IssueResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.Definition
+    name: IssueResource.Definition
+    no-loc:
+    - IssueResource.Definition
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages
+    name: IssueResource.DefinitionStages
+    no-loc:
+    - IssueResource.DefinitionStages
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.Blank
+    name: IssueResource.DefinitionStages.Blank
+    no-loc:
+    - IssueResource.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithCreate
+    name: IssueResource.DefinitionStages.WithCreate
+    no-loc:
+    - IssueResource.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithParentResource
+    name: IssueResource.DefinitionStages.WithParentResource
+    no-loc:
+    - IssueResource.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithProperties
+    name: IssueResource.DefinitionStages.WithProperties
+    no-loc:
+    - IssueResource.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithRelated
+    name: IssueResource.DefinitionStages.WithRelated
+    no-loc:
+    - IssueResource.DefinitionStages.WithRelated
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.Update
+    name: IssueResource.Update
+    no-loc:
+    - IssueResource.Update
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.UpdateStages
+    name: IssueResource.UpdateStages
+    no-loc:
+    - IssueResource.UpdateStages
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResource.UpdateStages.WithProperties
+    name: IssueResource.UpdateStages.WithProperties
+    no-loc:
+    - IssueResource.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.IssueResourceUpdate
+    name: IssueResourceUpdate
+    no-loc:
+    - IssueResourceUpdate
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Issues
+    name: Issues
+    no-loc:
+    - Issues
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.ListParameter
+    name: ListParameter
+    no-loc:
+    - ListParameter
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.ManagedServiceIdentity
+    name: ManagedServiceIdentity
+    no-loc:
+    - ManagedServiceIdentity
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainer
+    name: MetricsContainer
+    no-loc:
+    - MetricsContainer
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource
+    name: MetricsContainerResource
+    no-loc:
+    - MetricsContainerResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.Definition
+    name: MetricsContainerResource.Definition
+    no-loc:
+    - MetricsContainerResource.Definition
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages
+    name: MetricsContainerResource.DefinitionStages
+    no-loc:
+    - MetricsContainerResource.DefinitionStages
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.Blank
+    name: MetricsContainerResource.DefinitionStages.Blank
+    no-loc:
+    - MetricsContainerResource.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithCreate
+    name: MetricsContainerResource.DefinitionStages.WithCreate
+    no-loc:
+    - MetricsContainerResource.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithParentResource
+    name: MetricsContainerResource.DefinitionStages.WithParentResource
+    no-loc:
+    - MetricsContainerResource.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithProperties
+    name: MetricsContainerResource.DefinitionStages.WithProperties
+    no-loc:
+    - MetricsContainerResource.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.Update
+    name: MetricsContainerResource.Update
+    no-loc:
+    - MetricsContainerResource.Update
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.UpdateStages
+    name: MetricsContainerResource.UpdateStages
+    no-loc:
+    - MetricsContainerResource.UpdateStages
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.UpdateStages.WithProperties
+    name: MetricsContainerResource.UpdateStages.WithProperties
+    no-loc:
+    - MetricsContainerResource.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.MetricsContainers
+    name: MetricsContainers
+    no-loc:
+    - MetricsContainers
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Notifications
+    name: Notifications
+    no-loc:
+    - Notifications
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType
+    name: OnChangeNotificationType
+    no-loc:
+    - OnChangeNotificationType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.OriginValue
+    name: OriginValue
+    no-loc:
+    - OriginValue
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert
+    name: PagedRelatedAlert
+    no-loc:
+    - PagedRelatedAlert
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedResource
+    name: PagedRelatedResource
+    no-loc:
+    - PagedRelatedResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PrivateEndpoint
+    name: PrivateEndpoint
+    no-loc:
+    - PrivateEndpoint
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PrivateEndpointConnection
+    name: PrivateEndpointConnection
+    no-loc:
+    - PrivateEndpointConnection
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PrivateEndpointConnectionProperties
+    name: PrivateEndpointConnectionProperties
+    no-loc:
+    - PrivateEndpointConnectionProperties
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PrivateEndpointConnectionProvisioningState
+    name: PrivateEndpointConnectionProvisioningState
+    no-loc:
+    - PrivateEndpointConnectionProvisioningState
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PrivateEndpointServiceConnectionStatus
+    name: PrivateEndpointServiceConnectionStatus
+    no-loc:
+    - PrivateEndpointServiceConnectionStatus
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PrivateLinkServiceConnectionState
+    name: PrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.PublicNetworkAccess
+    name: PublicNetworkAccess
+    no-loc:
+    - PublicNetworkAccess
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.RelatedAlert
+    name: RelatedAlert
+    no-loc:
+    - RelatedAlert
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.RelatedAlerts
+    name: RelatedAlerts
+    no-loc:
+    - RelatedAlerts
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.RelatedResource
+    name: RelatedResource
+    no-loc:
+    - RelatedResource
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.RelatedResources
+    name: RelatedResources
+    no-loc:
+    - RelatedResources
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Relevance
+    name: Relevance
+    no-loc:
+    - Relevance
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.ResourceProvisioningState
+    name: ResourceProvisioningState
+    no-loc:
+    - ResourceProvisioningState
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.Status
+    name: Status
+    no-loc:
+    - Status
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.TimeBasedUpdatesNotificationType
+    name: TimeBasedUpdatesNotificationType
+    no-loc:
+    - TimeBasedUpdatesNotificationType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.UpdateType
+    name: UpdateType
+    no-loc:
+    - UpdateType
+  - uid: com.azure.resourcemanager.monitor.workspaces.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  no-loc:
+  - com.azure.resourcemanager.monitor.workspaces.models
 - uid: com.azure.resourcemanager.msi
   name: com.azure.resourcemanager.msi
   items:
@@ -140625,6 +142293,222 @@
     - VirtualNetworkSubnetUsageResult
   no-loc:
   - com.azure.resourcemanager.mysqlflexibleserver.models
+- uid: com.azure.resourcemanager.napsteromniagentapi
+  name: com.azure.resourcemanager.napsteromniagentapi
+  items:
+  - uid: com.azure.resourcemanager.napsteromniagentapi.NapsterOmniagentApiManager
+    name: NapsterOmniagentApiManager
+    no-loc:
+    - NapsterOmniagentApiManager
+  - uid: com.azure.resourcemanager.napsteromniagentapi.NapsterOmniagentApiManager.Configurable
+    name: NapsterOmniagentApiManager.Configurable
+    no-loc:
+    - NapsterOmniagentApiManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.napsteromniagentapi
+- uid: com.azure.resourcemanager.napsteromniagentapi.fluent
+  name: com.azure.resourcemanager.napsteromniagentapi.fluent
+  items:
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.NapsterOmniagentApiManagementClient
+    name: NapsterOmniagentApiManagementClient
+    no-loc:
+    - NapsterOmniagentApiManagementClient
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.OrganizationsClient
+    name: OrganizationsClient
+    no-loc:
+    - OrganizationsClient
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.SaaSOperationGroupsClient
+    name: SaaSOperationGroupsClient
+    no-loc:
+    - SaaSOperationGroupsClient
+  no-loc:
+  - com.azure.resourcemanager.napsteromniagentapi.fluent
+- uid: com.azure.resourcemanager.napsteromniagentapi.fluent.models
+  name: com.azure.resourcemanager.napsteromniagentapi.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.models.LatestLinkedSaaSResponseInner
+    name: LatestLinkedSaaSResponseInner
+    no-loc:
+    - LatestLinkedSaaSResponseInner
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.models.OrganizationResourceInner
+    name: OrganizationResourceInner
+    no-loc:
+    - OrganizationResourceInner
+  - uid: com.azure.resourcemanager.napsteromniagentapi.fluent.models.SaaSResourceDetailsResponseInner
+    name: SaaSResourceDetailsResponseInner
+    no-loc:
+    - SaaSResourceDetailsResponseInner
+  no-loc:
+  - com.azure.resourcemanager.napsteromniagentapi.fluent.models
+- uid: com.azure.resourcemanager.napsteromniagentapi.models
+  name: com.azure.resourcemanager.napsteromniagentapi.models
+  items:
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.ActivateSaaSParameterRequest
+    name: ActivateSaaSParameterRequest
+    no-loc:
+    - ActivateSaaSParameterRequest
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.LatestLinkedSaaSResponse
+    name: LatestLinkedSaaSResponse
+    no-loc:
+    - LatestLinkedSaaSResponse
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.ManagedServiceIdentity
+    name: ManagedServiceIdentity
+    no-loc:
+    - ManagedServiceIdentity
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.MarketplaceDetails
+    name: MarketplaceDetails
+    no-loc:
+    - MarketplaceDetails
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.MarketplaceSubscriptionStatus
+    name: MarketplaceSubscriptionStatus
+    no-loc:
+    - MarketplaceSubscriptionStatus
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OfferDetails
+    name: OfferDetails
+    no-loc:
+    - OfferDetails
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationProperties
+    name: OrganizationProperties
+    no-loc:
+    - OrganizationProperties
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource
+    name: OrganizationResource
+    no-loc:
+    - OrganizationResource
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.Definition
+    name: OrganizationResource.Definition
+    no-loc:
+    - OrganizationResource.Definition
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages
+    name: OrganizationResource.DefinitionStages
+    no-loc:
+    - OrganizationResource.DefinitionStages
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.Blank
+    name: OrganizationResource.DefinitionStages.Blank
+    no-loc:
+    - OrganizationResource.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.WithCreate
+    name: OrganizationResource.DefinitionStages.WithCreate
+    no-loc:
+    - OrganizationResource.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.WithIdentity
+    name: OrganizationResource.DefinitionStages.WithIdentity
+    no-loc:
+    - OrganizationResource.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.WithLocation
+    name: OrganizationResource.DefinitionStages.WithLocation
+    no-loc:
+    - OrganizationResource.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.WithProperties
+    name: OrganizationResource.DefinitionStages.WithProperties
+    no-loc:
+    - OrganizationResource.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.WithResourceGroup
+    name: OrganizationResource.DefinitionStages.WithResourceGroup
+    no-loc:
+    - OrganizationResource.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.DefinitionStages.WithTags
+    name: OrganizationResource.DefinitionStages.WithTags
+    no-loc:
+    - OrganizationResource.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.Update
+    name: OrganizationResource.Update
+    no-loc:
+    - OrganizationResource.Update
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.UpdateStages
+    name: OrganizationResource.UpdateStages
+    no-loc:
+    - OrganizationResource.UpdateStages
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.UpdateStages.WithIdentity
+    name: OrganizationResource.UpdateStages.WithIdentity
+    no-loc:
+    - OrganizationResource.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResource.UpdateStages.WithTags
+    name: OrganizationResource.UpdateStages.WithTags
+    no-loc:
+    - OrganizationResource.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.OrganizationResourceUpdate
+    name: OrganizationResourceUpdate
+    no-loc:
+    - OrganizationResourceUpdate
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.Organizations
+    name: Organizations
+    no-loc:
+    - Organizations
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.PartnerProperties
+    name: PartnerProperties
+    no-loc:
+    - PartnerProperties
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.ResourceProvisioningState
+    name: ResourceProvisioningState
+    no-loc:
+    - ResourceProvisioningState
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.SaaSData
+    name: SaaSData
+    no-loc:
+    - SaaSData
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.SaaSOperationGroups
+    name: SaaSOperationGroups
+    no-loc:
+    - SaaSOperationGroups
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.SaaSResourceDetailsResponse
+    name: SaaSResourceDetailsResponse
+    no-loc:
+    - SaaSResourceDetailsResponse
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.SingleSignOnPropertiesV2
+    name: SingleSignOnPropertiesV2
+    no-loc:
+    - SingleSignOnPropertiesV2
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.SingleSignOnStates
+    name: SingleSignOnStates
+    no-loc:
+    - SingleSignOnStates
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.SingleSignOnType
+    name: SingleSignOnType
+    no-loc:
+    - SingleSignOnType
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.napsteromniagentapi.models.UserDetails
+    name: UserDetails
+    no-loc:
+    - UserDetails
+  no-loc:
+  - com.azure.resourcemanager.napsteromniagentapi.models
 - uid: com.azure.resourcemanager.neonpostgres
   name: com.azure.resourcemanager.neonpostgres
   items:
@@ -144217,6 +146101,10 @@
 - uid: com.azure.resourcemanager.networkcloud.fluent
   name: com.azure.resourcemanager.networkcloud.fluent
   items:
+  - uid: com.azure.resourcemanager.networkcloud.fluent.AccessBridgesClient
+    name: AccessBridgesClient
+    no-loc:
+    - AccessBridgesClient
   - uid: com.azure.resourcemanager.networkcloud.fluent.AgentPoolsClient
     name: AgentPoolsClient
     no-loc:
@@ -144257,6 +146145,10 @@
     name: KubernetesClustersClient
     no-loc:
     - KubernetesClustersClient
+  - uid: com.azure.resourcemanager.networkcloud.fluent.KubernetesVersionsClient
+    name: KubernetesVersionsClient
+    no-loc:
+    - KubernetesVersionsClient
   - uid: com.azure.resourcemanager.networkcloud.fluent.L2NetworksClient
     name: L2NetworksClient
     no-loc:
@@ -144269,10 +146161,10 @@
     name: MetricsConfigurationsClient
     no-loc:
     - MetricsConfigurationsClient
-  - uid: com.azure.resourcemanager.networkcloud.fluent.NetworkCloud
-    name: NetworkCloud
+  - uid: com.azure.resourcemanager.networkcloud.fluent.NetworkCloudManagementClient
+    name: NetworkCloudManagementClient
     no-loc:
-    - NetworkCloud
+    - NetworkCloudManagementClient
   - uid: com.azure.resourcemanager.networkcloud.fluent.OperationsClient
     name: OperationsClient
     no-loc:
@@ -144306,6 +146198,14 @@
 - uid: com.azure.resourcemanager.networkcloud.fluent.models
   name: com.azure.resourcemanager.networkcloud.fluent.models
   items:
+  - uid: com.azure.resourcemanager.networkcloud.fluent.models.AccessBridgeInner
+    name: AccessBridgeInner
+    no-loc:
+    - AccessBridgeInner
+  - uid: com.azure.resourcemanager.networkcloud.fluent.models.AccessBridgeProperties
+    name: AccessBridgeProperties
+    no-loc:
+    - AccessBridgeProperties
   - uid: com.azure.resourcemanager.networkcloud.fluent.models.AgentPoolInner
     name: AgentPoolInner
     no-loc:
@@ -144434,6 +146334,14 @@
     name: KubernetesClusterProperties
     no-loc:
     - KubernetesClusterProperties
+  - uid: com.azure.resourcemanager.networkcloud.fluent.models.KubernetesVersionInner
+    name: KubernetesVersionInner
+    no-loc:
+    - KubernetesVersionInner
+  - uid: com.azure.resourcemanager.networkcloud.fluent.models.KubernetesVersionProperties
+    name: KubernetesVersionProperties
+    no-loc:
+    - KubernetesVersionProperties
   - uid: com.azure.resourcemanager.networkcloud.fluent.models.L2NetworkInner
     name: L2NetworkInner
     no-loc:
@@ -144458,10 +146366,6 @@
     name: OperationInner
     no-loc:
     - OperationInner
-  - uid: com.azure.resourcemanager.networkcloud.fluent.models.OperationStatusResultInner
-    name: OperationStatusResultInner
-    no-loc:
-    - OperationStatusResultInner
   - uid: com.azure.resourcemanager.networkcloud.fluent.models.OperationStatusResultProperties
     name: OperationStatusResultProperties
     no-loc:
@@ -144539,6 +146443,114 @@
     name: AadConfiguration
     no-loc:
     - AadConfiguration
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge
+    name: AccessBridge
+    no-loc:
+    - AccessBridge
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.Definition
+    name: AccessBridge.Definition
+    no-loc:
+    - AccessBridge.Definition
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages
+    name: AccessBridge.DefinitionStages
+    no-loc:
+    - AccessBridge.DefinitionStages
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.Blank
+    name: AccessBridge.DefinitionStages.Blank
+    no-loc:
+    - AccessBridge.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithCreate
+    name: AccessBridge.DefinitionStages.WithCreate
+    no-loc:
+    - AccessBridge.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithExtendedLocation
+    name: AccessBridge.DefinitionStages.WithExtendedLocation
+    no-loc:
+    - AccessBridge.DefinitionStages.WithExtendedLocation
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithIpv4ConnectedPrefix
+    name: AccessBridge.DefinitionStages.WithIpv4ConnectedPrefix
+    no-loc:
+    - AccessBridge.DefinitionStages.WithIpv4ConnectedPrefix
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithIpv6ConnectedPrefix
+    name: AccessBridge.DefinitionStages.WithIpv6ConnectedPrefix
+    no-loc:
+    - AccessBridge.DefinitionStages.WithIpv6ConnectedPrefix
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithLocation
+    name: AccessBridge.DefinitionStages.WithLocation
+    no-loc:
+    - AccessBridge.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithNetworkId
+    name: AccessBridge.DefinitionStages.WithNetworkId
+    no-loc:
+    - AccessBridge.DefinitionStages.WithNetworkId
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithResourceGroup
+    name: AccessBridge.DefinitionStages.WithResourceGroup
+    no-loc:
+    - AccessBridge.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithSecurityRules
+    name: AccessBridge.DefinitionStages.WithSecurityRules
+    no-loc:
+    - AccessBridge.DefinitionStages.WithSecurityRules
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.DefinitionStages.WithTags
+    name: AccessBridge.DefinitionStages.WithTags
+    no-loc:
+    - AccessBridge.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.Update
+    name: AccessBridge.Update
+    no-loc:
+    - AccessBridge.Update
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.UpdateStages
+    name: AccessBridge.UpdateStages
+    no-loc:
+    - AccessBridge.UpdateStages
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.UpdateStages.WithIfMatch
+    name: AccessBridge.UpdateStages.WithIfMatch
+    no-loc:
+    - AccessBridge.UpdateStages.WithIfMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.UpdateStages.WithIfNoneMatch
+    name: AccessBridge.UpdateStages.WithIfNoneMatch
+    no-loc:
+    - AccessBridge.UpdateStages.WithIfNoneMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.UpdateStages.WithProperties
+    name: AccessBridge.UpdateStages.WithProperties
+    no-loc:
+    - AccessBridge.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridge.UpdateStages.WithTags
+    name: AccessBridge.UpdateStages.WithTags
+    no-loc:
+    - AccessBridge.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgeAllowedName
+    name: AccessBridgeAllowedName
+    no-loc:
+    - AccessBridgeAllowedName
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgeDetailedStatus
+    name: AccessBridgeDetailedStatus
+    no-loc:
+    - AccessBridgeDetailedStatus
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgeEndpoint
+    name: AccessBridgeEndpoint
+    no-loc:
+    - AccessBridgeEndpoint
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgePatchParameters
+    name: AccessBridgePatchParameters
+    no-loc:
+    - AccessBridgePatchParameters
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgePatchProperties
+    name: AccessBridgePatchProperties
+    no-loc:
+    - AccessBridgePatchProperties
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgeProvisioningState
+    name: AccessBridgeProvisioningState
+    no-loc:
+    - AccessBridgeProvisioningState
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridgeSecurityRule
+    name: AccessBridgeSecurityRule
+    no-loc:
+    - AccessBridgeSecurityRule
+  - uid: com.azure.resourcemanager.networkcloud.models.AccessBridges
+    name: AccessBridges
+    no-loc:
+    - AccessBridges
   - uid: com.azure.resourcemanager.networkcloud.models.ActionState
     name: ActionState
     no-loc:
@@ -144691,10 +146703,6 @@
     name: AgentPoolDetailedStatus
     no-loc:
     - AgentPoolDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.AgentPoolList
-    name: AgentPoolList
-    no-loc:
-    - AgentPoolList
   - uid: com.azure.resourcemanager.networkcloud.models.AgentPoolMode
     name: AgentPoolMode
     no-loc:
@@ -144979,10 +146987,6 @@
     name: BareMetalMachineKeySetDetailedStatus
     no-loc:
     - BareMetalMachineKeySetDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineKeySetList
-    name: BareMetalMachineKeySetList
-    no-loc:
-    - BareMetalMachineKeySetList
   - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineKeySetPatchParameters
     name: BareMetalMachineKeySetPatchParameters
     no-loc:
@@ -145003,10 +147007,18 @@
     name: BareMetalMachineKeySets
     no-loc:
     - BareMetalMachineKeySets
-  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineList
-    name: BareMetalMachineList
+  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineMetricsConfigurationStatusLogLevel
+    name: BareMetalMachineMetricsConfigurationStatusLogLevel
     no-loc:
-    - BareMetalMachineList
+    - BareMetalMachineMetricsConfigurationStatusLogLevel
+  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineMetricsConfigurationStatusMetricsLevel
+    name: BareMetalMachineMetricsConfigurationStatusMetricsLevel
+    no-loc:
+    - BareMetalMachineMetricsConfigurationStatusMetricsLevel
+  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineMonitoringConfigurationStatus
+    name: BareMetalMachineMonitoringConfigurationStatus
+    no-loc:
+    - BareMetalMachineMonitoringConfigurationStatus
   - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachinePatchParameters
     name: BareMetalMachinePatchParameters
     no-loc:
@@ -145027,6 +147039,14 @@
     name: BareMetalMachineReadyState
     no-loc:
     - BareMetalMachineReadyState
+  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineReimageParameters
+    name: BareMetalMachineReimageParameters
+    no-loc:
+    - BareMetalMachineReimageParameters
+  - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineReimageSafeguardMode
+    name: BareMetalMachineReimageSafeguardMode
+    no-loc:
+    - BareMetalMachineReimageSafeguardMode
   - uid: com.azure.resourcemanager.networkcloud.models.BareMetalMachineReplaceParameters
     name: BareMetalMachineReplaceParameters
     no-loc:
@@ -145167,10 +147187,6 @@
     name: BmcKeySetDetailedStatus
     no-loc:
     - BmcKeySetDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.BmcKeySetList
-    name: BmcKeySetList
-    no-loc:
-    - BmcKeySetList
   - uid: com.azure.resourcemanager.networkcloud.models.BmcKeySetPatchParameters
     name: BmcKeySetPatchParameters
     no-loc:
@@ -145291,10 +147307,6 @@
     name: CloudServicesNetworkEnableDefaultEgressEndpoints
     no-loc:
     - CloudServicesNetworkEnableDefaultEgressEndpoints
-  - uid: com.azure.resourcemanager.networkcloud.models.CloudServicesNetworkList
-    name: CloudServicesNetworkList
-    no-loc:
-    - CloudServicesNetworkList
   - uid: com.azure.resourcemanager.networkcloud.models.CloudServicesNetworkPatchParameters
     name: CloudServicesNetworkPatchParameters
     no-loc:
@@ -145403,6 +147415,10 @@
     name: Cluster.DefinitionStages.WithIfNoneMatch
     no-loc:
     - Cluster.DefinitionStages.WithIfNoneMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.Cluster.DefinitionStages.WithKind
+    name: Cluster.DefinitionStages.WithKind
+    no-loc:
+    - Cluster.DefinitionStages.WithKind
   - uid: com.azure.resourcemanager.networkcloud.models.Cluster.DefinitionStages.WithLocation
     name: Cluster.DefinitionStages.WithLocation
     no-loc:
@@ -145539,6 +147555,10 @@
     name: ClusterContinueUpdateVersionParameters
     no-loc:
     - ClusterContinueUpdateVersionParameters
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterContinueUpdateVersionSafeguardMode
+    name: ClusterContinueUpdateVersionSafeguardMode
+    no-loc:
+    - ClusterContinueUpdateVersionSafeguardMode
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterDeployParameters
     name: ClusterDeployParameters
     no-loc:
@@ -145547,10 +147567,14 @@
     name: ClusterDetailedStatus
     no-loc:
     - ClusterDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.ClusterList
-    name: ClusterList
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterInspectAdditionalAction
+    name: ClusterInspectAdditionalAction
     no-loc:
-    - ClusterList
+    - ClusterInspectAdditionalAction
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterInspectParameters
+    name: ClusterInspectParameters
+    no-loc:
+    - ClusterInspectParameters
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterManager
     name: ClusterManager
     no-loc:
@@ -145595,6 +147619,10 @@
     name: ClusterManager.DefinitionStages.WithIfNoneMatch
     no-loc:
     - ClusterManager.DefinitionStages.WithIfNoneMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterManager.DefinitionStages.WithKind
+    name: ClusterManager.DefinitionStages.WithKind
+    no-loc:
+    - ClusterManager.DefinitionStages.WithKind
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterManager.DefinitionStages.WithLocation
     name: ClusterManager.DefinitionStages.WithLocation
     no-loc:
@@ -145647,10 +147675,6 @@
     name: ClusterManagerDetailedStatus
     no-loc:
     - ClusterManagerDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.ClusterManagerList
-    name: ClusterManagerList
-    no-loc:
-    - ClusterManagerList
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterManagerPatchParameters
     name: ClusterManagerPatchParameters
     no-loc:
@@ -145659,6 +147683,14 @@
     name: ClusterManagerProvisioningState
     no-loc:
     - ClusterManagerProvisioningState
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterManagerRelayConfiguration
+    name: ClusterManagerRelayConfiguration
+    no-loc:
+    - ClusterManagerRelayConfiguration
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterManagerUpdateRelayPrivateEndpointConnectionParameters
+    name: ClusterManagerUpdateRelayPrivateEndpointConnectionParameters
+    no-loc:
+    - ClusterManagerUpdateRelayPrivateEndpointConnectionParameters
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterManagers
     name: ClusterManagers
     no-loc:
@@ -145747,10 +147779,6 @@
     name: ClusterMetricsConfigurationDetailedStatus
     no-loc:
     - ClusterMetricsConfigurationDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.ClusterMetricsConfigurationList
-    name: ClusterMetricsConfigurationList
-    no-loc:
-    - ClusterMetricsConfigurationList
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterMetricsConfigurationPatchParameters
     name: ClusterMetricsConfigurationPatchParameters
     no-loc:
@@ -145767,6 +147795,10 @@
     name: ClusterProvisioningState
     no-loc:
     - ClusterProvisioningState
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterRotateCredentialParameters
+    name: ClusterRotateCredentialParameters
+    no-loc:
+    - ClusterRotateCredentialParameters
   - uid: com.azure.resourcemanager.networkcloud.models.ClusterScanRuntimeParameters
     name: ClusterScanRuntimeParameters
     no-loc:
@@ -145799,6 +147831,10 @@
     name: ClusterUpdateVersionParameters
     no-loc:
     - ClusterUpdateVersionParameters
+  - uid: com.azure.resourcemanager.networkcloud.models.ClusterUpdateVersionSafeguardMode
+    name: ClusterUpdateVersionSafeguardMode
+    no-loc:
+    - ClusterUpdateVersionSafeguardMode
   - uid: com.azure.resourcemanager.networkcloud.models.Clusters
     name: Clusters
     no-loc:
@@ -145911,10 +147947,6 @@
     name: ConsoleEnabled
     no-loc:
     - ConsoleEnabled
-  - uid: com.azure.resourcemanager.networkcloud.models.ConsoleList
-    name: ConsoleList
-    no-loc:
-    - ConsoleList
   - uid: com.azure.resourcemanager.networkcloud.models.ConsolePatchParameters
     name: ConsolePatchParameters
     no-loc:
@@ -145943,6 +147975,10 @@
     name: DefaultGateway
     no-loc:
     - DefaultGateway
+  - uid: com.azure.resourcemanager.networkcloud.models.DeploymentType
+    name: DeploymentType
+    no-loc:
+    - DeploymentType
   - uid: com.azure.resourcemanager.networkcloud.models.DeviceConnectionType
     name: DeviceConnectionType
     no-loc:
@@ -145963,6 +147999,10 @@
     name: ExtendedLocation
     no-loc:
     - ExtendedLocation
+  - uid: com.azure.resourcemanager.networkcloud.models.ExtendedLocationType
+    name: ExtendedLocationType
+    no-loc:
+    - ExtendedLocationType
   - uid: com.azure.resourcemanager.networkcloud.models.FabricPeeringEnabled
     name: FabricPeeringEnabled
     no-loc:
@@ -145975,6 +148015,10 @@
     name: FeatureStatus
     no-loc:
     - FeatureStatus
+  - uid: com.azure.resourcemanager.networkcloud.models.FilterDevices
+    name: FilterDevices
+    no-loc:
+    - FilterDevices
   - uid: com.azure.resourcemanager.networkcloud.models.HardwareInventory
     name: HardwareInventory
     no-loc:
@@ -146211,10 +148255,6 @@
     name: KubernetesClusterFeatureDetailedStatus
     no-loc:
     - KubernetesClusterFeatureDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesClusterFeatureList
-    name: KubernetesClusterFeatureList
-    no-loc:
-    - KubernetesClusterFeatureList
   - uid: com.azure.resourcemanager.networkcloud.models.KubernetesClusterFeaturePatchParameters
     name: KubernetesClusterFeaturePatchParameters
     no-loc:
@@ -146231,10 +148271,6 @@
     name: KubernetesClusterFeatures
     no-loc:
     - KubernetesClusterFeatures
-  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesClusterList
-    name: KubernetesClusterList
-    no-loc:
-    - KubernetesClusterList
   - uid: com.azure.resourcemanager.networkcloud.models.KubernetesClusterNode
     name: KubernetesClusterNode
     no-loc:
@@ -146275,6 +148311,86 @@
     name: KubernetesPluginType
     no-loc:
     - KubernetesPluginType
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion
+    name: KubernetesVersion
+    no-loc:
+    - KubernetesVersion
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.Definition
+    name: KubernetesVersion.Definition
+    no-loc:
+    - KubernetesVersion.Definition
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages
+    name: KubernetesVersion.DefinitionStages
+    no-loc:
+    - KubernetesVersion.DefinitionStages
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.Blank
+    name: KubernetesVersion.DefinitionStages.Blank
+    no-loc:
+    - KubernetesVersion.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithCreate
+    name: KubernetesVersion.DefinitionStages.WithCreate
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithExtendedLocation
+    name: KubernetesVersion.DefinitionStages.WithExtendedLocation
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithExtendedLocation
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithIfMatch
+    name: KubernetesVersion.DefinitionStages.WithIfMatch
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithIfMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithIfNoneMatch
+    name: KubernetesVersion.DefinitionStages.WithIfNoneMatch
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithIfNoneMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithLocation
+    name: KubernetesVersion.DefinitionStages.WithLocation
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithResourceGroup
+    name: KubernetesVersion.DefinitionStages.WithResourceGroup
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.DefinitionStages.WithTags
+    name: KubernetesVersion.DefinitionStages.WithTags
+    no-loc:
+    - KubernetesVersion.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.Update
+    name: KubernetesVersion.Update
+    no-loc:
+    - KubernetesVersion.Update
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.UpdateStages
+    name: KubernetesVersion.UpdateStages
+    no-loc:
+    - KubernetesVersion.UpdateStages
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.UpdateStages.WithIfMatch
+    name: KubernetesVersion.UpdateStages.WithIfMatch
+    no-loc:
+    - KubernetesVersion.UpdateStages.WithIfMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.UpdateStages.WithIfNoneMatch
+    name: KubernetesVersion.UpdateStages.WithIfNoneMatch
+    no-loc:
+    - KubernetesVersion.UpdateStages.WithIfNoneMatch
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersion.UpdateStages.WithTags
+    name: KubernetesVersion.UpdateStages.WithTags
+    no-loc:
+    - KubernetesVersion.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersionPatchParameters
+    name: KubernetesVersionPatchParameters
+    no-loc:
+    - KubernetesVersionPatchParameters
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersionProvisioningState
+    name: KubernetesVersionProvisioningState
+    no-loc:
+    - KubernetesVersionProvisioningState
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersionValue
+    name: KubernetesVersionValue
+    no-loc:
+    - KubernetesVersionValue
+  - uid: com.azure.resourcemanager.networkcloud.models.KubernetesVersions
+    name: KubernetesVersions
+    no-loc:
+    - KubernetesVersions
   - uid: com.azure.resourcemanager.networkcloud.models.L2Network
     name: L2Network
     no-loc:
@@ -146359,10 +148475,6 @@
     name: L2NetworkDetailedStatus
     no-loc:
     - L2NetworkDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.L2NetworkList
-    name: L2NetworkList
-    no-loc:
-    - L2NetworkList
   - uid: com.azure.resourcemanager.networkcloud.models.L2NetworkPatchParameters
     name: L2NetworkPatchParameters
     no-loc:
@@ -146487,10 +148599,6 @@
     name: L3NetworkDetailedStatus
     no-loc:
     - L3NetworkDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.L3NetworkList
-    name: L3NetworkList
-    no-loc:
-    - L3NetworkList
   - uid: com.azure.resourcemanager.networkcloud.models.L3NetworkPatchParameters
     name: L3NetworkPatchParameters
     no-loc:
@@ -146567,10 +148675,6 @@
     name: OperationDisplay
     no-loc:
     - OperationDisplay
-  - uid: com.azure.resourcemanager.networkcloud.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.networkcloud.models.OperationStatusResult
     name: OperationStatusResult
     no-loc:
@@ -146691,10 +148795,6 @@
     name: RackDetailedStatus
     no-loc:
     - RackDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.RackList
-    name: RackList
-    no-loc:
-    - RackList
   - uid: com.azure.resourcemanager.networkcloud.models.RackPatchParameters
     name: RackPatchParameters
     no-loc:
@@ -146707,10 +148807,6 @@
     name: RackSku
     no-loc:
     - RackSku
-  - uid: com.azure.resourcemanager.networkcloud.models.RackSkuList
-    name: RackSkuList
-    no-loc:
-    - RackSkuList
   - uid: com.azure.resourcemanager.networkcloud.models.RackSkuProvisioningState
     name: RackSkuProvisioningState
     no-loc:
@@ -146727,6 +148823,10 @@
     name: Racks
     no-loc:
     - Racks
+  - uid: com.azure.resourcemanager.networkcloud.models.RelayPrivateEndpointConnectionState
+    name: RelayPrivateEndpointConnectionState
+    no-loc:
+    - RelayPrivateEndpointConnectionState
   - uid: com.azure.resourcemanager.networkcloud.models.RelayType
     name: RelayType
     no-loc:
@@ -146739,10 +148839,22 @@
     name: RemoteVendorManagementStatus
     no-loc:
     - RemoteVendorManagementStatus
+  - uid: com.azure.resourcemanager.networkcloud.models.RuntimeProtectionAgentHealthStatus
+    name: RuntimeProtectionAgentHealthStatus
+    no-loc:
+    - RuntimeProtectionAgentHealthStatus
+  - uid: com.azure.resourcemanager.networkcloud.models.RuntimeProtectionAgentLicenseStatus
+    name: RuntimeProtectionAgentLicenseStatus
+    no-loc:
+    - RuntimeProtectionAgentLicenseStatus
   - uid: com.azure.resourcemanager.networkcloud.models.RuntimeProtectionConfiguration
     name: RuntimeProtectionConfiguration
     no-loc:
     - RuntimeProtectionConfiguration
+  - uid: com.azure.resourcemanager.networkcloud.models.RuntimeProtectionDefinitionUpdateMode
+    name: RuntimeProtectionDefinitionUpdateMode
+    no-loc:
+    - RuntimeProtectionDefinitionUpdateMode
   - uid: com.azure.resourcemanager.networkcloud.models.RuntimeProtectionEnforcementLevel
     name: RuntimeProtectionEnforcementLevel
     no-loc:
@@ -146763,6 +148875,10 @@
     name: SecretRotationStatus
     no-loc:
     - SecretRotationStatus
+  - uid: com.azure.resourcemanager.networkcloud.models.SecurityRuleDirection
+    name: SecurityRuleDirection
+    no-loc:
+    - SecurityRuleDirection
   - uid: com.azure.resourcemanager.networkcloud.models.ServiceLoadBalancerBgpPeer
     name: ServiceLoadBalancerBgpPeer
     no-loc:
@@ -146891,10 +149007,22 @@
     name: StorageApplianceEnableRemoteVendorManagementParameters
     no-loc:
     - StorageApplianceEnableRemoteVendorManagementParameters
-  - uid: com.azure.resourcemanager.networkcloud.models.StorageApplianceList
-    name: StorageApplianceList
+  - uid: com.azure.resourcemanager.networkcloud.models.StorageApplianceExpansionShelf
+    name: StorageApplianceExpansionShelf
     no-loc:
-    - StorageApplianceList
+    - StorageApplianceExpansionShelf
+  - uid: com.azure.resourcemanager.networkcloud.models.StorageApplianceMetricsConfigurationStatusLogLevel
+    name: StorageApplianceMetricsConfigurationStatusLogLevel
+    no-loc:
+    - StorageApplianceMetricsConfigurationStatusLogLevel
+  - uid: com.azure.resourcemanager.networkcloud.models.StorageApplianceMetricsConfigurationStatusMetricsLevel
+    name: StorageApplianceMetricsConfigurationStatusMetricsLevel
+    no-loc:
+    - StorageApplianceMetricsConfigurationStatusMetricsLevel
+  - uid: com.azure.resourcemanager.networkcloud.models.StorageApplianceMonitoringConfigurationStatus
+    name: StorageApplianceMonitoringConfigurationStatus
+    no-loc:
+    - StorageApplianceMonitoringConfigurationStatus
   - uid: com.azure.resourcemanager.networkcloud.models.StorageAppliancePatchParameters
     name: StorageAppliancePatchParameters
     no-loc:
@@ -146923,6 +149051,10 @@
     name: StringKeyValuePair
     no-loc:
     - StringKeyValuePair
+  - uid: com.azure.resourcemanager.networkcloud.models.TransportProtocol
+    name: TransportProtocol
+    no-loc:
+    - TransportProtocol
   - uid: com.azure.resourcemanager.networkcloud.models.TrunkedNetwork
     name: TrunkedNetwork
     no-loc:
@@ -147011,10 +149143,6 @@
     name: TrunkedNetworkDetailedStatus
     no-loc:
     - TrunkedNetworkDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.TrunkedNetworkList
-    name: TrunkedNetworkList
-    no-loc:
-    - TrunkedNetworkList
   - uid: com.azure.resourcemanager.networkcloud.models.TrunkedNetworkPatchParameters
     name: TrunkedNetworkPatchParameters
     no-loc:
@@ -147219,10 +149347,6 @@
     name: VirtualMachineIsolateEmulatorThread
     no-loc:
     - VirtualMachineIsolateEmulatorThread
-  - uid: com.azure.resourcemanager.networkcloud.models.VirtualMachineList
-    name: VirtualMachineList
-    no-loc:
-    - VirtualMachineList
   - uid: com.azure.resourcemanager.networkcloud.models.VirtualMachinePatchParameters
     name: VirtualMachinePatchParameters
     no-loc:
@@ -147339,10 +149463,6 @@
     name: VolumeDetailedStatus
     no-loc:
     - VolumeDetailedStatus
-  - uid: com.azure.resourcemanager.networkcloud.models.VolumeList
-    name: VolumeList
-    no-loc:
-    - VolumeList
   - uid: com.azure.resourcemanager.networkcloud.models.VolumePatchParameters
     name: VolumePatchParameters
     no-loc:
@@ -166117,6 +168237,1026 @@
     - SubscriptionScopeProperties
   no-loc:
   - com.azure.resourcemanager.reservations.models
+- uid: com.azure.resourcemanager.resiliencemanagement
+  name: com.azure.resourcemanager.resiliencemanagement
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.ResilienceManagementManager
+    name: ResilienceManagementManager
+    no-loc:
+    - ResilienceManagementManager
+  - uid: com.azure.resourcemanager.resiliencemanagement.ResilienceManagementManager.Configurable
+    name: ResilienceManagementManager.Configurable
+    no-loc:
+    - ResilienceManagementManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement
+- uid: com.azure.resourcemanager.resiliencemanagement.fluent
+  name: com.azure.resourcemanager.resiliencemanagement.fluent
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillResourcesClient
+    name: DrillResourcesClient
+    no-loc:
+    - DrillResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillRunResourcesClient
+    name: DrillRunResourcesClient
+    no-loc:
+    - DrillRunResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillRunsClient
+    name: DrillRunsClient
+    no-loc:
+    - DrillRunsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillsClient
+    name: DrillsClient
+    no-loc:
+    - DrillsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.EnrollmentsClient
+    name: EnrollmentsClient
+    no-loc:
+    - EnrollmentsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.GoalAssignmentsClient
+    name: GoalAssignmentsClient
+    no-loc:
+    - GoalAssignmentsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.GoalResourcesClient
+    name: GoalResourcesClient
+    no-loc:
+    - GoalResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.GoalTemplatesClient
+    name: GoalTemplatesClient
+    no-loc:
+    - GoalTemplatesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.OperationStatusClient
+    name: OperationStatusClient
+    no-loc:
+    - OperationStatusClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryJobResourcesClient
+    name: RecoveryJobResourcesClient
+    no-loc:
+    - RecoveryJobResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryJobsClient
+    name: RecoveryJobsClient
+    no-loc:
+    - RecoveryJobsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryPlanActionsClient
+    name: RecoveryPlanActionsClient
+    no-loc:
+    - RecoveryPlanActionsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryPlansClient
+    name: RecoveryPlansClient
+    no-loc:
+    - RecoveryPlansClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryResourcesClient
+    name: RecoveryResourcesClient
+    no-loc:
+    - RecoveryResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.ResilienceManagementManagementClient
+    name: ResilienceManagementManagementClient
+    no-loc:
+    - ResilienceManagementManagementClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.UnifiedResilienceItemsClient
+    name: UnifiedResilienceItemsClient
+    no-loc:
+    - UnifiedResilienceItemsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.UsagePlansClient
+    name: UsagePlansClient
+    no-loc:
+    - UsagePlansClient
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement.fluent
+- uid: com.azure.resourcemanager.resiliencemanagement.fluent.models
+  name: com.azure.resourcemanager.resiliencemanagement.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillInner
+    name: DrillInner
+    no-loc:
+    - DrillInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillResourceInner
+    name: DrillResourceInner
+    no-loc:
+    - DrillResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillRunInner
+    name: DrillRunInner
+    no-loc:
+    - DrillRunInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillRunResourceInner
+    name: DrillRunResourceInner
+    no-loc:
+    - DrillRunResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.EnrollmentInner
+    name: EnrollmentInner
+    no-loc:
+    - EnrollmentInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalAssignmentInner
+    name: GoalAssignmentInner
+    no-loc:
+    - GoalAssignmentInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalResourceInner
+    name: GoalResourceInner
+    no-loc:
+    - GoalResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalTemplateInner
+    name: GoalTemplateInner
+    no-loc:
+    - GoalTemplateInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.OperationStatusResultInner
+    name: OperationStatusResultInner
+    no-loc:
+    - OperationStatusResultInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryJobInner
+    name: RecoveryJobInner
+    no-loc:
+    - RecoveryJobInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryJobResourceInner
+    name: RecoveryJobResourceInner
+    no-loc:
+    - RecoveryJobResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryPlanActionBaseResponseInner
+    name: RecoveryPlanActionBaseResponseInner
+    no-loc:
+    - RecoveryPlanActionBaseResponseInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryPlanInner
+    name: RecoveryPlanInner
+    no-loc:
+    - RecoveryPlanInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceInner
+    name: RecoveryResourceInner
+    no-loc:
+    - RecoveryResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceQualificationInner
+    name: RecoveryResourceQualificationInner
+    no-loc:
+    - RecoveryResourceQualificationInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.UnifiedResilienceItemInner
+    name: UnifiedResilienceItemInner
+    no-loc:
+    - UnifiedResilienceItemInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.UpdateRecoveryResourcesResponseInner
+    name: UpdateRecoveryResourcesResponseInner
+    no-loc:
+    - UpdateRecoveryResourcesResponseInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.UsagePlanInner
+    name: UsagePlanInner
+    no-loc:
+    - UsagePlanInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.ValidateForRecoveryOperationBaseResponseInner
+    name: ValidateForRecoveryOperationBaseResponseInner
+    no-loc:
+    - ValidateForRecoveryOperationBaseResponseInner
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement.fluent.models
+- uid: com.azure.resourcemanager.resiliencemanagement.models
+  name: com.azure.resourcemanager.resiliencemanagement.models
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ActionTask
+    name: ActionTask
+    no-loc:
+    - ActionTask
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AddOrUpdateResourcesRequest
+    name: AddOrUpdateResourcesRequest
+    no-loc:
+    - AddOrUpdateResourcesRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ArmResponseErrorResponse
+    name: ArmResponseErrorResponse
+    no-loc:
+    - ArmResponseErrorResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AssetPropertiesOfDrill
+    name: AssetPropertiesOfDrill
+    no-loc:
+    - AssetPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity
+    name: AssociatedIdentity
+    no-loc:
+    - AssociatedIdentity
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AttentionReason
+    name: AttentionReason
+    no-loc:
+    - AttentionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AttestationState
+    name: AttestationState
+    no-loc:
+    - AttestationState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AutoFailover
+    name: AutoFailover
+    no-loc:
+    - AutoFailover
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ChaosResourcePropertiesOfDrill
+    name: ChaosResourcePropertiesOfDrill
+    no-loc:
+    - ChaosResourcePropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.CommentType
+    name: CommentType
+    no-loc:
+    - CommentType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ConfirmationStatus
+    name: ConfirmationStatus
+    no-loc:
+    - ConfirmationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.CustomFaultDetails
+    name: CustomFaultDetails
+    no-loc:
+    - CustomFaultDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails
+    name: DiskReprotectInputDetails
+    no-loc:
+    - DiskReprotectInputDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Drill
+    name: Drill
+    no-loc:
+    - Drill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillAttestation
+    name: DrillAttestation
+    no-loc:
+    - DrillAttestation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillEndRequest
+    name: DrillEndRequest
+    no-loc:
+    - DrillEndRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillMode
+    name: DrillMode
+    no-loc:
+    - DrillMode
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillProperties
+    name: DrillProperties
+    no-loc:
+    - DrillProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResource
+    name: DrillResource
+    no-loc:
+    - DrillResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason
+    name: DrillResourceAttentionReason
+    no-loc:
+    - DrillResourceAttentionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState
+    name: DrillResourceFaultState
+    no-loc:
+    - DrillResourceFaultState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceInclusionState
+    name: DrillResourceInclusionState
+    no-loc:
+    - DrillResourceInclusionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceProperties
+    name: DrillResourceProperties
+    no-loc:
+    - DrillResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceReadinessState
+    name: DrillResourceReadinessState
+    no-loc:
+    - DrillResourceReadinessState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState
+    name: DrillResourceState
+    no-loc:
+    - DrillResourceState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResources
+    name: DrillResources
+    no-loc:
+    - DrillResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRun
+    name: DrillRun
+    no-loc:
+    - DrillRun
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunAddNotesRequest
+    name: DrillRunAddNotesRequest
+    no-loc:
+    - DrillRunAddNotesRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest
+    name: DrillRunFailoverRequest
+    no-loc:
+    - DrillRunFailoverRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs
+    name: DrillRunOperationVerbs
+    no-loc:
+    - DrillRunOperationVerbs
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunProperties
+    name: DrillRunProperties
+    no-loc:
+    - DrillRunProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunResource
+    name: DrillRunResource
+    no-loc:
+    - DrillRunResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunResourceProperties
+    name: DrillRunResourceProperties
+    no-loc:
+    - DrillRunResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunResources
+    name: DrillRunResources
+    no-loc:
+    - DrillRunResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunSubtasks
+    name: DrillRunSubtasks
+    no-loc:
+    - DrillRunSubtasks
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRuns
+    name: DrillRuns
+    no-loc:
+    - DrillRuns
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillStartRequest
+    name: DrillStartRequest
+    no-loc:
+    - DrillStartRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillType
+    name: DrillType
+    no-loc:
+    - DrillType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate
+    name: DrillUpdate
+    no-loc:
+    - DrillUpdate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties
+    name: DrillUpdateProperties
+    no-loc:
+    - DrillUpdateProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Drills
+    name: Drills
+    no-loc:
+    - Drills
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment
+    name: Enrollment
+    no-loc:
+    - Enrollment
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Definition
+    name: Enrollment.Definition
+    no-loc:
+    - Enrollment.Definition
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages
+    name: Enrollment.DefinitionStages
+    no-loc:
+    - Enrollment.DefinitionStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.Blank
+    name: Enrollment.DefinitionStages.Blank
+    no-loc:
+    - Enrollment.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate
+    name: Enrollment.DefinitionStages.WithCreate
+    no-loc:
+    - Enrollment.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource
+    name: Enrollment.DefinitionStages.WithParentResource
+    no-loc:
+    - Enrollment.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithProperties
+    name: Enrollment.DefinitionStages.WithProperties
+    no-loc:
+    - Enrollment.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Update
+    name: Enrollment.Update
+    no-loc:
+    - Enrollment.Update
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages
+    name: Enrollment.UpdateStages
+    no-loc:
+    - Enrollment.UpdateStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages.WithProperties
+    name: Enrollment.UpdateStages.WithProperties
+    no-loc:
+    - Enrollment.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.EnrollmentProperties
+    name: EnrollmentProperties
+    no-loc:
+    - EnrollmentProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollments
+    name: Enrollments
+    no-loc:
+    - Enrollments
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ErrorDetails
+    name: ErrorDetails
+    no-loc:
+    - ErrorDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason
+    name: ExclusionReason
+    no-loc:
+    - ExclusionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExclusionState
+    name: ExclusionState
+    no-loc:
+    - ExclusionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExecutionConfigurations
+    name: ExecutionConfigurations
+    no-loc:
+    - ExecutionConfigurations
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExecutionReadinessState
+    name: ExecutionReadinessState
+    no-loc:
+    - ExecutionReadinessState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExecutionState
+    name: ExecutionState
+    no-loc:
+    - ExecutionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState
+    name: ExtensionObjectState
+    no-loc:
+    - ExtensionObjectState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes
+    name: FailoverDirectionTypes
+    no-loc:
+    - FailoverDirectionTypes
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest
+    name: FailoverRequest
+    no-loc:
+    - FailoverRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverRequestProperties
+    name: FailoverRequestProperties
+    no-loc:
+    - FailoverRequestProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverState
+    name: FailoverState
+    no-loc:
+    - FailoverState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FaultDetails
+    name: FaultDetails
+    no-loc:
+    - FaultDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FaultProperties
+    name: FaultProperties
+    no-loc:
+    - FaultProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ForceInclusionAndUpdate
+    name: ForceInclusionAndUpdate
+    no-loc:
+    - ForceInclusionAndUpdate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment
+    name: GoalAssignment
+    no-loc:
+    - GoalAssignment
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentProperties
+    name: GoalAssignmentProperties
+    no-loc:
+    - GoalAssignmentProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentType
+    name: GoalAssignmentType
+    no-loc:
+    - GoalAssignmentType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignments
+    name: GoalAssignments
+    no-loc:
+    - GoalAssignments
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalResource
+    name: GoalResource
+    no-loc:
+    - GoalResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalResourceProperties
+    name: GoalResourceProperties
+    no-loc:
+    - GoalResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalResources
+    name: GoalResources
+    no-loc:
+    - GoalResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalTemplate
+    name: GoalTemplate
+    no-loc:
+    - GoalTemplate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalTemplateProperties
+    name: GoalTemplateProperties
+    no-loc:
+    - GoalTemplateProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalTemplates
+    name: GoalTemplates
+    no-loc:
+    - GoalTemplates
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalType
+    name: GoalType
+    no-loc:
+    - GoalType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalsData
+    name: GoalsData
+    no-loc:
+    - GoalsData
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.HAStatus
+    name: HAStatus
+    no-loc:
+    - HAStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource
+    name: IncludeOrUpdateResource
+    no-loc:
+    - IncludeOrUpdateResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.InitialConfig
+    name: InitialConfig
+    no-loc:
+    - InitialConfig
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.IsoDuration
+    name: IsoDuration
+    no-loc:
+    - IsoDuration
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobErrorInfo
+    name: JobErrorInfo
+    no-loc:
+    - JobErrorInfo
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo
+    name: JobExtendedInfo
+    no-loc:
+    - JobExtendedInfo
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobProperties
+    name: JobProperties
+    no-loc:
+    - JobProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobResourceProperties
+    name: JobResourceProperties
+    no-loc:
+    - JobResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobResourceType
+    name: JobResourceType
+    no-loc:
+    - JobResourceType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobRetryDetails
+    name: JobRetryDetails
+    no-loc:
+    - JobRetryDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobStatus
+    name: JobStatus
+    no-loc:
+    - JobStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobTaskDetail
+    name: JobTaskDetail
+    no-loc:
+    - JobTaskDetail
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy
+    name: JobTriggeredBy
+    no-loc:
+    - JobTriggeredBy
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobType
+    name: JobType
+    no-loc:
+    - JobType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobUserComment
+    name: JobUserComment
+    no-loc:
+    - JobUserComment
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties
+    name: LastRunProperties
+    no-loc:
+    - LastRunProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ManagedOnBehalfOfConfiguration
+    name: ManagedOnBehalfOfConfiguration
+    no-loc:
+    - ManagedOnBehalfOfConfiguration
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity
+    name: ManagedServiceIdentity
+    no-loc:
+    - ManagedServiceIdentity
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.MarkAsCompleteRequest
+    name: MarkAsCompleteRequest
+    no-loc:
+    - MarkAsCompleteRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.MembershipType
+    name: MembershipType
+    no-loc:
+    - MembershipType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.MoboBrokerResource
+    name: MoboBrokerResource
+    no-loc:
+    - MoboBrokerResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.MonitoringPropertiesOfDrill
+    name: MonitoringPropertiesOfDrill
+    no-loc:
+    - MonitoringPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationQualificationDetails
+    name: OperationQualificationDetails
+    no-loc:
+    - OperationQualificationDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationStatus
+    name: OperationStatus
+    no-loc:
+    - OperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationStatusResult
+    name: OperationStatusResult
+    no-loc:
+    - OperationStatusResult
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.QualificationState
+    name: QualificationState
+    no-loc:
+    - QualificationState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RBACSetupMode
+    name: RBACSetupMode
+    no-loc:
+    - RBACSetupMode
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RBACState
+    name: RBACState
+    no-loc:
+    - RBACState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReasonForRequestingConfirmation
+    name: ReasonForRequestingConfirmation
+    no-loc:
+    - ReasonForRequestingConfirmation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecommendCapacityRequest
+    name: RecommendCapacityRequest
+    no-loc:
+    - RecommendCapacityRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecommendationsData
+    name: RecommendationsData
+    no-loc:
+    - RecommendationsData
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecommendationsHighAvailabilityData
+    name: RecommendationsHighAvailabilityData
+    no-loc:
+    - RecommendationsHighAvailabilityData
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryActionRequest
+    name: RecoveryActionRequest
+    no-loc:
+    - RecoveryActionRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup
+    name: RecoveryGroup
+    no-loc:
+    - RecoveryGroup
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionSettings
+    name: RecoveryGroupActionSettings
+    no-loc:
+    - RecoveryGroupActionSettings
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType
+    name: RecoveryGroupActionType
+    no-loc:
+    - RecoveryGroupActionType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupBaseAction
+    name: RecoveryGroupBaseAction
+    no-loc:
+    - RecoveryGroupBaseAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupCustomRunbookAction
+    name: RecoveryGroupCustomRunbookAction
+    no-loc:
+    - RecoveryGroupCustomRunbookAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupManualAction
+    name: RecoveryGroupManualAction
+    no-loc:
+    - RecoveryGroupManualAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupProperties
+    name: RecoveryGroupProperties
+    no-loc:
+    - RecoveryGroupProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting
+    name: RecoveryGroupsSetting
+    no-loc:
+    - RecoveryGroupsSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJob
+    name: RecoveryJob
+    no-loc:
+    - RecoveryJob
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobProperties
+    name: RecoveryJobProperties
+    no-loc:
+    - RecoveryJobProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobResource
+    name: RecoveryJobResource
+    no-loc:
+    - RecoveryJobResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobResourceProperties
+    name: RecoveryJobResourceProperties
+    no-loc:
+    - RecoveryJobResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobResources
+    name: RecoveryJobResources
+    no-loc:
+    - RecoveryJobResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobs
+    name: RecoveryJobs
+    no-loc:
+    - RecoveryJobs
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames
+    name: RecoveryOperationNames
+    no-loc:
+    - RecoveryOperationNames
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationStatus
+    name: RecoveryOperationStatus
+    no-loc:
+    - RecoveryOperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlan
+    name: RecoveryPlan
+    no-loc:
+    - RecoveryPlan
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanActionBaseResponse
+    name: RecoveryPlanActionBaseResponse
+    no-loc:
+    - RecoveryPlanActionBaseResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanActions
+    name: RecoveryPlanActions
+    no-loc:
+    - RecoveryPlanActions
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanExclusionReason
+    name: RecoveryPlanExclusionReason
+    no-loc:
+    - RecoveryPlanExclusionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanFailoverOperationStatus
+    name: RecoveryPlanFailoverOperationStatus
+    no-loc:
+    - RecoveryPlanFailoverOperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanOperationStatus
+    name: RecoveryPlanOperationStatus
+    no-loc:
+    - RecoveryPlanOperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanProperties
+    name: RecoveryPlanProperties
+    no-loc:
+    - RecoveryPlanProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanPropertiesOfDrill
+    name: RecoveryPlanPropertiesOfDrill
+    no-loc:
+    - RecoveryPlanPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanState
+    name: RecoveryPlanState
+    no-loc:
+    - RecoveryPlanState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType
+    name: RecoveryPlanType
+    no-loc:
+    - RecoveryPlanType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlans
+    name: RecoveryPlans
+    no-loc:
+    - RecoveryPlans
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResource
+    name: RecoveryResource
+    no-loc:
+    - RecoveryResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceProperties
+    name: RecoveryResourceProperties
+    no-loc:
+    - RecoveryResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification
+    name: RecoveryResourceQualification
+    no-loc:
+    - RecoveryResourceQualification
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResources
+    name: RecoveryResources
+    no-loc:
+    - RecoveryResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RegionalDrillProperties
+    name: RegionalDrillProperties
+    no-loc:
+    - RegionalDrillProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState
+    name: RelativeResourceCompositionState
+    no-loc:
+    - RelativeResourceCompositionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest
+    name: ReprotectRequest
+    no-loc:
+    - ReprotectRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties
+    name: ReprotectRequestProperties
+    no-loc:
+    - ReprotectRequestProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected
+    name: RequirementSelected
+    no-loc:
+    - RequirementSelected
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus
+    name: ResilienceHealthStatus
+    no-loc:
+    - ResilienceHealthStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting
+    name: ResourceBaseProtectionSolutionSetting
+    no-loc:
+    - ResourceBaseProtectionSolutionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceCustomProtectionAction
+    name: ResourceCustomProtectionAction
+    no-loc:
+    - ResourceCustomProtectionAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceCustomProtectionSetting
+    name: ResourceCustomProtectionSetting
+    no-loc:
+    - ResourceCustomProtectionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceInclusionState
+    name: ResourceInclusionState
+    no-loc:
+    - ResourceInclusionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceLists
+    name: ResourceLists
+    no-loc:
+    - ResourceLists
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting
+    name: ResourceNativeProtectionSolutionSetting
+    no-loc:
+    - ResourceNativeProtectionSolutionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionSettings
+    name: ResourceProtectionSolutionSettings
+    no-loc:
+    - ResourceProtectionSolutionSettings
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType
+    name: ResourceProtectionSolutionType
+    no-loc:
+    - ResourceProtectionSolutionType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus
+    name: ResourceProtectionStatus
+    no-loc:
+    - ResourceProtectionStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole
+    name: ResourceReplicationRole
+    no-loc:
+    - ResourceReplicationRole
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryProtectionSetting
+    name: ResourceSiteRecoveryProtectionSetting
+    no-loc:
+    - ResourceSiteRecoveryProtectionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryReprotectParams
+    name: ResourceSiteRecoveryReprotectParams
+    no-loc:
+    - ResourceSiteRecoveryReprotectParams
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryTestFailoverCleanupParams
+    name: ResourceSiteRecoveryTestFailoverCleanupParams
+    no-loc:
+    - ResourceSiteRecoveryTestFailoverCleanupParams
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryTestFailoverParams
+    name: ResourceSiteRecoveryTestFailoverParams
+    no-loc:
+    - ResourceSiteRecoveryTestFailoverParams
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceTypeCategories
+    name: ResourceTypeCategories
+    no-loc:
+    - ResourceTypeCategories
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ServiceGroupMembership
+    name: ServiceGroupMembership
+    no-loc:
+    - ServiceGroupMembership
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ServiceLevelResource
+    name: ServiceLevelResource
+    no-loc:
+    - ServiceLevelResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SolutionDisplayName
+    name: SolutionDisplayName
+    no-loc:
+    - SolutionDisplayName
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SupportedVerbsForStage
+    name: SupportedVerbsForStage
+    no-loc:
+    - SupportedVerbsForStage
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SystemMetadata
+    name: SystemMetadata
+    no-loc:
+    - SystemMetadata
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.TestFailoverCleanupRequest
+    name: TestFailoverCleanupRequest
+    no-loc:
+    - TestFailoverCleanupRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.TestFailoverState
+    name: TestFailoverState
+    no-loc:
+    - TestFailoverState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItem
+    name: UnifiedResilienceItem
+    no-loc:
+    - UnifiedResilienceItem
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemProperties
+    name: UnifiedResilienceItemProperties
+    no-loc:
+    - UnifiedResilienceItemProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemRequirementSelected
+    name: UnifiedResilienceItemRequirementSelected
+    no-loc:
+    - UnifiedResilienceItemRequirementSelected
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItems
+    name: UnifiedResilienceItems
+    no-loc:
+    - UnifiedResilienceItems
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UpdateGoalResourceRequest
+    name: UpdateGoalResourceRequest
+    no-loc:
+    - UpdateGoalResourceRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesRequest
+    name: UpdateRecoveryResourcesRequest
+    no-loc:
+    - UpdateRecoveryResourcesRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse
+    name: UpdateRecoveryResourcesResponse
+    no-loc:
+    - UpdateRecoveryResourcesResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan
+    name: UsagePlan
+    no-loc:
+    - UsagePlan
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.Definition
+    name: UsagePlan.Definition
+    no-loc:
+    - UsagePlan.Definition
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages
+    name: UsagePlan.DefinitionStages
+    no-loc:
+    - UsagePlan.DefinitionStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank
+    name: UsagePlan.DefinitionStages.Blank
+    no-loc:
+    - UsagePlan.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithCreate
+    name: UsagePlan.DefinitionStages.WithCreate
+    no-loc:
+    - UsagePlan.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation
+    name: UsagePlan.DefinitionStages.WithLocation
+    no-loc:
+    - UsagePlan.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithProperties
+    name: UsagePlan.DefinitionStages.WithProperties
+    no-loc:
+    - UsagePlan.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithResourceGroup
+    name: UsagePlan.DefinitionStages.WithResourceGroup
+    no-loc:
+    - UsagePlan.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithTags
+    name: UsagePlan.DefinitionStages.WithTags
+    no-loc:
+    - UsagePlan.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.Update
+    name: UsagePlan.Update
+    no-loc:
+    - UsagePlan.Update
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.UpdateStages
+    name: UsagePlan.UpdateStages
+    no-loc:
+    - UsagePlan.UpdateStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.UpdateStages.WithTags
+    name: UsagePlan.UpdateStages.WithTags
+    no-loc:
+    - UsagePlan.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlanProperties
+    name: UsagePlanProperties
+    no-loc:
+    - UsagePlanProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlanTagsUpdate
+    name: UsagePlanTagsUpdate
+    no-loc:
+    - UsagePlanTagsUpdate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlanType
+    name: UsagePlanType
+    no-loc:
+    - UsagePlanType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlans
+    name: UsagePlans
+    no-loc:
+    - UsagePlans
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UserConfirmationForHighAvailabilityItem
+    name: UserConfirmationForHighAvailabilityItem
+    no-loc:
+    - UserConfirmationForHighAvailabilityItem
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UserConsent
+    name: UserConsent
+    no-loc:
+    - UserConsent
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.VMPresent
+    name: VMPresent
+    no-loc:
+    - VMPresent
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties
+    name: ValidateForExecutionProperties
+    no-loc:
+    - ValidateForExecutionProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionRequest
+    name: ValidateForExecutionRequest
+    no-loc:
+    - ValidateForExecutionRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest
+    name: ValidateForOperationRequest
+    no-loc:
+    - ValidateForOperationRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForRecoveryOperationBaseResponse
+    name: ValidateForRecoveryOperationBaseResponse
+    no-loc:
+    - ValidateForRecoveryOperationBaseResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ZonalDrillProperties
+    name: ZonalDrillProperties
+    no-loc:
+    - ZonalDrillProperties
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement.models
 - uid: com.azure.resourcemanager.resourceconnector
   name: com.azure.resourcemanager.resourceconnector
   items:
@@ -178041,6 +181181,10 @@
     name: ServicesClient
     no-loc:
     - ServicesClient
+  - uid: com.azure.resourcemanager.servicefabric.fluent.UnsupportedVmSizesClient
+    name: UnsupportedVmSizesClient
+    no-loc:
+    - UnsupportedVmSizesClient
   no-loc:
   - com.azure.resourcemanager.servicefabric.fluent
 - uid: com.azure.resourcemanager.servicefabric.fluent.models
@@ -178106,6 +181250,10 @@
     name: UpgradableVersionPathResultInner
     no-loc:
     - UpgradableVersionPathResultInner
+  - uid: com.azure.resourcemanager.servicefabric.fluent.models.VMSizeResourceInner
+    name: VMSizeResourceInner
+    no-loc:
+    - VMSizeResourceInner
   no-loc:
   - com.azure.resourcemanager.servicefabric.fluent.models
 - uid: com.azure.resourcemanager.servicefabric.models
@@ -178231,6 +181379,10 @@
     name: ApplicationResource.UpdateStages.WithRemoveApplicationCapacity
     no-loc:
     - ApplicationResource.UpdateStages.WithRemoveApplicationCapacity
+  - uid: com.azure.resourcemanager.servicefabric.models.ApplicationResource.UpdateStages.WithSystemData
+    name: ApplicationResource.UpdateStages.WithSystemData
+    no-loc:
+    - ApplicationResource.UpdateStages.WithSystemData
   - uid: com.azure.resourcemanager.servicefabric.models.ApplicationResource.UpdateStages.WithTypeVersion
     name: ApplicationResource.UpdateStages.WithTypeVersion
     no-loc:
@@ -178239,10 +181391,6 @@
     name: ApplicationResource.UpdateStages.WithUpgradePolicy
     no-loc:
     - ApplicationResource.UpdateStages.WithUpgradePolicy
-  - uid: com.azure.resourcemanager.servicefabric.models.ApplicationResourceList
-    name: ApplicationResourceList
-    no-loc:
-    - ApplicationResourceList
   - uid: com.azure.resourcemanager.servicefabric.models.ApplicationResourceUpdate
     name: ApplicationResourceUpdate
     no-loc:
@@ -178287,10 +181435,6 @@
     name: ApplicationTypeResource.UpdateStages
     no-loc:
     - ApplicationTypeResource.UpdateStages
-  - uid: com.azure.resourcemanager.servicefabric.models.ApplicationTypeResourceList
-    name: ApplicationTypeResourceList
-    no-loc:
-    - ApplicationTypeResourceList
   - uid: com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionResource
     name: ApplicationTypeVersionResource
     no-loc:
@@ -178339,10 +181483,6 @@
     name: ApplicationTypeVersionResource.UpdateStages.WithAppPackageUrl
     no-loc:
     - ApplicationTypeVersionResource.UpdateStages.WithAppPackageUrl
-  - uid: com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionResourceList
-    name: ApplicationTypeVersionResourceList
-    no-loc:
-    - ApplicationTypeVersionResourceList
   - uid: com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersions
     name: ApplicationTypeVersions
     no-loc:
@@ -178463,6 +181603,10 @@
     name: Cluster.DefinitionStages.WithDiagnosticsStorageAccountConfig
     no-loc:
     - Cluster.DefinitionStages.WithDiagnosticsStorageAccountConfig
+  - uid: com.azure.resourcemanager.servicefabric.models.Cluster.DefinitionStages.WithEnableHttpGatewayExclusiveAuthMode
+    name: Cluster.DefinitionStages.WithEnableHttpGatewayExclusiveAuthMode
+    no-loc:
+    - Cluster.DefinitionStages.WithEnableHttpGatewayExclusiveAuthMode
   - uid: com.azure.resourcemanager.servicefabric.models.Cluster.DefinitionStages.WithEventStoreServiceEnabled
     name: Cluster.DefinitionStages.WithEventStoreServiceEnabled
     no-loc:
@@ -178583,6 +181727,10 @@
     name: Cluster.UpdateStages.WithClusterCodeVersion
     no-loc:
     - Cluster.UpdateStages.WithClusterCodeVersion
+  - uid: com.azure.resourcemanager.servicefabric.models.Cluster.UpdateStages.WithEnableHttpGatewayExclusiveAuthMode
+    name: Cluster.UpdateStages.WithEnableHttpGatewayExclusiveAuthMode
+    no-loc:
+    - Cluster.UpdateStages.WithEnableHttpGatewayExclusiveAuthMode
   - uid: com.azure.resourcemanager.servicefabric.models.Cluster.UpdateStages.WithEventStoreServiceEnabled
     name: Cluster.UpdateStages.WithEventStoreServiceEnabled
     no-loc:
@@ -178663,10 +181811,6 @@
     name: ClusterHealthPolicy
     no-loc:
     - ClusterHealthPolicy
-  - uid: com.azure.resourcemanager.servicefabric.models.ClusterListResult
-    name: ClusterListResult
-    no-loc:
-    - ClusterListResult
   - uid: com.azure.resourcemanager.servicefabric.models.ClusterState
     name: ClusterState
     no-loc:
@@ -178751,10 +181895,6 @@
     name: NotificationTarget
     no-loc:
     - NotificationTarget
-  - uid: com.azure.resourcemanager.servicefabric.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.servicefabric.models.OperationResult
     name: OperationResult
     no-loc:
@@ -178771,6 +181911,10 @@
     name: PartitionSchemeDescription
     no-loc:
     - PartitionSchemeDescription
+  - uid: com.azure.resourcemanager.servicefabric.models.PatchProxyResource
+    name: PatchProxyResource
+    no-loc:
+    - PatchProxyResource
   - uid: com.azure.resourcemanager.servicefabric.models.ProvisioningState
     name: ProvisioningState
     no-loc:
@@ -178867,10 +182011,10 @@
     name: ServiceResource.UpdateStages.WithProperties
     no-loc:
     - ServiceResource.UpdateStages.WithProperties
-  - uid: com.azure.resourcemanager.servicefabric.models.ServiceResourceList
-    name: ServiceResourceList
+  - uid: com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData
+    name: ServiceResource.UpdateStages.WithSystemData
     no-loc:
-    - ServiceResourceList
+    - ServiceResource.UpdateStages.WithSystemData
   - uid: com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties
     name: ServiceResourceProperties
     no-loc:
@@ -178939,6 +182083,10 @@
     name: UniformInt64RangePartitionSchemeDescription
     no-loc:
     - UniformInt64RangePartitionSchemeDescription
+  - uid: com.azure.resourcemanager.servicefabric.models.UnsupportedVmSizes
+    name: UnsupportedVmSizes
+    no-loc:
+    - UnsupportedVmSizes
   - uid: com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult
     name: UpgradableVersionPathResult
     no-loc:
@@ -178955,6 +182103,14 @@
     name: UserAssignedIdentity
     no-loc:
     - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.servicefabric.models.VMSize
+    name: VMSize
+    no-loc:
+    - VMSize
+  - uid: com.azure.resourcemanager.servicefabric.models.VMSizeResource
+    name: VMSizeResource
+    no-loc:
+    - VMSizeResource
   - uid: com.azure.resourcemanager.servicefabric.models.VmssZonalUpgradeMode
     name: VmssZonalUpgradeMode
     no-loc:
@@ -204678,6 +207834,10 @@
     name: ConfidentialLedgerClientBuilder
     no-loc:
     - ConfidentialLedgerClientBuilder
+  - uid: com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy
+    name: ConfidentialLedgerRedirectPolicy
+    no-loc:
+    - ConfidentialLedgerRedirectPolicy
   - uid: com.azure.security.confidentialledger.ConfidentialLedgerServiceVersion
     name: ConfidentialLedgerServiceVersion
     no-loc:
